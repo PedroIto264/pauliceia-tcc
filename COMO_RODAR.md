@@ -68,8 +68,7 @@ Teste OK: Rua Tres de Dezembro, 7 (1933). A geometria da API coincide com a do b
 ```
 
 As credenciais ficam em `projeto/geocoding-api/tcc-local/.local/docker.env`,
-excluído do Git. Preserve esse arquivo enquanto utilizar os mesmos volumes do
-Docker. Nesta cópia do autor, as credenciais existentes foram mantidas.
+excluído do Git.
 
 ## 5. Iniciar e abrir o portal
 
