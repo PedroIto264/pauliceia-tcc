@@ -126,7 +126,7 @@ Para visualizar as últimas mensagens:
 docker compose --env-file projeto/geocoding-api/tcc-local/.local/docker.env -f projeto/geocoding-api/tcc-local/compose.yaml --profile site logs --tail 80
 ```
 
-## 8. Executar os testes unitários (opcional)
+## 8. Executar os testes unitários
 
 Para testar os scripts Python fora dos contêineres, a partir da raiz no Windows:
 
