@@ -1,0 +1,49 @@
+{
+  "versao": 1,
+  "semente": "pauliceia-tcc-v1",
+  "backup_sha256": "8004407db214a605561e6c3d8f57643f6f66ad0ada40971ea288757964880fac",
+  "registros_indexados": 853,
+  "nomes_normalizados": 847,
+  "grupos": 834,
+  "consultas": 6136,
+  "variantes_repetidas_omitidas": 1,
+  "variantes_ambiguas_excluidas": 0,
+  "por_particao": {
+    "desenvolvimento": {
+      "grupos": 6,
+      "nomes": 6,
+      "consultas": 43
+    },
+    "treino": {
+      "grupos": 496,
+      "nomes": 505,
+      "consultas": 3681
+    },
+    "validacao": {
+      "grupos": 166,
+      "nomes": 169,
+      "consultas": 1205
+    },
+    "teste": {
+      "grupos": 166,
+      "nomes": 167,
+      "consultas": 1207
+    }
+  },
+  "por_tipo": {
+    "abreviacao": 834,
+    "duas_omissoes": 491,
+    "insercao": 834,
+    "normalizacao": 22,
+    "omissao": 834,
+    "ordem": 606,
+    "original": 847,
+    "substituicao": 834,
+    "transposicao": 834
+  },
+  "por_origem": {
+    "cadastro": 847,
+    "sintetica": 5289
+  },
+  "gabarito_sha256": "c4e8048a4362cbee9367d48eeaa411698afee74a143f923396776fa8a82286ec"
+}

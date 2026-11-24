@@ -1,0 +1,25 @@
+﻿id_rua;id_ponto;numero;ano;tipo;consulta;api_geometria_correta;posicao_bm25;posicao_bm25_tri
+2;17;7;1933;original;rua tres de dezembro;1;1;1
+2;17;7;1933;abreviacao;r. tres de dezembro;1;1;1
+2;17;7;1933;acentuacao;Rua Três de Dezembro;0;1;1
+2;17;7;1933;digitacao;rua tres de dezembo;0;1;1
+45;441;77;1908;original;avenida sao joao;1;1;1
+45;441;77;1908;abreviacao;av. sao joao;1;1;1
+45;441;77;1908;acentuacao;avenida são joão;0;1;1
+45;441;77;1908;digitacao;avenida sao jaoo;0;1;1
+109;1138;17;1905;original;avenida hygienopolis;1;1;1
+109;1138;17;1905;abreviacao;av. hygienopolis;1;1;1
+109;1138;17;1905;grafia_simulada;avenida higienópolis;0;1;1
+109;1138;17;1905;digitacao;avenida hygeinopolis;0;1;1
+440;4359;11;1940;original;becco dos afflictos;1;1;1
+440;4359;11;1940;grafia_simulada;beco dos aflitos;0;10;1
+440;4359;11;1940;ordem;afflictos becco dos;0;1;1
+440;4359;11;1940;digitacao;becco dos afflitos;0;1;1
+251;2687;17;1909;original;rua affonso arinos;1;1;1
+251;2687;17;1909;abreviacao;r. affonso arinos;1;1;1
+251;2687;17;1909;grafia_simulada;rua afonso arinos;0;2;1
+251;2687;17;1909;digitacao;rua affonso airnos;0;2;1
+1741;5326;20;1927;original;Rua Cunha Gago;0;1;1
+1741;5326;20;1927;abreviacao;r. cunha gago;0;1;1
+1741;5326;20;1927;ordem;rua gago cunha;0;1;1
+1741;5326;20;1927;digitacao;rua cunah gago;0;1;1

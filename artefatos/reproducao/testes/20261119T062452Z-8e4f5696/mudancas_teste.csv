@@ -1,0 +1,37 @@
+﻿id_consulta;consulta;nome_referencia;tipo;posicao_trigramas;posicao_rf;primeiro_trigramas;primeiro_rf
+176a651cfa916e0fcd95;rua amaral gugrel;rua amaral gurgel;transposicao;2;1;Rua Marco Aurelio;rua amaral gurgel
+4b3d222e865ed4163d05;rua ancheita;rua anchieta;transposicao;3;1;rua frederico abranches;rua anchieta
+709bbeb5c554a2ce4234;rua andrade ries;rua andrade reis;transposicao;2;1;rua monsenhor andrade;rua andrade reis
+24684d251d9c9592edf5;rua adrade ris;rua andrade reis;duas_omissoes;3;1;rua florisbella;rua andrade reis
+d03a720a42f0f9322e9f;rua arthur prdao;rua arthur prado;transposicao;3;1;rua arthur motta;rua arthur prado
+4265dc5810bde783d6ec;rua bering;rua behring;omissao;2;1;rua camerino;rua behring
+974e512b64f6fce0b60d;rua caommil;rua camomil;transposicao;2;1;rua assumpcao;rua camomil
+66bf81e7f258a03cc67f;rua cotsa;rua costa;transposicao;76;1;rua conselheiro cotegipe;rua costa
+2b75c5cb56d8955c918d;r. dos estudantes;rua dos estudantes;abreviacao;2;1;travessa dos estudantes;rua dos estudantes
+3300f8e109bc33d85e67;rua dos estueantes;rua dos estudantes;substituicao;2;1;rua dos protestantes;rua dos estudantes
+14d77f4f6f0bc61d2355;rua doutor rpsa;Rua Doutor Rosa;substituicao;5;1;rua doutor falcao;Rua Doutor Rosa
+bd738e40099b004b3339;rua dutor rsa;Rua Doutor Rosa;duas_omissoes;6;1;rua coronel mursa;Rua Doutor Rosa
+68086c27cfc440d4868a;rua hnrique das;rua henrique dias;duas_omissoes;5;1;rua das olarias;rua henrique dias
+327cad6b333bbb40e97e;rua heral;rua herval;omissao;13;1;rua general carneiro;rua herval
+321f438215c390861629;rua herwal;rua herval;substituicao;2;1;rua nitcheroy;rua herval
+4e3f4c23738288dab31b;rua ehrval;rua herval;transposicao;2;1;rua carvalho;rua herval
+f11d5ec670d6e1ec2877;rua hpipia;rua hippia;transposicao;3;1;Rua Scipiao;rua hippia
+cd051e6db8a97f9f202d;rua iqutios;Rua Iquitos;transposicao;2;1;Rua Fradique Coutinho;Rua Iquitos
+b1609aa02cf356829ef8;rua itaqeva;rua itapeva;substituicao;2;1;rua itaquy;rua itapeva
+b27e0072a0e3d6e533da;rua itaepva;rua itapeva;transposicao;18;1;rua dos capitaes mores;rua itapeva
+a7bc844f100782ca005f;rua itapiraeps;rua itapirapes;transposicao;3;1;rua itapira;rua itapirapes
+e42305c7007079da04d4;rua jao preira;Rua Joao Pereira;duas_omissoes;5;1;rua cantareira;Rua Joao Pereira
+fdf52632c7297f219b55;rua jose kaer;rua jose kauer;omissao;4;1;rua maria jose;rua jose kauer
+b964bf1fdcaba72eee6f;rua jse kuer;rua jose kauer;duas_omissoes;4;1;rua tabatinguera;rua jose kauer
+f56e7987b2d5a91109a4;rua maranaho;rua maranhao;transposicao;3;1;rua barao de paranapiacaba;rua maranhao
+369f909d197c51880597;rua inoac;rua nioac;transposicao;2;1;rua camerino;rua nioac
+ac63e8b8ed321512d44b;rua omgauas;Rua Omaguás;transposicao;3;1;rua iguassu;Rua Omaguás
+bc8780821a56956dcd90;rua pdre lma;rua padre lima;duas_omissoes;2;1;rua santo andre;rua padre lima
+59c9a23c8867309022a0;rua s. ana;rua s. anna;omissao;2;1;rua ana cintra;rua s. anna
+3818898b3cdaee1fdd6b;rua santa irta;rua santa rita;transposicao;6;1;rua santa theresa;rua santa rita
+4ee8ddf128c0bf97a2b9;rua snta rta;rua santa rita;duas_omissoes;16;1;rua fortaleza;rua santa rita
+94014e77cae0c77569e9;rua snta teresa;rua santa theresa;duas_omissoes;2;1;rua teresa benedita sa barbosa;rua santa theresa
+993514f50b8929237890;rua thmoaz ribeiro de lima;rua thomaz ribeiro de lima;transposicao;2;1;rua ribeiro de lima;rua thomaz ribeiro de lima
+95e9a39f40cf9032b3ca;rua teze de mio;rua treze de maio;duas_omissoes;2;1;rua tres de dezembro;rua treze de maio
+778d94bf5114d7e169e9;rua tuucman;rua tucuman;transposicao;2;1;rua hahnemann;rua tucuman
+9e89eb3313a66c4ee59e;rua vicente prbdo;rua vicente prado;substituicao;3;1;rua sao vicente;rua vicente prado

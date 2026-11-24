@@ -1,0 +1,35 @@
+\section{Discussão}
+
+\subsection{Contribuição das duas etapas}
+
+Os resultados separam dois efeitos. A inclusão de trigramas ampliou a disponibilidade dos relevantes e produziu a maior parte do ganho sobre a busca por palavras. A reordenação supervisionada atuou sobre as referências recuperadas que ainda estavam em posições inadequadas. Essa distinção é operacionalmente importante: o classificador não consegue corrigir uma ausência na lista inicial. O Recall@100 completo no teste possibilitou o Top-1 completo do Random Forest, mas essa condição não é garantida em outro catálogo ou em consultas diferentes.
+
+O ganho de 36 consultas sobre trigramas é relevante para uma interface que apresenta poucas sugestões. A promoção de \emph{rua costa} da posição 76 para a primeira exemplifica a diferença entre uma referência tecnicamente recuperada e uma opção visível ao usuário. Contudo, a seleção da rua continua explícita. O escore não certifica que o logradouro corresponde ao local pretendido, e não foi estabelecido um limiar de confiança para rejeitar automaticamente consultas sem correspondência.
+
+O melhor desempenho da combinação sobre as medidas isoladas no teste é compatível com a motivação de Santos et al.~\cite{santos2018}. Essa compatibilidade é conceitual, sem comparação direta de valores entre estudos, que empregam dados e protocolos distintos. Neste trabalho, a evidência diz respeito à ordenação de candidatos de um catálogo específico. A comparação não identifica qual atributo causou o ganho nem demonstra que o Random Forest é a única combinação capaz de produzi-lo.
+
+\subsection{A distribuição das consultas altera a comparação}
+
+A queda de Damerau--Levenshtein nas inversões de ordem evidencia uma propriedade do conjunto principal: parte das variantes modifica a sequência global de caracteres preservando as palavras. Medidas que reorganizam tokens acomodam esse tipo de transformação. A presença de 115 consultas dessa categoria no teste influencia a diferença agregada entre os métodos; não sabemos sua frequência nas buscas de pesquisadores.
+
+No complemento, Damerau--Levenshtein empatou com o Random Forest. Nas dez grafias documentadas, os próprios trigramas foram suficientes para colocar a referência em primeiro. Assim, os resultados não sustentam a necessidade do aprendizado de máquina em todo recorte. O modelo reuniu desempenho alto nos diferentes tipos do conjunto principal, mas uma solução mais simples pode ser adequada quando as transformações de interesse são mais restritas. Uma decisão de implantação deve considerar essa diferença junto ao custo operacional, que não foi comparado por método.
+
+Os 100\% de Top-1 são uma observação sobre 1.207 consultas reservadas, não uma estimativa de ausência de erro em uso geral. O protocolo de grupos reduz compartilhamento direto de variantes entre treino e teste, porém todas as partições foram produzidas pelas mesmas regras de transformação e pelo mesmo catálogo. Um modelo pode aprender regularidades desse gerador que não representem os erros encontrados em documentos ou consultas reais. A inclusão de candidatos negativos do catálogo completo também delimita a generalização avaliada.
+
+\subsection{Alcance histórico e espacial}
+
+As consultas documentadas acrescentam evidência de uso de grafias em fontes municipais, mas sua quantidade é pequena e sua seleção não constitui amostragem representativa de períodos, regiões ou tipos documentais. A relação com os IDs foi inferida sem revisão independente. Além disso, não se pode atribuir à grafia de uma ementa digital a mesma data e fidelidade paleográfica do ato original. O conjunto permite avaliar a resposta do mecanismo às expressões selecionadas; não valida integralmente a evolução histórica dos nomes.
+
+A distinção se estende às geometrias. Os controles espaciais confirmaram que a API aplica filtros de ID, número e ano de forma compatível com o backup. Como a referência provém desse mesmo banco, a concordância não estabelece exatidão do cadastro em relação ao espaço histórico. Homônimos, mudanças de numeração, alterações de traçado e a própria qualidade das coordenadas demandam fontes externas. A anomalia temporal identificada e a convenção de ano final 2000 reforçam a necessidade de separar consistência computacional e validade histórica.
+
+O artigo, portanto, descreve um componente de recuperação e acesso a pontos cadastrados. Não avalia o algoritmo legado de interpolação, não reconstrói todos os lotes e não substitui o trabalho de curadoria histórica. Essa delimitação preserva a contribuição computacional sem atribuir aos testes evidências que eles não produziram.
+
+\subsection{Validade, implantação e próximos estudos}
+
+As principais limitações são o catálogo único, a predominância de variantes sintéticas, o gabarito de relevância textual e a ausência de consultas reais e exemplos sem correspondência. A seleção de uma única partição e de uma única semente de treinamento também restringe a avaliação de estabilidade. As análises por consulta e por nome ajudam a caracterizar o desempenho, mas as diferenças permanecem descritivas. Não foram testadas outras famílias de classificadores nem realizada ablação dos sete atributos.
+
+A comparação das métricas isoladas e o complemento ocorreram depois do conhecimento do teste original. O modelo permaneceu congelado, preservando o resultado anterior, mas isso não transforma as avaliações posteriores em confirmação independente. Novos conjuntos devem ser definidos antes da observação de seus resultados, com curadoria separada e regras de amostragem que representem o uso pretendido.
+
+Na integração, compartilhar funções e conferir o modelo reduziu divergências entre experimento e serviço. A latência local observada indica que a implementação em Python foi utilizável no ambiente testado, sem demonstrar superioridade sobre Painless. A caracterização incompleta do hardware, a execução sequencial, o aquecimento e a ausência de renderização limitam comparações de desempenho. Uma implantação mais ampla requer medições com recursos registrados, concorrência, acesso remoto e instrumentação do navegador.
+
+Como continuidade, propomos coletar consultas reais com referência revisada, avaliar documentos históricos transcritos e erros de OCR observados, incorporar contexto temporal e espacial para homônimos e testar consultas ausentes do catálogo. Também são pertinentes uma comparação de custo entre reordenadores, validação externa em outro recorte e análise da contribuição dos atributos. Essas etapas podem esclarecer se os ganhos se mantêm quando a distribuição das consultas se afasta das transformações controladas deste estudo.

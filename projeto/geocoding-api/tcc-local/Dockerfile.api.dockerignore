@@ -1,0 +1,8 @@
+**
+!app.js
+!bin/
+!bin/**
+!controllers/
+!controllers/**
+!routes/
+!routes/**

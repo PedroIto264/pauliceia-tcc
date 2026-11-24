@@ -1,0 +1,12 @@
+FROM node:22-bookworm-slim
+WORKDIR /app
+# Dependências usadas por app.js, bin/www e routes. O driver suporta SCRAM.
+RUN npm install --no-audit --no-fund --ignore-scripts --no-save \
+    express@4.21.2 cors@2.8.5 morgan@1.10.0 cookie-parser@1.4.7 \
+    body-parser@1.20.3 serve-favicon@2.5.0 debug@2.6.9 request@2.88.2 pg@8.16.3
+COPY app.js ./
+COPY bin ./bin
+COPY controllers ./controllers
+COPY routes ./routes
+USER node
+CMD ["node", "bin/www"]

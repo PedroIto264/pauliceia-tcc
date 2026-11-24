@@ -1,0 +1,19 @@
+{
+  "modelo_sha256": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0",
+  "entradas": {
+    "dados/gabarito_manifesto.json": "5f397a4984b4e14e286c90cc3dbc0b33085be7cc4160ea5b8ccfcb4701522cf7",
+    ".local/comparacoes_metricas/20261121T125929Z-28ccbb72/resumo.json": "b3d90d3c71286f7f8f47819b5b4f4a6cb91397a57b20675eae2d42fdd2a75ffa",
+    ".local/comparacoes_metricas/20261121T125929Z-28ccbb72/resultados.csv": "8884f10a1c4f9d6933b7d17fa0cf87d26dfb116888b00fbdc0df126331d3ca9d",
+    ".local/validacoes_portal/20261122T071548Z-83ecdd42/resumo.json": "bae8e2766b91c83437e2b19407da8193af251bc29ec2f27fa4b4ab21af629a8c",
+    ".local/modelos/20261119T061951Z-cbab31c0/modelo.joblib": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0"
+  },
+  "tabelas": {
+    "complementar.tex": "b9cf5bded401b3ce0d26abe1a2a11fb91e142d02acdba66dd1e6f9c280729691",
+    "latencia.tex": "65012b23ecdf9c191c92c22fc59ebb04ccb14572874b72fd4be5048847540703",
+    "particoes.tex": "c99bafd99e3dd5374652e197ebe53312540591e0f0d9887df38f91307473386b",
+    "posicoes.tex": "0bdcba7929b89282c5529f6550e3a5af71c5536d0dfbb2cd09de90558052b0ee",
+    "principal.tex": "eebef7f9d58cb98a42cf1dcd3682a57cb7d7e4380d33ef701b4e1829ef72fbd7",
+    "tipos.tex": "99c3d30648ec77f4f29e49f4c7fad8d111e645e8e9617dea48706f1aa2c78277"
+  },
+  "nota": "Tabelas derivadas dos artefatos existentes; nenhum experimento foi reexecutado."
+}

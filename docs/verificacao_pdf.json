@@ -1,0 +1,12 @@
+{
+  "pdf": "docs/artigo.pdf",
+  "paginas": 7,
+  "limite": 10,
+  "alertas_layout_e_referencias": [
+    "LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined",
+    "LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined",
+    "LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined",
+    "LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined"
+  ],
+  "sha256": "8c69bb859f873e2ef1b2535f1d02075d6525291b79517b5af211d704fce50166"
+}

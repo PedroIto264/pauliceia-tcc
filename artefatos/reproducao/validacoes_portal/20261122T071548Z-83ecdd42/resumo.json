@@ -1,0 +1,571 @@
+{
+  "inicio_utc": "2026-11-22T07:15:36.896397+00:00",
+  "fim_utc": "2026-11-22T07:15:48.648134+00:00",
+  "completa": true,
+  "interrupcao": "",
+  "modelo_sha256": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0",
+  "backup_sha256": "8004407db214a605561e6c3d8f57643f6f66ad0ada40971ea288757964880fac",
+  "protocolo_sha256": "8a9f07f8d20ec016f80a6bfbd73ebb8e3e317c378a7c3562a9acc59d126775ac",
+  "ambiente_cliente": {
+    "sistema": "Windows-11-10.0.26300-SP0",
+    "python": "3.13.3",
+    "cpus_logicas": 16,
+    "portal": "http://127.0.0.1:3180"
+  },
+  "aquecimento": {
+    "tentativas": 112,
+    "corretas": 112,
+    "falhas": {},
+    "tempo_todas_tentativas": {
+      "n": 112,
+      "media_ms": 20.808269642857145,
+      "mediana_ms": 17.66505,
+      "p95_ms": 38.21321999999999,
+      "min_ms": 14.8121,
+      "max_ms": 42.4569
+    },
+    "tempo_respostas_corretas": {
+      "n": 112,
+      "media_ms": 20.808269642857145,
+      "mediana_ms": 17.66505,
+      "p95_ms": 38.21321999999999,
+      "min_ms": 14.8121,
+      "max_ms": 42.4569
+    }
+  },
+  "busca": {
+    "tentativas": 336,
+    "corretas": 336,
+    "falhas": {},
+    "tempo_todas_tentativas": {
+      "n": 336,
+      "media_ms": 18.853338392857143,
+      "mediana_ms": 14.968499999999999,
+      "p95_ms": 33.088075,
+      "min_ms": 13.0195,
+      "max_ms": 39.6094
+    },
+    "tempo_respostas_corretas": {
+      "n": 336,
+      "media_ms": 18.853338392857143,
+      "mediana_ms": 14.968499999999999,
+      "p95_ms": 33.088075,
+      "min_ms": 13.0195,
+      "max_ms": 39.6094
+    }
+  },
+  "pontos": {
+    "tentativas": 219,
+    "corretas": 219,
+    "falhas": {},
+    "tempo_todas_tentativas": {
+      "n": 219,
+      "media_ms": 6.599964840182649,
+      "mediana_ms": 3.9168,
+      "p95_ms": 22.543789999999998,
+      "min_ms": 3.5897,
+      "max_ms": 27.3556
+    },
+    "tempo_respostas_corretas": {
+      "n": 219,
+      "media_ms": 6.599964840182649,
+      "mediana_ms": 3.9168,
+      "p95_ms": 22.543789999999998,
+      "min_ms": 3.5897,
+      "max_ms": 27.3556
+    }
+  },
+  "fluxos": {
+    "tentativas": 60,
+    "corretas": 60,
+    "falhas": {},
+    "tempo_todas_tentativas": {
+      "n": 60,
+      "media_ms": 27.062675,
+      "mediana_ms": 20.58495,
+      "p95_ms": 46.994344999999996,
+      "min_ms": 17.3813,
+      "max_ms": 55.1326
+    },
+    "tempo_respostas_corretas": {
+      "n": 60,
+      "media_ms": 27.062675,
+      "mediana_ms": 20.58495,
+      "p95_ms": 46.994344999999996,
+      "min_ms": 17.3813,
+      "max_ms": 55.1326
+    }
+  },
+  "busca_por_grupo": [
+    {
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.98912,
+        "mediana_ms": 15.44105,
+        "p95_ms": 30.891499999999997,
+        "min_ms": 14.2179,
+        "max_ms": 32.9922
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.98912,
+        "mediana_ms": 15.44105,
+        "p95_ms": 30.891499999999997,
+        "min_ms": 14.2179,
+        "max_ms": 32.9922
+      }
+    },
+    {
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 20.05099,
+        "mediana_ms": 14.70955,
+        "p95_ms": 33.218925,
+        "min_ms": 13.7095,
+        "max_ms": 38.7758
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 20.05099,
+        "mediana_ms": 14.70955,
+        "p95_ms": 33.218925,
+        "min_ms": 13.7095,
+        "max_ms": 38.7758
+      }
+    },
+    {
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.38088,
+        "mediana_ms": 14.68375,
+        "p95_ms": 35.57526499999998,
+        "min_ms": 13.6051,
+        "max_ms": 39.2227
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.38088,
+        "mediana_ms": 14.68375,
+        "p95_ms": 35.57526499999998,
+        "min_ms": 13.6051,
+        "max_ms": 39.2227
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.821103333333333,
+        "mediana_ms": 14.7112,
+        "p95_ms": 33.748754999999996,
+        "min_ms": 13.3038,
+        "max_ms": 35.2014
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.821103333333333,
+        "mediana_ms": 14.7112,
+        "p95_ms": 33.748754999999996,
+        "min_ms": 13.3038,
+        "max_ms": 35.2014
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.504543333333334,
+        "mediana_ms": 15.173549999999999,
+        "p95_ms": 33.714665,
+        "min_ms": 13.8028,
+        "max_ms": 33.9886
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.504543333333334,
+        "mediana_ms": 15.173549999999999,
+        "p95_ms": 33.714665,
+        "min_ms": 13.8028,
+        "max_ms": 33.9886
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "insercao",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.75714333333333,
+        "mediana_ms": 15.01985,
+        "p95_ms": 31.41787,
+        "min_ms": 13.6365,
+        "max_ms": 32.0056
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.75714333333333,
+        "mediana_ms": 15.01985,
+        "p95_ms": 31.41787,
+        "min_ms": 13.6365,
+        "max_ms": 32.0056
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "normalizacao",
+      "tentativas": 6,
+      "corretas": 6,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 6,
+        "media_ms": 17.473433333333332,
+        "mediana_ms": 14.5334,
+        "p95_ms": 27.905425,
+        "min_ms": 13.9567,
+        "max_ms": 31.9929
+      },
+      "tempo_respostas_corretas": {
+        "n": 6,
+        "media_ms": 17.473433333333332,
+        "mediana_ms": 14.5334,
+        "p95_ms": 27.905425,
+        "min_ms": 13.9567,
+        "max_ms": 31.9929
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "omissao",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.980933333333333,
+        "mediana_ms": 15.069749999999999,
+        "p95_ms": 31.72748,
+        "min_ms": 13.9251,
+        "max_ms": 32.9615
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.980933333333333,
+        "mediana_ms": 15.069749999999999,
+        "p95_ms": 31.72748,
+        "min_ms": 13.9251,
+        "max_ms": 32.9615
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "ordem",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 19.27428,
+        "mediana_ms": 14.74785,
+        "p95_ms": 36.48710999999999,
+        "min_ms": 13.8287,
+        "max_ms": 39.6094
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 19.27428,
+        "mediana_ms": 14.74785,
+        "p95_ms": 36.48710999999999,
+        "min_ms": 13.8287,
+        "max_ms": 39.6094
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "original",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 17.269663333333334,
+        "mediana_ms": 15.02215,
+        "p95_ms": 30.60681,
+        "min_ms": 13.9048,
+        "max_ms": 31.2544
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 17.269663333333334,
+        "mediana_ms": 15.02215,
+        "p95_ms": 30.60681,
+        "min_ms": 13.9048,
+        "max_ms": 31.2544
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "substituicao",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 18.81069,
+        "mediana_ms": 15.08535,
+        "p95_ms": 32.92936999999999,
+        "min_ms": 13.0195,
+        "max_ms": 33.9857
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 18.81069,
+        "mediana_ms": 15.08535,
+        "p95_ms": 32.92936999999999,
+        "min_ms": 13.0195,
+        "max_ms": 33.9857
+      }
+    },
+    {
+      "particao": "teste",
+      "tipo": "transposicao",
+      "tentativas": 30,
+      "corretas": 30,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 30,
+        "media_ms": 19.823356666666665,
+        "mediana_ms": 15.267199999999999,
+        "p95_ms": 35.131689999999985,
+        "min_ms": 13.7101,
+        "max_ms": 38.4097
+      },
+      "tempo_respostas_corretas": {
+        "n": 30,
+        "media_ms": 19.823356666666665,
+        "mediana_ms": 15.267199999999999,
+        "p95_ms": 35.131689999999985,
+        "min_ms": 13.7101,
+        "max_ms": 38.4097
+      }
+    }
+  ],
+  "pontos_por_tipo": {
+    "antes_de_todos_intervalos": {
+      "tentativas": 39,
+      "corretas": 39,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 39,
+        "media_ms": 6.265935897435897,
+        "mediana_ms": 3.8915,
+        "p95_ms": 23.668100000000003,
+        "min_ms": 3.6896,
+        "max_ms": 27.0438
+      },
+      "tempo_respostas_corretas": {
+        "n": 39,
+        "media_ms": 6.265935897435897,
+        "mediana_ms": 3.8915,
+        "p95_ms": 23.668100000000003,
+        "min_ms": 3.6896,
+        "max_ms": 27.0438
+      }
+    },
+    "apos_todos_intervalos": {
+      "tentativas": 39,
+      "corretas": 39,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 39,
+        "media_ms": 5.547930769230769,
+        "mediana_ms": 3.8722,
+        "p95_ms": 16.16667,
+        "min_ms": 3.6106,
+        "max_ms": 22.1738
+      },
+      "tempo_respostas_corretas": {
+        "n": 39,
+        "media_ms": 5.547930769230769,
+        "mediana_ms": 3.8722,
+        "p95_ms": 16.16667,
+        "min_ms": 3.6106,
+        "max_ms": 22.1738
+      }
+    },
+    "fim_intervalo": {
+      "tentativas": 18,
+      "corretas": 18,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 18,
+        "media_ms": 4.64425,
+        "mediana_ms": 3.95445,
+        "p95_ms": 6.6453499999999845,
+        "min_ms": 3.5897,
+        "max_ms": 15.9197
+      },
+      "tempo_respostas_corretas": {
+        "n": 18,
+        "media_ms": 4.64425,
+        "mediana_ms": 3.95445,
+        "p95_ms": 6.6453499999999845,
+        "min_ms": 3.5897,
+        "max_ms": 15.9197
+      }
+    },
+    "inicio_intervalo": {
+      "tentativas": 39,
+      "corretas": 39,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 39,
+        "media_ms": 6.193466666666667,
+        "mediana_ms": 3.9524,
+        "p95_ms": 20.05839,
+        "min_ms": 3.6165,
+        "max_ms": 22.5415
+      },
+      "tempo_respostas_corretas": {
+        "n": 39,
+        "media_ms": 6.193466666666667,
+        "mediana_ms": 3.9524,
+        "p95_ms": 20.05839,
+        "min_ms": 3.6165,
+        "max_ms": 22.5415
+      }
+    },
+    "interior_intervalo": {
+      "tentativas": 32,
+      "corretas": 32,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 32,
+        "media_ms": 9.211778125,
+        "mediana_ms": 4.01615,
+        "p95_ms": 23.675549999999994,
+        "min_ms": 3.7055,
+        "max_ms": 27.3556
+      },
+      "tempo_respostas_corretas": {
+        "n": 32,
+        "media_ms": 9.211778125,
+        "mediana_ms": 4.01615,
+        "p95_ms": 23.675549999999994,
+        "min_ms": 3.7055,
+        "max_ms": 27.3556
+      }
+    },
+    "limite_2000": {
+      "tentativas": 14,
+      "corretas": 14,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 14,
+        "media_ms": 7.450342857142857,
+        "mediana_ms": 4.0641,
+        "p95_ms": 20.61068,
+        "min_ms": 3.7837,
+        "max_ms": 22.7601
+      },
+      "tempo_respostas_corretas": {
+        "n": 14,
+        "media_ms": 7.450342857142857,
+        "mediana_ms": 4.0641,
+        "p95_ms": 20.61068,
+        "min_ms": 3.7837,
+        "max_ms": 22.7601
+      }
+    },
+    "numero_inexistente": {
+      "tentativas": 37,
+      "corretas": 37,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 37,
+        "media_ms": 6.931378378378378,
+        "mediana_ms": 3.8221,
+        "p95_ms": 23.1539,
+        "min_ms": 3.6342,
+        "max_ms": 27.3306
+      },
+      "tempo_respostas_corretas": {
+        "n": 37,
+        "media_ms": 6.931378378378378,
+        "mediana_ms": 3.8221,
+        "p95_ms": 23.1539,
+        "min_ms": 3.6342,
+        "max_ms": 27.3306
+      }
+    },
+    "rua_inexistente": {
+      "tentativas": 1,
+      "corretas": 1,
+      "falhas": {},
+      "tempo_todas_tentativas": {
+        "n": 1,
+        "media_ms": 3.9671,
+        "mediana_ms": 3.9671,
+        "p95_ms": 3.9671,
+        "min_ms": 3.9671,
+        "max_ms": 3.9671
+      },
+      "tempo_respostas_corretas": {
+        "n": 1,
+        "media_ms": 3.9671,
+        "mediana_ms": 3.9671,
+        "p95_ms": 3.9671,
+        "min_ms": 3.9671,
+        "max_ms": 3.9671
+      }
+    }
+  },
+  "previsto": {
+    "consultas": 112,
+    "repeticoes": 3,
+    "pontos": 219,
+    "fluxos": 20
+  },
+  "limites": [
+    "Latência HTTP pelo proxy do portal; inclui Elasticsearch e RF, exclui desenho no navegador.",
+    "Requisições sequenciais com nova conexão, serviço aquecido; não é teste de carga.",
+    "Geometrias conferidas com o backup, não com levantamento de campo ou fonte histórica independente.",
+    "O fim ausente/zero é tratado como 2000 conforme contrato da API, não como evidência histórica.",
+    "Fluxo completo usa seleção explícita de um ID relevante presente nas sugestões, não necessariamente o primeiro.",
+    "O novo fluxo consulta pontos cadastrados; não avalia interpolação da API legada."
+  ],
+  "arquivos_sha256": {
+    "buscas.json": "98b4c4db123e2324601f454d86c30109dafb4241a30ae2a36f8ac2bd49f7aec5",
+    "fluxos.json": "90b4b1c3d46a106d3db31a5d6f378510dab40e5d007ccf0f1581c14bce87fe21",
+    "pontos.json": "b2f89dc6b3b0ff3f7607f018a2e995a8e8d01d28293f250ae33359da3f186127",
+    "preflight.json": "3200e212545229cdc44295bf14ef250caf7a896c19f81ba842193566727c0a9b",
+    "preparar_validacao_portal.py": "a618c38dcd8a2398d447ae4653f87bb67eec2f9c87fbbd4a7e0d5fcfcc62bc29",
+    "protocolo.json": "8a9f07f8d20ec016f80a6bfbd73ebb8e3e317c378a7c3562a9acc59d126775ac",
+    "relatorio.md": "be9972c457bda196cdcfe1ac1bda4c0da194b59b0f03e9ed8059fe6f23f96c5f",
+    "validar_portal.py": "d893d59ad98da1ae0d3a2e9f2ffdad1061105ba82ff0fac860f66bf3c1e811c2"
+  }
+}

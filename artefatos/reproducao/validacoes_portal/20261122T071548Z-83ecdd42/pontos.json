@@ -1,0 +1,5042 @@
+[
+  {
+    "id_caso": "0a3e2341025021b3ead0",
+    "tipo": "inicio_intervalo",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "1",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "ids_pontos": [
+      4459
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 18.8645,
+    "dados": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "170c582d18ef54adcc8c",
+    "tipo": "interior_intervalo",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "1",
+    "ano": 1922,
+    "coordenadas": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "ids_pontos": [
+      4459
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1223,
+    "dados": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "839b3713675806d91284",
+    "tipo": "fim_intervalo",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "1",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "ids_pontos": [
+      4459
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1465,
+    "dados": [
+      [
+        -46.621883162322426,
+        -23.553405886379775
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e5f15ba1e5df931c5254",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "1",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8393,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c68f4dff9c3ba4d7374f",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "1",
+    "ano": 1937,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8389,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8529dc7b924798b913a2",
+    "tipo": "inicio_intervalo",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "1",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "ids_pontos": [
+      3065
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0111,
+    "dados": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3b503bf9aebc62b96567",
+    "tipo": "interior_intervalo",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "1",
+    "ano": 1921,
+    "coordenadas": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "ids_pontos": [
+      3065
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 21.8679,
+    "dados": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7a5c3e6525492ab66d2a",
+    "tipo": "fim_intervalo",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "1",
+    "ano": 1935,
+    "coordenadas": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "ids_pontos": [
+      3065
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9866,
+    "dados": [
+      [
+        -46.647868738337124,
+        -23.541777787374418
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e06b16858278ae9e01e5",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "1",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8648,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "caaf7f3240461b636f16",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "1",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7923,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "cc178f0b3b96bcda6b62",
+    "tipo": "inicio_intervalo",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "190",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "ids_pontos": [
+      1083
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0266,
+    "dados": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c3e6f5fd5d6f9e0f6e16",
+    "tipo": "interior_intervalo",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "190",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "ids_pontos": [
+      1083
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.4918,
+    "dados": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c0424420c541a933a425",
+    "tipo": "limite_2000",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "190",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "ids_pontos": [
+      1083
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 15.9529,
+    "dados": [
+      [
+        -46.64991800085766,
+        -23.550148612106142
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "6f920d86ca17cb69b81c",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "190",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7927,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3ee730309563a3f4f554",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "190",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8537,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "fedbcd440dd5d40e56c4",
+    "tipo": "inicio_intervalo",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "92",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "ids_pontos": [
+      2676
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1038,
+    "dados": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5b1cfc4f8b760c76562b",
+    "tipo": "interior_intervalo",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "92",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "ids_pontos": [
+      2676
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 19.2109,
+    "dados": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d09b13e6be97f485880a",
+    "tipo": "limite_2000",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "92",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "ids_pontos": [
+      2676
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.831,
+    "dados": [
+      [
+        -46.62484400389912,
+        -23.53103479302442
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bddc91942f0ef2cf9017",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "92",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9154,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "2e3d064fe03bc7d16de5",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "92",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9275,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c7ab58d74b37097103dd",
+    "tipo": "inicio_intervalo",
+    "id_rua": 502,
+    "nome": "alameda barros",
+    "numero": "39",
+    "ano": 1911,
+    "coordenadas": [
+      [
+        -46.654067292717656,
+        -23.537017826555545
+      ]
+    ],
+    "ids_pontos": [
+      4662
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9647,
+    "dados": [
+      [
+        -46.654067292717656,
+        -23.537017826555545
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c8e8f5f453cb74eca292",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 502,
+    "nome": "alameda barros",
+    "numero": "39",
+    "ano": 1910,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7754,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d81d5601d9238dab47e6",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 502,
+    "nome": "alameda barros",
+    "numero": "39",
+    "ano": 1912,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7809,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ca51a71863bec687aae6",
+    "tipo": "inicio_intervalo",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "221",
+    "ano": 1938,
+    "coordenadas": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "ids_pontos": [
+      5087
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 22.5415,
+    "dados": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "41135f0be491b1cd384b",
+    "tipo": "interior_intervalo",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "221",
+    "ano": 1969,
+    "coordenadas": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "ids_pontos": [
+      5087
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1623,
+    "dados": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ca9e60c898793d1a650c",
+    "tipo": "limite_2000",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "221",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "ids_pontos": [
+      5087
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1028,
+    "dados": [
+      [
+        -46.654050183580125,
+        -23.52070890898835
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3a84f48088b5e00fc07e",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "221",
+    "ano": 1937,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8423,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3812d4703980f853f185",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "221",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9655,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0d9fc60037986e78daa1",
+    "tipo": "inicio_intervalo",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "93",
+    "ano": 1927,
+    "coordenadas": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "ids_pontos": [
+      1299
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8376,
+    "dados": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5b1b69a583ba155f6d38",
+    "tipo": "interior_intervalo",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "93",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "ids_pontos": [
+      1299
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7872,
+    "dados": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "9e85bfa93e85bf7d8188",
+    "tipo": "fim_intervalo",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "93",
+    "ano": 1940,
+    "coordenadas": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "ids_pontos": [
+      1299
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0432,
+    "dados": [
+      [
+        -46.65467706484575,
+        -23.556852005223952
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d357b382036a639dd302",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "93",
+    "ano": 1926,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7362,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b80b329a5110d9ef5bf1",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "93",
+    "ano": 1941,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8958,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "923222a72382277abcc3",
+    "tipo": "inicio_intervalo",
+    "id_rua": 2017,
+    "nome": "rua pedroso",
+    "numero": "48",
+    "ano": 1927,
+    "coordenadas": [
+      [
+        -46.642493120473816,
+        -23.56223095553842
+      ]
+    ],
+    "ids_pontos": [
+      5724
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0655,
+    "dados": [
+      [
+        -46.642493120473816,
+        -23.56223095553842
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a4ec862fa5c3322a6af0",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 2017,
+    "nome": "rua pedroso",
+    "numero": "48",
+    "ano": 1926,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.6954,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e308758ca5305aab23d0",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 2017,
+    "nome": "rua pedroso",
+    "numero": "48",
+    "ano": 1928,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8312,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "01075a7bb42da3c07a9c",
+    "tipo": "inicio_intervalo",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "581",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "ids_pontos": [
+      4941
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2285,
+    "dados": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3ba71412583c288d0f56",
+    "tipo": "interior_intervalo",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "581",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "ids_pontos": [
+      4941
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8709,
+    "dados": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "47821a48b778340b3530",
+    "tipo": "limite_2000",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "581",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "ids_pontos": [
+      4941
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 19.4533,
+    "dados": [
+      [
+        -46.64323660817098,
+        -23.521317768675665
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4d6d970b4c781545597b",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "581",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8915,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "25d825632ac6011d7afa",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "581",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7896,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "14237108d1c090737965",
+    "tipo": "inicio_intervalo",
+    "id_rua": 165,
+    "nome": "rua lopes de oliveira",
+    "numero": "98",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.65608092248241,
+        -23.532348333722826
+      ]
+    ],
+    "ids_pontos": [
+      1775
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9302,
+    "dados": [
+      [
+        -46.65608092248241,
+        -23.532348333722826
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4b66846361b1f0ac8f49",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 165,
+    "nome": "rua lopes de oliveira",
+    "numero": "98",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 18.2779,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b12c223ac09d03c33add",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 165,
+    "nome": "rua lopes de oliveira",
+    "numero": "98",
+    "ano": 1909,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 16.6515,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f237ffb9b146fb4a153d",
+    "tipo": "inicio_intervalo",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "34",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "ids_pontos": [
+      589
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.2912,
+    "dados": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "24dd1e54deade5681f2c",
+    "tipo": "interior_intervalo",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "34",
+    "ano": 1922,
+    "coordenadas": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "ids_pontos": [
+      589
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8345,
+    "dados": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b2b43786e972daafc659",
+    "tipo": "fim_intervalo",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "34",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "ids_pontos": [
+      589
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 5.0087,
+    "dados": [
+      [
+        -46.63802322665149,
+        -23.551498864232357
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4277ebfc7010feea0124",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "34",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9291,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "99c840b85e15b5a27070",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "34",
+    "ano": 1937,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8722,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5b3b4e2018ccf677f27a",
+    "tipo": "inicio_intervalo",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "14",
+    "ano": 1923,
+    "coordenadas": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "ids_pontos": [
+      5885
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9524,
+    "dados": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d9b07013deaa42a82093",
+    "tipo": "interior_intervalo",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "14",
+    "ano": 1925,
+    "coordenadas": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "ids_pontos": [
+      5885
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 25.8849,
+    "dados": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7eb171c677fb4678bf2a",
+    "tipo": "fim_intervalo",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "14",
+    "ano": 1928,
+    "coordenadas": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "ids_pontos": [
+      5885
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7899,
+    "dados": [
+      [
+        -46.634532856168946,
+        -23.54574169309428
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "2154b4b346e71bd83a1e",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "14",
+    "ano": 1922,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8746,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8075278ce2f834f302b3",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "14",
+    "ano": 1929,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9381,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "90fdae7f9c0158cd10f1",
+    "tipo": "inicio_intervalo",
+    "id_rua": 2043,
+    "nome": "rua cincinato braga",
+    "numero": "5",
+    "ano": 1934,
+    "coordenadas": [
+      [
+        -46.64469672719596,
+        -23.56948684878893
+      ]
+    ],
+    "ids_pontos": [
+      5817
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8726,
+    "dados": [
+      [
+        -46.64469672719596,
+        -23.56948684878893
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "53f6507ee63fbe566d00",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 2043,
+    "nome": "rua cincinato braga",
+    "numero": "5",
+    "ano": 1933,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8131,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "765bcc358e3414de8fb3",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 2043,
+    "nome": "rua cincinato braga",
+    "numero": "5",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9234,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5b457200bed038f4d152",
+    "tipo": "inicio_intervalo",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "75",
+    "ano": 1940,
+    "coordenadas": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "ids_pontos": [
+      1895
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2136,
+    "dados": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "fae2d0a97dda1c6fc5bf",
+    "tipo": "interior_intervalo",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "75",
+    "ano": 1970,
+    "coordenadas": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "ids_pontos": [
+      1895
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8574,
+    "dados": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "96ea9cb8634481be2581",
+    "tipo": "limite_2000",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "75",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "ids_pontos": [
+      1895
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0404,
+    "dados": [
+      [
+        -46.65310693446172,
+        -23.535088093807552
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f298dd54073c8d03229a",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "75",
+    "ano": 1939,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0247,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "88d0aa0eb91177eeca49",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "75",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.303,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "91da3fc76598925fee71",
+    "tipo": "inicio_intervalo",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "31",
+    "ano": 1935,
+    "coordenadas": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "ids_pontos": [
+      2548
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8686,
+    "dados": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e499c0b3ffaa6d34403f",
+    "tipo": "interior_intervalo",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "31",
+    "ano": 1967,
+    "coordenadas": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "ids_pontos": [
+      2548
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9386,
+    "dados": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f4f84dff76bb82eea8ae",
+    "tipo": "limite_2000",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "31",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "ids_pontos": [
+      2548
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9184,
+    "dados": [
+      [
+        -46.63276741160473,
+        -23.554699067502263
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a2cf2bdba9d41df194fb",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "31",
+    "ano": 1934,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1485,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3d220e88ff15216448b1",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "31",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8635,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e67393a727bf6917a39f",
+    "tipo": "inicio_intervalo",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "103",
+    "ano": 1911,
+    "coordenadas": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "ids_pontos": [
+      1342
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.817,
+    "dados": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "21bc4f4cb3b14b2ecc5c",
+    "tipo": "interior_intervalo",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "103",
+    "ano": 1918,
+    "coordenadas": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "ids_pontos": [
+      1342
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8508,
+    "dados": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e06775ed9f3072397f43",
+    "tipo": "fim_intervalo",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "103",
+    "ano": 1925,
+    "coordenadas": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "ids_pontos": [
+      1342
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9743,
+    "dados": [
+      [
+        -46.64919286818742,
+        -23.555736264450438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "885244f08bf5da4fe81f",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "103",
+    "ano": 1910,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9123,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c25a89ddee0552b00fd5",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "103",
+    "ano": 1926,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9347,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "103745fe15582aaa1ab8",
+    "tipo": "inicio_intervalo",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "16",
+    "ano": 1928,
+    "coordenadas": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "ids_pontos": [
+      3405
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9828,
+    "dados": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bd65b6d3e495417f85e4",
+    "tipo": "interior_intervalo",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "16",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "ids_pontos": [
+      3405
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0057,
+    "dados": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "fe8370db8032b7bc3a68",
+    "tipo": "fim_intervalo",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "16",
+    "ano": 1939,
+    "coordenadas": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "ids_pontos": [
+      3405
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.3563,
+    "dados": [
+      [
+        -46.631008194301835,
+        -23.541779979020113
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0ee3ba1621174b2d9d0d",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "16",
+    "ano": 1927,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2751,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d780f5e78b4f884f27be",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "16",
+    "ano": 1940,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 22.1738,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "339fc2df2b91cb2e104b",
+    "tipo": "inicio_intervalo",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "167",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "ids_pontos": [
+      3225
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.852,
+    "dados": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f21772dbb2a14d2ae3bd",
+    "tipo": "interior_intervalo",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "167",
+    "ano": 1918,
+    "coordenadas": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "ids_pontos": [
+      3225
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7055,
+    "dados": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f2849ef5a86186bb3c36",
+    "tipo": "fim_intervalo",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "167",
+    "ano": 1928,
+    "coordenadas": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "ids_pontos": [
+      3225
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7221,
+    "dados": [
+      [
+        -46.64898689263187,
+        -23.531085724116853
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bd455e4ed0f4fa77e4bb",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "167",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.3241,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d54adfacd52963048751",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "167",
+    "ano": 1929,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0836,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c1d53aa6f4c363be0ca1",
+    "tipo": "inicio_intervalo",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "114",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "ids_pontos": [
+      2671
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9481,
+    "dados": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "21ca0719eab37be3b82c",
+    "tipo": "interior_intervalo",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "114",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "ids_pontos": [
+      2671
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0266,
+    "dados": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "47c7e79fab566f0903c8",
+    "tipo": "limite_2000",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "114",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "ids_pontos": [
+      2671
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9642,
+    "dados": [
+      [
+        -46.62461955128764,
+        -23.53477882705435
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f8ff8a1e968ecab0bcf4",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "114",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9423,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b0f089eb03b9832c927c",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "114",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8791,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "9b6daaae8ea64e7190ae",
+    "tipo": "inicio_intervalo",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "113",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "ids_pontos": [
+      3376
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 20.2671,
+    "dados": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ba5860f321cc26b7ffae",
+    "tipo": "interior_intervalo",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "113",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "ids_pontos": [
+      3376
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 16.0243,
+    "dados": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e7c93aba6c59638becaf",
+    "tipo": "limite_2000",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "113",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "ids_pontos": [
+      3376
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9886,
+    "dados": [
+      [
+        -46.63028060468361,
+        -23.53738403772924
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e0b3cf1e3d136bdefa3c",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "113",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 27.0438,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "eafefd5729e55552a4be",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "113",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 15.0001,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d1c961ce88ad0e3d3ff3",
+    "tipo": "inicio_intervalo",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "191",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "ids_pontos": [
+      1755
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0038,
+    "dados": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "52eb45b24e746c789555",
+    "tipo": "interior_intervalo",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "191",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "ids_pontos": [
+      1755
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9048,
+    "dados": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "607569aa7d32f03f62f9",
+    "tipo": "limite_2000",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "191",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "ids_pontos": [
+      1755
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 22.7601,
+    "dados": [
+      [
+        -46.65442536067175,
+        -23.52935419674699
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "55d52d93fd89704f51f6",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "191",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 16.0857,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "085b23b514ddd48ee1e0",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "191",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 15.0946,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "aea3c756fc7347b694ca",
+    "tipo": "inicio_intervalo",
+    "id_rua": 411,
+    "nome": "avenida brigadeiro luis antonio",
+    "numero": "2",
+    "ano": 1934,
+    "coordenadas": [
+      [
+        -46.63675382856482,
+        -23.550678830337095
+      ]
+    ],
+    "ids_pontos": [
+      4109
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8577,
+    "dados": [
+      [
+        -46.63675382856482,
+        -23.550678830337095
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7cd5a012832f9799ab40",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 411,
+    "nome": "avenida brigadeiro luis antonio",
+    "numero": "2",
+    "ano": 1933,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9317,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c2898e6eeee0d6e7afea",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 411,
+    "nome": "avenida brigadeiro luis antonio",
+    "numero": "2",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9997,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0385d60f7b557c5509e1",
+    "tipo": "inicio_intervalo",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "73",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "ids_pontos": [
+      2607
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2983,
+    "dados": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "07ba473a2af67a78df6b",
+    "tipo": "interior_intervalo",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "73",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "ids_pontos": [
+      2607
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.5576,
+    "dados": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "43d373af4982c9507d1c",
+    "tipo": "limite_2000",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "73",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "ids_pontos": [
+      2607
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0878,
+    "dados": [
+      [
+        -46.62989368396134,
+        -23.534313385864326
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "60dff69d4ece383e7263",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "73",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7684,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8b1ef64bcfdf9ac4077f",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "73",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.832,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b314073a0a07d6fda671",
+    "tipo": "inicio_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "178",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "ids_pontos": [
+      4089
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8634,
+    "dados": [
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "abb98a8a48559ccd0452",
+    "tipo": "interior_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "178",
+    "ano": 1910,
+    "coordenadas": [
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "ids_pontos": [
+      4089
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.9077,
+    "dados": [
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "04df63d753b9f93d86ad",
+    "tipo": "fim_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "178",
+    "ano": 1912,
+    "coordenadas": [
+      [
+        -46.642610859522755,
+        -23.558446105065777
+      ],
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "ids_pontos": [
+      4084,
+      4089
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7224,
+    "dados": [
+      [
+        -46.642610859522755,
+        -23.558446105065777
+      ],
+      [
+        -46.64252424619631,
+        -23.55919136066253
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "224d14f980e1b985893c",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "178",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2579,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c7eb0a763f1664d482e8",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "178",
+    "ano": 1937,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0168,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "1870d4948aaf9e6fe306",
+    "tipo": "inicio_intervalo",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "209",
+    "ano": 1930,
+    "coordenadas": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "ids_pontos": [
+      2099
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9615,
+    "dados": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7bca924218fe4ab90515",
+    "tipo": "interior_intervalo",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "209",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "ids_pontos": [
+      2099
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.5455,
+    "dados": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bfbc120979ba473cd088",
+    "tipo": "fim_intervalo",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "209",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "ids_pontos": [
+      2099
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7115,
+    "dados": [
+      [
+        -46.645908340737705,
+        -23.522722981404936
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "20207c1f8ff2bef6bccf",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "209",
+    "ano": 1929,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7467,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7396ba51f1b70402ba6f",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "209",
+    "ano": 1938,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7598,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4906c44fe868936f433c",
+    "tipo": "inicio_intervalo",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "193",
+    "ano": 1936,
+    "coordenadas": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "ids_pontos": [
+      3557
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.853,
+    "dados": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5901f330bdb9bfac3162",
+    "tipo": "interior_intervalo",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "193",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "ids_pontos": [
+      3557
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7619,
+    "dados": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f7f549e5d0fb59b9ede7",
+    "tipo": "limite_2000",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "193",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "ids_pontos": [
+      3557
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7837,
+    "dados": [
+      [
+        -46.62009863869441,
+        -23.541790166962738
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0dab606438ed5a8263ba",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "193",
+    "ano": 1935,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7527,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ca2b60d2cf58a123a151",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "193",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.927,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "9b354f2dae5d322eacd8",
+    "tipo": "inicio_intervalo",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "305",
+    "ano": 1938,
+    "coordenadas": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "ids_pontos": [
+      5630
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8841,
+    "dados": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ce4cb2e8aff3cf4f1fc8",
+    "tipo": "interior_intervalo",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "305",
+    "ano": 1969,
+    "coordenadas": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "ids_pontos": [
+      5630
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7904,
+    "dados": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "501630506a5aeca17651",
+    "tipo": "limite_2000",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "305",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "ids_pontos": [
+      5630
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 6.3032,
+    "dados": [
+      [
+        -46.64592833084124,
+        -23.55991726200309
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a1ca6327780b73e20fd3",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "305",
+    "ano": 1937,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7663,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8cd53e97b63919983225",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "305",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6471,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a6a20b845d784648fa5d",
+    "tipo": "inicio_intervalo",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "42",
+    "ano": 1914,
+    "coordenadas": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "ids_pontos": [
+      3127
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7816,
+    "dados": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e0c795632ed05b514c99",
+    "tipo": "interior_intervalo",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "42",
+    "ano": 1924,
+    "coordenadas": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "ids_pontos": [
+      3127
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0528,
+    "dados": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d45ba1a1defa563df96e",
+    "tipo": "fim_intervalo",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "42",
+    "ano": 1935,
+    "coordenadas": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "ids_pontos": [
+      3127
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.181,
+    "dados": [
+      [
+        -46.653521850467015,
+        -23.542701981216812
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8d95cc06f7e0d86c3149",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "42",
+    "ano": 1913,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1683,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "dad634110bf7d72788cf",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "42",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8005,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "54a170c063206ce63ee0",
+    "tipo": "inicio_intervalo",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "116",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "ids_pontos": [
+      1713
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7608,
+    "dados": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4dc3bbf8e54c9b1845ff",
+    "tipo": "interior_intervalo",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "116",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "ids_pontos": [
+      1713
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7815,
+    "dados": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d94eba85889441669a09",
+    "tipo": "limite_2000",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "116",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "ids_pontos": [
+      1713
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9925,
+    "dados": [
+      [
+        -46.623829461157435,
+        -23.55138620445754
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "14f61e2cd0846238d67f",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "116",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 23.3725,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "080b5c7804f3545d0d91",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "116",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 16.1128,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "921293f42d57031d2d22",
+    "tipo": "inicio_intervalo",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "4",
+    "ano": 1928,
+    "coordenadas": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "ids_pontos": [
+      3262
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 16.0578,
+    "dados": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7fe4e2194bddf384809e",
+    "tipo": "interior_intervalo",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "4",
+    "ano": 1931,
+    "coordenadas": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "ids_pontos": [
+      3262
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8607,
+    "dados": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "1cb447df62d92f85717a",
+    "tipo": "fim_intervalo",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "4",
+    "ano": 1935,
+    "coordenadas": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "ids_pontos": [
+      3262
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7269,
+    "dados": [
+      [
+        -46.63779489556721,
+        -23.53686117942431
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "53f84a955b313a0e41b4",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "4",
+    "ano": 1927,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7079,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c53793680145db4891d8",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "4",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8053,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c97de35a80c3b55dad24",
+    "tipo": "inicio_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "45",
+    "ano": 1912,
+    "coordenadas": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ],
+      [
+        -46.642908897100234,
+        -23.55560248136531
+      ]
+    ],
+    "ids_pontos": [
+      4038,
+      4043
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6268,
+    "dados": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ],
+      [
+        -46.642908897100234,
+        -23.55560248136531
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bdb9bad2c567cd87f83d",
+    "tipo": "interior_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "45",
+    "ano": 1919,
+    "coordenadas": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ]
+    ],
+    "ids_pontos": [
+      4038
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 27.3556,
+    "dados": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "dbc717b7f57834061ec8",
+    "tipo": "fim_intervalo",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "45",
+    "ano": 1926,
+    "coordenadas": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ]
+    ],
+    "ids_pontos": [
+      4038
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.5897,
+    "dados": [
+      [
+        -46.642939454138755,
+        -23.555294371179823
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5bafe3716edf396a2b7e",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "45",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7039,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d4d1a07095aed654a6bb",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "45",
+    "ano": 1927,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7477,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "94b33c18c31d526755a8",
+    "tipo": "inicio_intervalo",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1",
+    "ano": 1929,
+    "coordenadas": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ],
+      [
+        -46.624316668757174,
+        -23.551339455934006
+      ]
+    ],
+    "ids_pontos": [
+      1728,
+      1731
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9168,
+    "dados": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ],
+      [
+        -46.624316668757174,
+        -23.551339455934006
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "8b4a57ae3a052bcee851",
+    "tipo": "interior_intervalo",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ]
+    ],
+    "ids_pontos": [
+      1728
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 15.2483,
+    "dados": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a8edd65459d7a9f96a8b",
+    "tipo": "fim_intervalo",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ]
+    ],
+    "ids_pontos": [
+      1728
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 15.9197,
+    "dados": [
+      [
+        -46.62451672060069,
+        -23.55132026056776
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c7e3479d3075dbd0ccb1",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1",
+    "ano": 1916,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.726,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "aed375d87883e07528b8",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1",
+    "ano": 1938,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6845,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c19bd3503f590e70de30",
+    "tipo": "inicio_intervalo",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "134",
+    "ano": 1911,
+    "coordenadas": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "ids_pontos": [
+      431,
+      470
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6486,
+    "dados": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "960ebace7bca597cfc19",
+    "tipo": "interior_intervalo",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "134",
+    "ano": 1922,
+    "coordenadas": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "ids_pontos": [
+      431,
+      470
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8745,
+    "dados": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0865c858d970b0d33545",
+    "tipo": "fim_intervalo",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "134",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "ids_pontos": [
+      431,
+      470
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8708,
+    "dados": [
+      [
+        -46.64255554611036,
+        -23.541033007412043
+      ],
+      [
+        -46.64115592944006,
+        -23.54184830378438
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ab222a97fbed0287fcb5",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "134",
+    "ano": 1910,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6896,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "95db8fba52d57798b1b4",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "134",
+    "ano": 1934,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6106,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "09556edf2c26868bc721",
+    "tipo": "inicio_intervalo",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "45",
+    "ano": 1937,
+    "coordenadas": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "ids_pontos": [
+      1257,
+      1274
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 20.0352,
+    "dados": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "769f26b44ed0a3db88f8",
+    "tipo": "interior_intervalo",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "45",
+    "ano": 1968,
+    "coordenadas": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "ids_pontos": [
+      1257,
+      1274
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 14.9044,
+    "dados": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "2ebf966303c42f6d7350",
+    "tipo": "limite_2000",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "45",
+    "ano": 2000,
+    "coordenadas": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "ids_pontos": [
+      1257,
+      1274
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.1259,
+    "dados": [
+      [
+        -46.65465334992728,
+        -23.554978646119636
+      ],
+      [
+        -46.65465289876457,
+        -23.55497944196576
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d20d133efbf28a5aad71",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "45",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 26.3285,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "162ea535f45cf95cd079",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "45",
+    "ano": 2001,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8117,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e59e1009c9f9de6cd1d7",
+    "tipo": "inicio_intervalo",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "62.1",
+    "ano": 1928,
+    "coordenadas": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "ids_pontos": [
+      1221
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0045,
+    "dados": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a7627e8268c9b5015be7",
+    "tipo": "interior_intervalo",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "62.1",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "ids_pontos": [
+      1221
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7773,
+    "dados": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "807fb0bce2bb2c0bfde5",
+    "tipo": "fim_intervalo",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "62.1",
+    "ano": 1938,
+    "coordenadas": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "ids_pontos": [
+      1221
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9346,
+    "dados": [
+      [
+        -46.6435053026468,
+        -23.557823386361147
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "43a871e843d83d4f486a",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "62.1",
+    "ano": 1927,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7397,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d7a2e1736d61ea28eb28",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "62.1",
+    "ano": 1939,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9435,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3bdd51080e7cb7826ac2",
+    "tipo": "inicio_intervalo",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "53.2",
+    "ano": 1908,
+    "coordenadas": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "ids_pontos": [
+      616
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9172,
+    "dados": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "b1f8786a459cdc1623a5",
+    "tipo": "interior_intervalo",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "53.2",
+    "ano": 1910,
+    "coordenadas": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "ids_pontos": [
+      616
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9843,
+    "dados": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ed58edd31194888090c6",
+    "tipo": "fim_intervalo",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "53.2",
+    "ano": 1912,
+    "coordenadas": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "ids_pontos": [
+      616
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9903,
+    "dados": [
+      [
+        -46.64056188857573,
+        -23.552134210965157
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "03badbc3c570811d0a32",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "53.2",
+    "ano": 1907,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.745,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4d7a1fbde5494c495cff",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "53.2",
+    "ano": 1913,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7912,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7b1f451e109e4f0ecf23",
+    "tipo": "inicio_intervalo",
+    "id_rua": 80,
+    "nome": "rua general jardim",
+    "numero": "30.2",
+    "ano": 1940,
+    "coordenadas": [
+      [
+        -46.64481559956733,
+        -23.544761018277114
+      ]
+    ],
+    "ids_pontos": [
+      856
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8296,
+    "dados": [
+      [
+        -46.64481559956733,
+        -23.544761018277114
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4b95df1a215b0eca6b36",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 80,
+    "nome": "rua general jardim",
+    "numero": "30.2",
+    "ano": 1939,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.2442,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "fc7be47cd2deef3fc265",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 80,
+    "nome": "rua general jardim",
+    "numero": "30.2",
+    "ano": 1941,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0101,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "1ef214333d75c805a857",
+    "tipo": "inicio_intervalo",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "88.1",
+    "ano": 1927,
+    "coordenadas": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "ids_pontos": [
+      2984
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6165,
+    "dados": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "6c408cd0b956b2349d60",
+    "tipo": "interior_intervalo",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "88.1",
+    "ano": 1930,
+    "coordenadas": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "ids_pontos": [
+      2984
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 17.828,
+    "dados": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e27ead3b8c96a99367f6",
+    "tipo": "fim_intervalo",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "88.1",
+    "ano": 1933,
+    "coordenadas": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "ids_pontos": [
+      2984
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.922,
+    "dados": [
+      [
+        -46.61593440650691,
+        -23.531895337632104
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "675453361ba1386c15f9",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "88.1",
+    "ano": 1926,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0093,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "2ceb6ad8f17f157ff046",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "88.1",
+    "ano": 1934,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7883,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "420e57c0ff8d71b4c57c",
+    "tipo": "inicio_intervalo",
+    "id_rua": 697,
+    "nome": "rua do areal",
+    "numero": "67.1",
+    "ano": 1930,
+    "coordenadas": [
+      [
+        -46.641494441235395,
+        -23.52430775373384
+      ]
+    ],
+    "ids_pontos": [
+      5034
+    ],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9886,
+    "dados": [
+      [
+        -46.641494441235395,
+        -23.52430775373384
+      ]
+    ],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "323c9f7cf3411cb8969b",
+    "tipo": "antes_de_todos_intervalos",
+    "id_rua": 697,
+    "nome": "rua do areal",
+    "numero": "67.1",
+    "ano": 1929,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7087,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "ec1828c1df40f6e513c9",
+    "tipo": "apos_todos_intervalos",
+    "id_rua": 697,
+    "nome": "rua do areal",
+    "numero": "67.1",
+    "ano": 1931,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6877,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c12d96462bd73fbbce97",
+    "tipo": "numero_inexistente",
+    "id_rua": 45,
+    "nome": "avenida sao joao",
+    "numero": "1477",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 22.5644,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a6235f3ac1b3eae2d71d",
+    "tipo": "numero_inexistente",
+    "id_rua": 60,
+    "nome": "rua asdrubal do nascimento",
+    "numero": "495",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9987,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "bc8faeb00252f9571cab",
+    "tipo": "numero_inexistente",
+    "id_rua": 61,
+    "nome": "rua santo amaro",
+    "numero": "771",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 27.3306,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "6bef55b2bd2b9017cc4c",
+    "tipo": "numero_inexistente",
+    "id_rua": 80,
+    "nome": "rua general jardim",
+    "numero": "130",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8057,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "3e0564e2afa9e59f6fa8",
+    "tipo": "numero_inexistente",
+    "id_rua": 104,
+    "nome": "rua marquez de paranagua",
+    "numero": "191",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.875,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "513470d6ce6e54842f4b",
+    "tipo": "numero_inexistente",
+    "id_rua": 112,
+    "nome": "rua maria jose",
+    "numero": "447",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8994,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a5f63a296b7380ff3bb3",
+    "tipo": "numero_inexistente",
+    "id_rua": 113,
+    "nome": "rua sao miguel",
+    "numero": "122",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7542,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "81dacf0fc6a03e8c3e5b",
+    "tipo": "numero_inexistente",
+    "id_rua": 114,
+    "nome": "rua barata ribeiro",
+    "numero": "497",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.643,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "18ef3f93e39ea408601c",
+    "tipo": "numero_inexistente",
+    "id_rua": 115,
+    "nome": "rua manoel dutra",
+    "numero": "649",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6988,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "9d815898ac8bf8d48fbc",
+    "tipo": "numero_inexistente",
+    "id_rua": 158,
+    "nome": "rua visconde de parnahyba",
+    "numero": "1086",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 23.2059,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "06ebe5946096194b6e14",
+    "tipo": "numero_inexistente",
+    "id_rua": 163,
+    "nome": "rua souza lima",
+    "numero": "331",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8221,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e6471ef3f7416d447176",
+    "tipo": "numero_inexistente",
+    "id_rua": 165,
+    "nome": "rua lopes de oliveira",
+    "numero": "623",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7918,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "7e38e968237988ffef09",
+    "tipo": "numero_inexistente",
+    "id_rua": 175,
+    "nome": "rua dos pyrineus",
+    "numero": "120",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 22.7946,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "944da781201721ca0dbe",
+    "tipo": "numero_inexistente",
+    "id_rua": 190,
+    "nome": "rua anhaia",
+    "numero": "1247",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.768,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d6f18efbcd1aa6bb2103",
+    "tipo": "numero_inexistente",
+    "id_rua": 232,
+    "nome": "rua santa luzia",
+    "numero": "92",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.806,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "2b8ac5cfc759ec81bf85",
+    "tipo": "numero_inexistente",
+    "id_rua": 238,
+    "nome": "rua guilherme maw",
+    "numero": "180",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7293,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "38dc15166913ef1cc291",
+    "tipo": "numero_inexistente",
+    "id_rua": 250,
+    "nome": "rua joao jacyntho",
+    "numero": "132",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 18.6487,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "5ae69c90cb85adbd0451",
+    "tipo": "numero_inexistente",
+    "id_rua": 251,
+    "nome": "rua affonso arinos",
+    "numero": "215",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7635,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "090a765eb2b34068b1c8",
+    "tipo": "numero_inexistente",
+    "id_rua": 286,
+    "nome": "rua parahyba",
+    "numero": "302",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8903,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "09c04a060996a00622e8",
+    "tipo": "numero_inexistente",
+    "id_rua": 296,
+    "nome": "rua jaguaribe",
+    "numero": "786",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 4.0038,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "f40b6199a550a0514dfd",
+    "tipo": "numero_inexistente",
+    "id_rua": 301,
+    "nome": "rua doutor martinico prado",
+    "numero": "452",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8472,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "869296597866fa212178",
+    "tipo": "numero_inexistente",
+    "id_rua": 312,
+    "nome": "rua conselheiro nebias",
+    "numero": "1741",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8902,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "692a10c9b19fc460d250",
+    "tipo": "numero_inexistente",
+    "id_rua": 314,
+    "nome": "rua do triumpho",
+    "numero": "285",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8328,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "46f43cc9e769353150c5",
+    "tipo": "numero_inexistente",
+    "id_rua": 337,
+    "nome": "rua antonio paes",
+    "numero": "163",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 23.1409,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0291ee0d810ad6814a0f",
+    "tipo": "numero_inexistente",
+    "id_rua": 339,
+    "nome": "rua page",
+    "numero": "199",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6457,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "a7c0a67ce2385afc57a8",
+    "tipo": "numero_inexistente",
+    "id_rua": 368,
+    "nome": "rua sampaio moreira",
+    "numero": "248",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7499,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0f5e903bc666ec9f3496",
+    "tipo": "numero_inexistente",
+    "id_rua": 405,
+    "nome": "rua major diogo",
+    "numero": "907",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7564,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "0603f1f47b7b2faf9578",
+    "tipo": "numero_inexistente",
+    "id_rua": 411,
+    "nome": "avenida brigadeiro luis antonio",
+    "numero": "967",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8023,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "cdcedeea17b344d5476a",
+    "tipo": "numero_inexistente",
+    "id_rua": 476,
+    "nome": "rua itapira",
+    "numero": "205",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8885,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "e8f4d936de82ae1a1187",
+    "tipo": "numero_inexistente",
+    "id_rua": 502,
+    "nome": "alameda barros",
+    "numero": "296",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7008,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c618ae2d4b686375a87c",
+    "tipo": "numero_inexistente",
+    "id_rua": 693,
+    "nome": "rua general flores",
+    "numero": "587",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8634,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c3562b601b40aa339186",
+    "tipo": "numero_inexistente",
+    "id_rua": 697,
+    "nome": "rua do areal",
+    "numero": "250",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7934,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "6929b32b0a4ae3d1f7a4",
+    "tipo": "numero_inexistente",
+    "id_rua": 707,
+    "nome": "rua solimoes",
+    "numero": "326",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7939,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "c6b78bdf72c1e9578602",
+    "tipo": "numero_inexistente",
+    "id_rua": 2013,
+    "nome": "rua fortaleza",
+    "numero": "311",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.6342,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "d4f0eb87fe29d9670168",
+    "tipo": "numero_inexistente",
+    "id_rua": 2017,
+    "nome": "rua pedroso",
+    "numero": "625",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7061,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "afbcbdc9f958a501e81b",
+    "tipo": "numero_inexistente",
+    "id_rua": 2043,
+    "nome": "rua cincinato braga",
+    "numero": "561",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.8634,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "70ce46b691290e27e0a4",
+    "tipo": "numero_inexistente",
+    "id_rua": 10003,
+    "nome": "praca antonio prado impar",
+    "numero": "46",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.7581,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  },
+  {
+    "id_caso": "4a7feeb8311ad4454876",
+    "tipo": "rua_inexistente",
+    "id_rua": 20019,
+    "nome": "ID inexistente",
+    "numero": "1",
+    "ano": 1936,
+    "coordenadas": [],
+    "ids_pontos": [],
+    "ok": true,
+    "motivo": "ok",
+    "http_status": 200,
+    "ms": 3.9671,
+    "dados": [],
+    "modelo": null,
+    "erro_transporte": ""
+  }
+]

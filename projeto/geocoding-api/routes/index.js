@@ -1,0 +1,598 @@
+/* ----------------------------------------------------------------------------+
+|                                                                              |
+|                 Pauliceia Geoocoding API - Gabriel Sansigolo                 |
+|                                                                              |
++-----------------------------------------------------------------------------*/
+
+/*--------------------------------------------------+
+| Var                                               |
++--------------------------------------------------*/
+// local
+// var webServiceAddress = process.env.PORT ? "http://localhost:" + process.env.PORT : "http://localhost:3000";
+// production
+// var webServiceAddress = "http://www.pauliceia.dpi.inpe.br";
+
+// default address
+let webServiceAddress = "http://www.pauliceia.dpi.inpe.br"
+
+// if there are environment variables, then get them
+if (process.env.HOST && process.env.PORT) {
+    webServiceAddress = `http://${process.env.HOST}:${process.env.PORT}`
+}
+
+console.log('webServiceAddress: ', webServiceAddress)
+
+var express = require('express');
+var router = express.Router();
+var Search = require('../controllers/searchPoint');
+var Locate = require('../controllers/lineLocate');
+var Create = require('../controllers/lineSubstring');
+var Match = require('../controllers/dictionary');
+var Calculate = require('../controllers/confidenceRate');
+var request = require('request');
+
+/*--------------------------------------------------+
+| Connection                                        |
++--------------------------------------------------*/
+const pg = require('pg');
+
+const db_user = process.env.DATABASE_USER || "postgres";
+const db_pass = process.env.DATABASE_PASS || "postgres";
+const db_host = process.env.DATABASE_HOST || "localhost";
+const db_name = process.env.DATABASE_NAME || "pauliceia";
+
+const connectionString = {
+    host: db_host,
+    port: 5432,
+    user: db_user,
+    database: db_name,
+    password: db_pass
+}
+
+const pool = new pg.Pool(connectionString);
+
+// Busca usada pelo portal local do TCC. A seleção é mantida pelo ID mesmo
+// quando duas ruas têm a mesma grafia.
+router.get('/candidatos', (req, res) => {
+    const nome = typeof req.query.nome === 'string' ? req.query.nome.trim() : '';
+    if (!nome || nome.length > 200) return res.sendStatus(400);
+    if (process.env.RERANK_URL) {
+        return request.get({
+            url: process.env.RERANK_URL + '/candidatos',
+            qs: { nome },
+            json: true,
+            timeout: 8000
+        }, (erro, resposta, dados) => {
+            if (erro || !resposta || resposta.statusCode !== 200 || !Array.isArray(dados) ||
+                dados.length > 5 || dados.some(c => !c || !Number.isInteger(c.id) || typeof c.nome !== 'string') ||
+                !resposta.headers || !/^[a-f0-9]{64}$/.test(resposta.headers['x-pauliceia-modelo'] || '')) {
+                return res.sendStatus(503);
+            }
+            res.set('X-Pauliceia-Modelo', resposta.headers['x-pauliceia-modelo']);
+            return res.json(dados);
+        });
+    }
+    if (!process.env.ELASTICSEARCH_URL) return res.sendStatus(503);
+    request.post({
+        url: process.env.ELASTICSEARCH_URL + '/pauliceia-catalogo/_search',
+        timeout: 5000,
+        json: {
+            size: 5,
+            query: { multi_match: { query: nome, fields: ['nome', 'nome.tri'], type: 'most_fields' } },
+            sort: [{ _score: 'desc' }, { id: 'asc' }]
+        }
+    }, (erro, resposta, dados) => {
+        if (erro || resposta.statusCode !== 200 || !dados || dados.timed_out ||
+            !dados._shards || dados._shards.failed || !dados.hits || !Array.isArray(dados.hits.hits)) {
+            return res.sendStatus(503);
+        }
+        res.json(dados.hits.hits.map(hit => ({ id: hit._source.id, nome: hit._source.nome })));
+    });
+});
+
+router.get('/candidatos/:id/pontos', (req, res) => {
+    const { numero, ano } = req.query;
+    if (!/^-?\d{1,9}$/.test(req.params.id) || typeof numero !== 'string' ||
+        !/^\d{1,9}(\.\d{1,6})?$/.test(numero) || typeof ano !== 'string' || !/^\d{4}$/.test(ano)) {
+        return res.sendStatus(400);
+    }
+    const sql = `SELECT DISTINCT ST_X(geom) AS x, ST_Y(geom) AS y
+                 FROM public.places_pilot_area2
+                 WHERE id_street::integer = $1 AND number::float = $2 AND geom IS NOT NULL
+                   AND NOT ST_IsEmpty(geom)
+                   AND $3::integer BETWEEN first_year::integer AND coalesce(nullif(last_year::integer, 0), 2000)
+                 ORDER BY x, y`;
+    pool.query(sql, [req.params.id, numero, ano], (erro, resultado) => {
+        if (erro) return res.sendStatus(503);
+        res.json(resultado.rows.map(p => [p.x, p.y]));
+    });
+});
+
+/*-------------------------------------------------+
+| function getDateTime()                           |
++-------------------------------------------------*/
+function getDateTime() {
+    var date = new Date();
+    var hour = date.getHours();
+    hour = (hour < 10 ? "0" : "") + hour;
+    var min = date.getMinutes();
+    min = (min < 10 ? "0" : "") + min;
+    var sec = date.getSeconds();
+    sec = (sec < 10 ? "0" : "") + sec;
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    month = (month < 10 ? "0" : "") + month;
+    var day = date.getDate();
+    day = (day < 10 ? "0" : "") + day;
+    return hour + ":" + min + ":" + sec + " " + day + "/" + month + "/" + year;
+}
+
+/* ------------------------------------------------------------------------+
+|                                                                          |
+|                              URLS                                        |
+|                                                                          |
++-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------+
+| Places List                                    |
++-----------------------------------------------*/
+router.get('/placeslist', (req, res) => {
+    const sql = `SELECT b.name, a.number::float, a.first_year::integer AS firstyear,
+                        a.last_year::integer AS lastyear
+                 FROM streets_pilot_area b JOIN places_pilot_area2 a ON a.id_street::integer = b.id::integer
+                 WHERE a.number::float > 1 AND b.name IS NOT NULL
+                 ORDER BY b.name, a.first_year, a.last_year, a.number`;
+    pool.query(sql, (error, result) => {
+        if (error) return res.status(500).json({ success: false, data: error });
+        res.json(result.rows.map(row => row.name + ', ' + row.number + ', ' + (row.firstyear || row.lastyear)));
+    });
+});
+
+router.get('/places', (req, res) => {
+    const sql = `SELECT a.id AS places_id, a.id_street, b.name AS street_name,
+                        a.number::float AS place_number, a.first_year::integer AS place_firstyear,
+                        a.last_year::integer AS place_lastyear, ST_AsText(a.geom) AS place_geom
+                 FROM streets_pilot_area b JOIN places_pilot_area2 a ON a.id_street::integer = b.id::integer
+                 UNION
+                 SELECT a.id, a.id_street, b.name, a.number::float, a.first_year::integer,
+                        a.last_year::integer, ST_AsText(a.geom)
+                 FROM streets_pilot_area b JOIN places_pilot_area a ON a.id_street::integer = b.id::integer
+                 WHERE a.number::float = 0.0
+                 ORDER BY place_number`;
+    pool.query(sql, (error, result) => {
+        if (error) return res.status(500).json({ success: false, data: error });
+        res.json(result.rows.map(row => ({
+            ...row,
+            place_name: '',
+            place_lastyear: row.place_lastyear || 2000
+        })));
+    });
+});
+
+router.get('/streets', (req, res) => {
+    const sql = `SELECT id, name AS street_name, first_year::integer AS street_firstyear,
+                        last_year::integer AS street_lastyear, ST_AsText(geom) AS street_geom
+                 FROM streets_pilot_area`;
+    pool.query(sql, (error, result) => {
+        if (error) return res.status(500).json({ success: false, data: error });
+        res.json(result.rows);
+    });
+});
+
+/*--------------------------------------------------+
+|  Geolocation                                      |
++--------------------------------------------------*/
+router.get('/geolocation/:textpoint,:number,:year/json', async function(req, res, next) {
+
+    //Results variables
+    let results = [];
+    let head = [];
+
+    //Develop variables
+    let url;
+
+    //Entering variables
+    let textpoint = Match.dictionary(req.params.textpoint.toLowerCase());
+    const year = req.params.year.replace(" ", "");
+    const number = req.params.number.replace(" ", "");
+
+    //Set the url
+    url = webServiceAddress + '/api/geocoding/places';
+
+    //Request the json with all places
+    request(url, function(error, response, body) {
+        if (!error) {
+
+            //Set the bodyjson with the body of the request
+            var places = JSON.parse(body);
+
+            //Filter json places using the entering variables
+            var places_filter = places.filter(el => el.street_name == textpoint);
+
+            //Results if there is no point in the searched street
+            if (places_filter.length == 0) {
+
+                //Result
+                results.push({
+                    name: "Point not found",
+                    alertMsg: "Não encontramos pontos nesse logradouro referentes ao ano buscado (" + textpoint + ", " + number + ", " + year + ")",
+                    status: 0
+                });
+
+                //Write header
+                head.push({
+                    createdAt: getDateTime(),
+                    type: 'GET'
+                });
+
+                //Push Head
+                head.push(results);
+
+                //Return the json with results
+                return res.json(head);
+            }
+
+            let id_street = places_filter[0].id_street;
+
+            places_filter = places_filter.filter(el => el.place_firstyear <= year);
+            places_filter = places_filter.filter(el => el.place_lastyear >= year);
+            places_filter = places_filter.filter(el => el.place_number == number);
+
+            /*--------------------+
+            | Geolocation         |
+            +--------------------*/
+            if (places_filter.length == 1) {
+
+                //Organize the Json results
+                results.push({
+                    name: places_filter[0].place_name,
+                    geom: places_filter[0].place_geom,
+                    confidence: 1,
+                    status: 1
+                });
+
+                //Write header
+                head.push({
+                    createdAt: getDateTime(),
+                    type: 'GET'
+                });
+
+                //Push Head
+                head.push(results);
+
+                //Return the json with results
+                return res.json(head);
+
+            } else {
+
+                places_filter = places.filter(el => el.street_name == textpoint);
+
+                places_filter = places_filter.filter(el => el.place_lastyear >= year);
+                places_filter = places_filter.filter(el => el.place_firstyear <= year);
+
+                places_filter.sort((a, b) => {
+                    return parseInt(a.place_number) - parseInt(b.place_number)
+                })
+
+                /*-----------------------+
+                | Spatial Extrapolation  |
+                +-----------------------*/
+
+                if (parseFloat(places_filter[places_filter.length - 1].place_number) < number) {
+
+                    places_filter = places.filter(el => el.street_name == textpoint);
+                    places_filter = places_filter.filter(el => el.place_number == parseInt(places_filter[places_filter.length - 1].place_number));
+
+                    //Check if only one result was found
+                    if (places_filter.length == 1 && places_filter[0].place_number > 0) {
+
+                        //Organize the Json results
+                        results.push({
+                            name: 'Point Spatial Extrapolated',
+                            geom: places_filter[0].place_geom,
+                            confidence: 0,
+                            status: 1
+                        });
+
+                        //Write header
+                        head.push({
+                            createdAt: getDateTime(),
+                            type: 'GET'
+                        });
+
+                        //Push Head
+                        head.push(results);
+
+                        //Return the json with results
+                        return res.json(head);
+                    }
+                }
+
+                /*-----------------------+
+                | Geocode              S  |
+                +-----------------------*/
+                url = webServiceAddress + '/api/geocoding/streets';
+
+                //Request the json with all streets
+                request(url, function(error, response, body) {
+                    if (!error) {
+
+                        //Set the bodyjson with the body of the request
+                        var streets = JSON.parse(body);
+
+                        //Filter json streets using the entering variables
+                        var streets_filter = streets.filter(el => el.street_name == textpoint);
+
+                        //Get the street and merge it into linestring
+                        var linemerge = (streets_filter[0].street_geom);
+
+                        //Filter json places using the entering variables
+                        places_filter = places.filter(el => el.street_name == textpoint);
+
+                        //Filter json places using the entering variables
+                        places_filter = places_filter.filter(el => el.place_lastyear >= year);
+
+                        //Filter json places using the entering variables
+                        places_filter = places_filter.filter(el => el.place_firstyear <= year);
+
+                        //Declare array with numbers
+                        const numbers = [];
+
+                        //Loop to fill the array numbers
+                        for (var i = 0; i < places_filter.length; i++) {
+                            numbers[i] = places_filter[i].place_number;
+                        }
+
+                        //Filter the json places to get the p1
+                        var p1 = places_filter.filter(el => el.place_number < number);
+
+                        //define array numbers 1
+                        var numbers_p1 = [];
+                        var j = 0;
+
+                        //Loop to fill the array numbers
+                        for (var i = 0; i < p1.length; i++) {
+
+                            //Check if the number is even if that so append it to the array numbers
+                            if (number % 2 == 0) {
+
+                                let numero = ''+p1[i].place_number
+                                numero = numero.replace(".", ",")
+
+                                if (numero % 2 == 0) {
+                                    numbers_p1[j] = p1[i].place_number;
+                                    j++;
+                                }
+
+                                //Check if the number is odd if that so append it to the array numbers
+                            } else {
+
+                                let numero = ''+p1[i].place_number
+                                numero = numero.replace(".", ",")
+
+                                if (numero % 2 != 0) {
+                                    numbers_p1[j] = p1[i].place_number;
+                                    j++;
+                                }
+                            }
+                        }
+
+                        //filter the p1
+                        p1 = p1.filter(el => el.place_number == Math.max.apply(Math, numbers_p1));
+
+                        //Filter the json places to get the p2
+                        var p2 = places_filter.filter(el => el.place_number > number);
+
+                        //define array numbers 1-
+                        var numbers_p2 = [];
+                        j = 0;
+
+                        //Loop to fill the array numbers
+                        for (var i = 0; i < p2.length; i++) {
+
+                            let numero = ''+number
+                            numero = numero.replace(".", ",")
+
+                            //Check if the number is even if that so append it to the array numbers
+                            if (numero % 2 == 0) {
+
+                                let numero = ''+p2[i].place_number
+                                numero = numero.replace(".", ",")
+
+                                if (parseFloat(numero) % 2 == 0) {
+                                    numbers_p2[j] = p2[i].place_number;
+                                    j++;
+                                }
+
+                                //Check if the number is odd if that so append it to the array numbers
+                            } else {
+
+                                let numero = ''+p2[i].place_number
+                                numero = numero.replace(".", ",")
+
+                                if (parseFloat(numero) % 2 != 0) {
+                                    numbers_p2[j] = p2[i].place_number;
+                                    j++;
+                                }
+                            }
+                        }
+
+                        //filter the p2
+                        p2 = p2.filter(el => el.place_number == Math.min.apply(Math, numbers_p2));
+
+                        console.log('--- P1 ---')
+                        console.log(p1)
+                        console.log()
+
+                        console.log('--- P2 ---')
+                        console.log(p2)
+                        console.log()
+
+                        /*-----------------------+
+                        | Points not found       |
+                        +-----------------------*/
+                        if (p2.length == 0 || p1.length == 0) {
+
+                            //Result
+                            results.push({
+                                name: "Point not found",
+                                alertMsg: "Não encontramos pontos necessarios para a geolocalização nesse logradouro no ano buscado (" + textpoint + ", " + number + ", " + year + ")",
+                                status: 0
+                            });
+
+                            //Write header
+                            head.push({
+                                createdAt: getDateTime(),
+                                type: 'GET'
+                            });
+
+                            //Push Head
+                            head.push(results);
+
+                            //Return the json with results
+                            return res.json(head);
+
+                        }
+
+                        /*-----------------------+
+                        | Same geom problem      |
+                        +-----------------------*/
+                        if (p2[0].place_geom == p1[0].place_geom) {
+
+                            //Filter the json places to get the p2
+                            let new_p2 = places_filter.filter(el => el.place_number > number);
+
+                            //Filter the json places to get the p2
+                            let p2_num = p2[0].place_number;
+                            new_p2 = new_p2.filter(el => el.place_number > p2_num);
+
+                            //Declare loop variables
+                            numbers_p2 = []
+                            let j = 0;
+
+                            //Loop to fill the array numbers
+                            for (let i = 0; i < new_p2.length; i++) {
+
+                                let numero = ''+number
+                                numero = numero.replace(".", ",")
+
+                                //Check if the number is even if that so append it to the array numbers
+                                if (numero % 2 == 0) {
+
+                                    let numero = ''+new_p2[i].place_number
+                                    numero = numero.replace(".", ",")
+
+                                    if (parseFloat(numero) % 2 == 0) {
+                                        numbers_p2[j] = new_p2[i].place_number;
+                                        j++
+                                    }
+
+                                    //Check if the number is odd if that so append it to the array numbers
+                                } else {
+
+                                    let numero = ''+new_p2[i].place_number
+                                    numero = numero.replace(".", ",")
+
+                                    if (parseFloat(numero)% 2 != 0) {
+                                        numbers_p2[j] = new_p2[i].place_number;
+                                        j++;
+                                    }
+                                }
+                            }
+
+                            //Filter the places2 to get the min
+                            p2 = new_p2.filter(el => el.place_number == Math.min.apply(Math, numbers_p2));
+
+                        }
+
+                        //set the geometry of the P1 and P2
+                        var p1_geom = p1[0].place_geom;
+                        var p2_geom = p2[0].place_geom;
+
+                        //get the startfraction
+                        var startfraction = Locate.lineLocate(linemerge, p1_geom);
+
+                        //get the endfraction
+                        var endfraction = Locate.lineLocate(linemerge, p2_geom);
+
+                        //check if end is bigger then start
+                        if (endfraction > startfraction) {
+
+                            //get the geom of lineSubString
+                            var sublinestring = Create.lineSubstring(linemerge, startfraction, endfraction);
+
+                            //Else if end is bigger then start
+                        } else {
+
+                            //get the geom of lineSubString
+                            var sublinestring = Create.lineSubstring(linemerge, endfraction, startfraction);
+
+                        }
+
+                        //take the geom number of p1_geom
+                        p1_geom = p1_geom.substr(p1_geom.indexOf("(") + 1);
+                        p1_geom = p1_geom.substr(0, p1_geom.indexOf(")"));
+                        var p1_g = p1_geom;
+
+                        //take the geom number of p2_geom
+                        p2_geom = p2_geom.substr(p2_geom.indexOf("(") + 1);
+                        p2_geom = p2_geom.substr(0, p2_geom.indexOf(")"));
+                        var p2_g = p2_geom;
+
+                        //MULTILINESTRING Handler
+                        if (sublinestring == ',') {
+
+                            //build the street geom
+                            var geometry = ("MULTILINESTRING((" + p1_geom + "," + p2_geom + "))");
+
+                        } else {
+                            if (!sublinestring) {
+
+                                //build the street geom
+                                var geometry = ("MULTILINESTRING((" + p1_geom + "," + p2_geom + "))");
+
+                            } else {
+
+                                //build the street geom
+                                var geometry = ("MULTILINESTRING((" + p1_geom + "," + sublinestring + p2_geom + "))");
+
+                            }
+                        }
+
+                        //Get the four variable to geocode
+                        var nl = p2[0].place_number;
+                        var nf = p1[0].place_number;
+                        var num = parseInt(number);
+
+                        //Organize the Json results
+                        results.push({
+                            name: "Point Geolocated",
+                            geom: ("POINT(" + Search.getPoint(geometry, parseInt(nf), parseInt(nl), parseInt(num)).point + ")"),
+                            confidence: Calculate.confidenceRateCode(p1_g.split(" "), p2_g.split(" "), year),
+                            status: 1
+                        });
+
+                        //Write header
+                        head.push({
+                            createdAt: getDateTime(),
+                            type: 'GET'
+                        });
+
+                        //Push Head
+                        head.push(results);
+
+                        //Return the json with results
+                        return res.json(head);
+
+                    }
+                });                
+            }
+        }
+    });
+});
+
+/*---------------------------------------------------+
+| Console Log                                        |
++---------------------------------------------------*/
+console.log(process.env.PORT ? 'Listening on port ' + process.env.PORT : 'Listening on port 3000');
+module.exports = router;

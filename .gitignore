@@ -1,0 +1,35 @@
+# Dados privados e configuração desta máquina
+/dados/*
+!/dados/README.md
+**/.local/
+*.sql
+*.dump
+*.backup
+.env
+.env.*
+*.env
+!*.env.example
+projeto/frontend/config/prod.env.js
+
+# Dependências, ferramentas e saídas regeneráveis
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+**/Artigo/compilado/
+**/Artigo/artigo_primeira_versao.zip
+**/Artigo/template_original.zip

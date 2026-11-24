@@ -1,0 +1,25 @@
+id_rua;id_ponto;numero;ano;tipo;consulta
+2;17;7;1933;original;rua tres de dezembro
+2;17;7;1933;abreviacao;r. tres de dezembro
+2;17;7;1933;acentuacao;Rua Três de Dezembro
+2;17;7;1933;digitacao;rua tres de dezembo
+45;441;77;1908;original;avenida sao joao
+45;441;77;1908;abreviacao;av. sao joao
+45;441;77;1908;acentuacao;avenida são joão
+45;441;77;1908;digitacao;avenida sao jaoo
+109;1138;17;1905;original;avenida hygienopolis
+109;1138;17;1905;abreviacao;av. hygienopolis
+109;1138;17;1905;grafia_simulada;avenida higienópolis
+109;1138;17;1905;digitacao;avenida hygeinopolis
+440;4359;11;1940;original;becco dos afflictos
+440;4359;11;1940;grafia_simulada;beco dos aflitos
+440;4359;11;1940;ordem;afflictos becco dos
+440;4359;11;1940;digitacao;becco dos afflitos
+251;2687;17;1909;original;rua affonso arinos
+251;2687;17;1909;abreviacao;r. affonso arinos
+251;2687;17;1909;grafia_simulada;rua afonso arinos
+251;2687;17;1909;digitacao;rua affonso airnos
+1741;5326;20;1927;original;Rua Cunha Gago
+1741;5326;20;1927;abreviacao;r. cunha gago
+1741;5326;20;1927;ordem;rua gago cunha
+1741;5326;20;1927;digitacao;rua cunah gago

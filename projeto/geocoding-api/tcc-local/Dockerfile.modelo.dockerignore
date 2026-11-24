@@ -1,0 +1,9 @@
+**
+!requirements-modelo.txt
+!servico_modelo.py
+!modelo_rf.py
+!avaliar_gabarito.py
+!preparar_gabarito.py
+!extrair_logradouros.py
+!iniciar.py
+!piloto.py

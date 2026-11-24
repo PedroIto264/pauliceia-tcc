@@ -1,0 +1,7087 @@
+{
+  "versao": 1,
+  "semente": "pauliceia-validacao-portal-v1",
+  "modelo_sha256": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0",
+  "backup_sha256": "8004407db214a605561e6c3d8f57643f6f66ad0ada40971ea288757964880fac",
+  "comparacao": "C:\\Users\\Usuario\\Documents\\Codex\\2026-11-02\\esse-o-pdf-do-meu-tcc\\projeto\\geocoding-api\\tcc-local\\.local\\comparacoes_metricas\\20261121T125929Z-28ccbb72",
+  "comparacao_resumo_sha256": "b3d90d3c71286f7f8f47819b5b4f4a6cb91397a57b20675eae2d42fdd2a75ffa",
+  "comparacao_resultados_sha256": "8884f10a1c4f9d6933b7d17fa0cf87d26dfb116888b00fbdc0df126331d3ca9d",
+  "gerador_sha256": "a618c38dcd8a2398d447ae4653f87bb67eec2f9c87fbbd4a7e0d5fcfcc62bc29",
+  "repeticoes_medidas": 3,
+  "aquecimentos_por_consulta": 1,
+  "tolerancia_coordenadas_graus": 1e-09,
+  "timeout_segundos": 15,
+  "pontos_elegiveis": 5852,
+  "pontos_excluidos": {
+    "sem_geometria_ou_ano_inicial": 20
+  },
+  "anos_iniciais_atipicos": [
+    {
+      "id_ponto": 5948,
+      "ano_inicial": 199
+    }
+  ],
+  "consultas": [
+    {
+      "id_consulta": "0579dd50487ac6baba70",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua sao karlos pinhal",
+      "ids_relevantes": "2018",
+      "esperados": [
+        {
+          "id": 2018,
+          "nome": "rua sao carlos pinhal"
+        },
+        {
+          "id": 222,
+          "nome": "rua conde do pinhal"
+        },
+        {
+          "id": 38,
+          "nome": "rua sao nicolau"
+        },
+        {
+          "id": 110,
+          "nome": "rua sao domingos"
+        },
+        {
+          "id": 113,
+          "nome": "rua sao miguel"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9003f02a89d8143b88b3",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua conselheiro joaum alfredo",
+      "ids_relevantes": "613",
+      "esperados": [
+        {
+          "id": 613,
+          "nome": "rua conselheiro joao alfredo"
+        },
+        {
+          "id": 216,
+          "nome": "rua alfredo maia"
+        },
+        {
+          "id": 2003,
+          "nome": "rua alfredo ellis"
+        },
+        {
+          "id": 626,
+          "nome": "rua borges de figueiredo"
+        },
+        {
+          "id": 68,
+          "nome": "rua conselheiro crispiniano"
+        }
+      ]
+    },
+    {
+      "id_consulta": "89a045716ad32903a120",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua doutor karlos botelho",
+      "ids_relevantes": "735",
+      "esperados": [
+        {
+          "id": 735,
+          "nome": "rua doutor carlos botelho"
+        },
+        {
+          "id": 308,
+          "nome": "rua doutor vieira de carvalho"
+        },
+        {
+          "id": 491,
+          "nome": "rua quatorze de julho"
+        },
+        {
+          "id": 62,
+          "nome": "rua doutor falcao"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        }
+      ]
+    },
+    {
+      "id_consulta": "bc26422aee644e9dee7e",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua rubino de olivera",
+      "ids_relevantes": "540",
+      "esperados": [
+        {
+          "id": 540,
+          "nome": "rua rubino de oliveira"
+        },
+        {
+          "id": 165,
+          "nome": "rua lopes de oliveira"
+        },
+        {
+          "id": 495,
+          "nome": "rua benjamin de oliveira"
+        },
+        {
+          "id": 617,
+          "nome": "rua joao antônio de oliveira"
+        },
+        {
+          "id": 3094,
+          "nome": "Rua Consorte Candiao de Oliveira"
+        }
+      ]
+    },
+    {
+      "id_consulta": "f460025521c1331c7f3d",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua benjamin de olivera",
+      "ids_relevantes": "495",
+      "esperados": [
+        {
+          "id": 495,
+          "nome": "rua benjamin de oliveira"
+        },
+        {
+          "id": 10,
+          "nome": "rua benjamin constant"
+        },
+        {
+          "id": 165,
+          "nome": "rua lopes de oliveira"
+        },
+        {
+          "id": 540,
+          "nome": "rua rubino de oliveira"
+        },
+        {
+          "id": 617,
+          "nome": "rua joao antônio de oliveira"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2fdb4823b5b5c70bec3a",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua joaquim karlos",
+      "ids_relevantes": "567",
+      "esperados": [
+        {
+          "id": 567,
+          "nome": "rua joaquim carlos"
+        },
+        {
+          "id": 560,
+          "nome": "rua carlos guimaraes"
+        },
+        {
+          "id": 149,
+          "nome": "rua joaquim nabuco"
+        },
+        {
+          "id": 3111,
+          "nome": "Rua Joaquim Machado"
+        },
+        {
+          "id": 315,
+          "nome": "travessa joaquim gustavo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c0b57bada0f03a4a29d2",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua americo de kampos",
+      "ids_relevantes": "434",
+      "esperados": [
+        {
+          "id": 434,
+          "nome": "rua americo de campos"
+        },
+        {
+          "id": 364,
+          "nome": "rua americo brasiliense"
+        },
+        {
+          "id": 280,
+          "nome": "rua carlos de campos"
+        },
+        {
+          "id": 3092,
+          "nome": "Rua Martinho de Campos"
+        },
+        {
+          "id": 153,
+          "nome": "rua campos sales"
+        }
+      ]
+    },
+    {
+      "id_consulta": "cc113c746b1d882ad975",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua karlos de campos",
+      "ids_relevantes": "280",
+      "esperados": [
+        {
+          "id": 280,
+          "nome": "rua carlos de campos"
+        },
+        {
+          "id": 434,
+          "nome": "rua americo de campos"
+        },
+        {
+          "id": 3092,
+          "nome": "Rua Martinho de Campos"
+        },
+        {
+          "id": 2005,
+          "nome": "rua carlos sampaio"
+        },
+        {
+          "id": 153,
+          "nome": "rua campos sales"
+        }
+      ]
+    },
+    {
+      "id_consulta": "aa9e2e13763af0998fe0",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua joaum bohemer",
+      "ids_relevantes": "571",
+      "esperados": [
+        {
+          "id": 571,
+          "nome": "rua joao bohemer"
+        },
+        {
+          "id": 176,
+          "nome": "rua camerino"
+        },
+        {
+          "id": 340,
+          "nome": "rua mercurio"
+        },
+        {
+          "id": 17,
+          "nome": "travessa do commercio"
+        },
+        {
+          "id": 25,
+          "nome": "travessa do mercado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "82ae8ae498bf927db76d",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "praca karlos gomes par",
+      "ids_relevantes": "20002",
+      "esperados": [
+        {
+          "id": 20002,
+          "nome": "praca carlos gomes par"
+        },
+        {
+          "id": 10002,
+          "nome": "praca carlos gomes impar"
+        },
+        {
+          "id": 20001,
+          "nome": "praca da se  par"
+        },
+        {
+          "id": 20004,
+          "nome": "praca da republica par"
+        },
+        {
+          "id": 20003,
+          "nome": "praca antonio prado par"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d35101bcdc42baf7720c",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "travessa do comercio",
+      "ids_relevantes": "17",
+      "esperados": [
+        {
+          "id": 17,
+          "nome": "travessa do commercio"
+        },
+        {
+          "id": 25,
+          "nome": "travessa do mercado"
+        },
+        {
+          "id": 228,
+          "nome": "travessa do quartel"
+        },
+        {
+          "id": 3059,
+          "nome": "Avenida Mercedes"
+        },
+        {
+          "id": 151,
+          "nome": "travessa malvina"
+        }
+      ]
+    },
+    {
+      "id_consulta": "80c74146c8d0e602f287",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua humaitá",
+      "ids_relevantes": "396",
+      "esperados": [
+        {
+          "id": 396,
+          "nome": "rua humayta"
+        },
+        {
+          "id": 324,
+          "nome": "rua capitao mor jeronymo leitao"
+        },
+        {
+          "id": 20,
+          "nome": "rua direita"
+        },
+        {
+          "id": 107,
+          "nome": "rua itambe"
+        },
+        {
+          "id": 121,
+          "nome": "rua itacolomy"
+        }
+      ]
+    },
+    {
+      "id_consulta": "8208a1abddf2de00ff63",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua santa ifigênia",
+      "ids_relevantes": "321",
+      "esperados": [
+        {
+          "id": 321,
+          "nome": "rua santa ephigenia"
+        },
+        {
+          "id": 20018,
+          "nome": "largo santa efigenia par"
+        },
+        {
+          "id": 23,
+          "nome": "viadcuto santa ephigenia"
+        },
+        {
+          "id": 10018,
+          "nome": "largo santa efigenia impar"
+        },
+        {
+          "id": 3099,
+          "nome": "Avenida Santa Marina"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a98ddaad83bdce119f56",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "beco dos aflitos",
+      "ids_relevantes": "440",
+      "esperados": [
+        {
+          "id": 440,
+          "nome": "becco dos afflictos"
+        },
+        {
+          "id": 221,
+          "nome": "rua dos carmelitas"
+        },
+        {
+          "id": 197,
+          "nome": "rua correa dos santos"
+        },
+        {
+          "id": 276,
+          "nome": "rua rodrigues dos santos"
+        },
+        {
+          "id": 1753,
+          "nome": "Rua Iquitos"
+        }
+      ]
+    },
+    {
+      "id_consulta": "afff5927e8d655fc395b",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua barão de tatuí",
+      "ids_relevantes": "299",
+      "esperados": [
+        {
+          "id": 299,
+          "nome": "rua barao de tatuhy"
+        },
+        {
+          "id": 3052,
+          "nome": "Rua Araçatuba"
+        },
+        {
+          "id": 9,
+          "nome": "rua barao de paranapiacaba"
+        },
+        {
+          "id": 478,
+          "nome": "rua barao de jaguara"
+        },
+        {
+          "id": 32,
+          "nome": "rua barao de duprat"
+        }
+      ]
+    },
+    {
+      "id_consulta": "b5b02ce83f16575ae94e",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua artur azevedo",
+      "ids_relevantes": "1743",
+      "esperados": [
+        {
+          "id": 1743,
+          "nome": "Rua Arthur Azevedo"
+        },
+        {
+          "id": 131,
+          "nome": "rua azevedo junior"
+        },
+        {
+          "id": 365,
+          "nome": "rua alvares de azevedo"
+        },
+        {
+          "id": 3095,
+          "nome": "Rua Bortuedos"
+        },
+        {
+          "id": 185,
+          "nome": "alameda cleveland"
+        }
+      ]
+    },
+    {
+      "id_consulta": "5edd473cf3e093a607e3",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua do triunfo",
+      "ids_relevantes": "314",
+      "esperados": [
+        {
+          "id": 314,
+          "nome": "rua do triumpho"
+        },
+        {
+          "id": 645,
+          "nome": "rua dos trilhos"
+        },
+        {
+          "id": 40,
+          "nome": "rua do tesouro"
+        },
+        {
+          "id": 50,
+          "nome": "rua do seminario"
+        },
+        {
+          "id": 74,
+          "nome": "rua do ouvidor"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2c024ab54f0858432789",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua bela cintra",
+      "ids_relevantes": "387",
+      "esperados": [
+        {
+          "id": 387,
+          "nome": "rua bella cintra"
+        },
+        {
+          "id": 293,
+          "nome": "rua ana cintra"
+        },
+        {
+          "id": 200,
+          "nome": "rua carmo cintra"
+        },
+        {
+          "id": 474,
+          "nome": "rua coronel cintra"
+        },
+        {
+          "id": 624,
+          "nome": "rua manoel cintra"
+        }
+      ]
+    },
+    {
+      "id_consulta": "892d368a1a46b1699713",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "avenida higienopolis",
+      "ids_relevantes": "109",
+      "esperados": [
+        {
+          "id": 109,
+          "nome": "avenida hygienopolis"
+        },
+        {
+          "id": 2022,
+          "nome": "avenida paulista"
+        },
+        {
+          "id": 171,
+          "nome": "avenida angelica"
+        },
+        {
+          "id": 193,
+          "nome": "avenida rudge"
+        },
+        {
+          "id": 215,
+          "nome": "avenida tiradentes"
+        }
+      ]
+    },
+    {
+      "id_consulta": "73e2e36c10d723d13d76",
+      "particao": "complementar",
+      "tipo": "grafia_documentada",
+      "consulta": "rua teodoro sampaio",
+      "ids_relevantes": "1730",
+      "esperados": [
+        {
+          "id": 1730,
+          "nome": "rua theodoro sampaio"
+        },
+        {
+          "id": 368,
+          "nome": "rua sampaio moreira"
+        },
+        {
+          "id": 2005,
+          "nome": "rua carlos sampaio"
+        },
+        {
+          "id": 218,
+          "nome": "rua joao theodoro"
+        },
+        {
+          "id": 83,
+          "nome": "rua doutor theodoro bayma"
+        }
+      ]
+    },
+    {
+      "id_consulta": "4a40e4145915f818f4ae",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua paulo afonso",
+      "ids_relevantes": "147",
+      "esperados": [
+        {
+          "id": 147,
+          "nome": "rua paulo affonso"
+        },
+        {
+          "id": 435,
+          "nome": "rua sao paulo"
+        },
+        {
+          "id": 212,
+          "nome": "rua afonso penna"
+        },
+        {
+          "id": 449,
+          "nome": "travessa sao paulo"
+        },
+        {
+          "id": 56,
+          "nome": "rua senador paulo egydio"
+        }
+      ]
+    },
+    {
+      "id_consulta": "21bc45b9b83f125137cd",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua tome de souza",
+      "ids_relevantes": "3023",
+      "esperados": [
+        {
+          "id": 3023,
+          "nome": "Rua Thome de Souza"
+        },
+        {
+          "id": 332,
+          "nome": "rua dom francisco de souza"
+        },
+        {
+          "id": 347,
+          "nome": "rua doutor claudio de souza"
+        },
+        {
+          "id": 163,
+          "nome": "rua souza lima"
+        },
+        {
+          "id": 335,
+          "nome": "rua paula souza"
+        }
+      ]
+    },
+    {
+      "id_consulta": "4656984c7ce53a35f53c",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua arthur mota",
+      "ids_relevantes": "594",
+      "esperados": [
+        {
+          "id": 594,
+          "nome": "rua arthur motta"
+        },
+        {
+          "id": 1743,
+          "nome": "Rua Arthur Azevedo"
+        },
+        {
+          "id": 2014,
+          "nome": "rua arthur prado"
+        },
+        {
+          "id": 88,
+          "nome": "rua cezario motta"
+        },
+        {
+          "id": 1740,
+          "nome": "Rua Bartholomeu"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d6a5d7e8303cde040446",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua itariri",
+      "ids_relevantes": "262",
+      "esperados": [
+        {
+          "id": 262,
+          "nome": "rua itariry"
+        },
+        {
+          "id": 393,
+          "nome": "rua itarare"
+        },
+        {
+          "id": 324,
+          "nome": "rua capitao mor jeronymo leitao"
+        },
+        {
+          "id": 20,
+          "nome": "rua direita"
+        },
+        {
+          "id": 107,
+          "nome": "rua itambe"
+        }
+      ]
+    },
+    {
+      "id_consulta": "33b671dbcdceb05a42f2",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "beco paysandu",
+      "ids_relevantes": "52",
+      "esperados": [
+        {
+          "id": 52,
+          "nome": "becco paysandu"
+        },
+        {
+          "id": 10016,
+          "nome": "largo do paysandu impar"
+        },
+        {
+          "id": 20016,
+          "nome": "largo do paysandu par"
+        },
+        {
+          "id": 348,
+          "nome": "rua da economisadora"
+        },
+        {
+          "id": 361,
+          "nome": "becco da fabrica"
+        }
+      ]
+    },
+    {
+      "id_consulta": "eff248cf7ff53ac78a60",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua senador paulo egidio",
+      "ids_relevantes": "56",
+      "esperados": [
+        {
+          "id": 56,
+          "nome": "rua senador paulo egydio"
+        },
+        {
+          "id": 147,
+          "nome": "rua paulo affonso"
+        },
+        {
+          "id": 435,
+          "nome": "rua sao paulo"
+        },
+        {
+          "id": 449,
+          "nome": "travessa sao paulo"
+        },
+        {
+          "id": 11,
+          "nome": "rua senador feijo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "429a7188bdc1b7bc1cba",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua javari",
+      "ids_relevantes": "619",
+      "esperados": [
+        {
+          "id": 619,
+          "nome": "rua javary"
+        },
+        {
+          "id": 97,
+          "nome": "rua avanhandava"
+        },
+        {
+          "id": 700,
+          "nome": "rua javahes"
+        },
+        {
+          "id": 562,
+          "nome": "rua evaristo da veiga"
+        },
+        {
+          "id": 102,
+          "nome": "rua gravatahy"
+        }
+      ]
+    },
+    {
+      "id_consulta": "cf1323282f4d4621dfab",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua catarina brahyda",
+      "ids_relevantes": "644",
+      "esperados": [
+        {
+          "id": 644,
+          "nome": "rua catharina brahyda"
+        },
+        {
+          "id": 102,
+          "nome": "rua gravatahy"
+        },
+        {
+          "id": 3069,
+          "nome": "Rua Corumbatahy"
+        },
+        {
+          "id": 2043,
+          "nome": "rua cincinato braga"
+        },
+        {
+          "id": 286,
+          "nome": "rua parahyba"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a43ab7dbec3fbacff4e9",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua carvalho melo",
+      "ids_relevantes": "1761",
+      "esperados": [
+        {
+          "id": 1761,
+          "nome": "Rua Carvalho Mello"
+        },
+        {
+          "id": 181,
+          "nome": "rua carvalho"
+        },
+        {
+          "id": 221,
+          "nome": "rua dos carmelitas"
+        },
+        {
+          "id": 65,
+          "nome": "rua alvaro de carvalho"
+        },
+        {
+          "id": 2021,
+          "nome": "rua martinho de carvalho"
+        }
+      ]
+    },
+    {
+      "id_consulta": "5b13f08a9c7522e5a25e",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua artur prado",
+      "ids_relevantes": "2014",
+      "esperados": [
+        {
+          "id": 2014,
+          "nome": "rua arthur prado"
+        },
+        {
+          "id": 99,
+          "nome": "rua martinho prado"
+        },
+        {
+          "id": 301,
+          "nome": "rua doutor martinico prado"
+        },
+        {
+          "id": 95,
+          "nome": "rua caio prado"
+        },
+        {
+          "id": 685,
+          "nome": "rua newton prado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a794e92d7276eaa83314",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. do oratorio",
+      "ids_relevantes": "632",
+      "esperados": [
+        {
+          "id": 632,
+          "nome": "rua do oratorio"
+        },
+        {
+          "id": 50,
+          "nome": "rua do seminario"
+        },
+        {
+          "id": 605,
+          "nome": "rua pires do rio"
+        },
+        {
+          "id": 184,
+          "nome": "rua visconde do rio branco"
+        },
+        {
+          "id": 282,
+          "nome": "rua doutor virgilio do nascimento"
+        }
+      ]
+    },
+    {
+      "id_consulta": "16826e5e6478681f8936",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. epitacio pessoa",
+      "ids_relevantes": "82",
+      "esperados": [
+        {
+          "id": 82,
+          "nome": "rua epitacio pessoa"
+        },
+        {
+          "id": 17,
+          "nome": "travessa do commercio"
+        },
+        {
+          "id": 485,
+          "nome": "travessa placidina"
+        },
+        {
+          "id": 687,
+          "nome": "rua itapirapes"
+        },
+        {
+          "id": 284,
+          "nome": "rua capitao mor passos"
+        }
+      ]
+    },
+    {
+      "id_consulta": "b7b73b7732e97a79246a",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. rodolpho miranda",
+      "ids_relevantes": "726",
+      "esperados": [
+        {
+          "id": 726,
+          "nome": "rua rodolpho miranda"
+        },
+        {
+          "id": 217,
+          "nome": "rua jorge miranda"
+        },
+        {
+          "id": 64,
+          "nome": "rua joao adolpho"
+        },
+        {
+          "id": 169,
+          "nome": "rua adolpho gordo"
+        },
+        {
+          "id": 314,
+          "nome": "rua do triumpho"
+        }
+      ]
+    },
+    {
+      "id_consulta": "3cc727e8731f76ea5940",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. maria carolina",
+      "ids_relevantes": "1762",
+      "esperados": [
+        {
+          "id": 1762,
+          "nome": "Rua Maria Carolina"
+        },
+        {
+          "id": 520,
+          "nome": "rua maria marcolina"
+        },
+        {
+          "id": 529,
+          "nome": "rua maria joaquina"
+        },
+        {
+          "id": 39,
+          "nome": "rua maria benedicta"
+        },
+        {
+          "id": 87,
+          "nome": "rua maria antonia"
+        }
+      ]
+    },
+    {
+      "id_consulta": "09e7e758b4ecb54afdc1",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. consorte candiao de oliveira",
+      "ids_relevantes": "3094",
+      "esperados": [
+        {
+          "id": 3094,
+          "nome": "Rua Consorte Candiao de Oliveira"
+        },
+        {
+          "id": 3085,
+          "nome": "Rua Consorte Ribas"
+        },
+        {
+          "id": 3091,
+          "nome": "Rua Consorte Olegario"
+        },
+        {
+          "id": 165,
+          "nome": "rua lopes de oliveira"
+        },
+        {
+          "id": 495,
+          "nome": "rua benjamin de oliveira"
+        }
+      ]
+    },
+    {
+      "id_consulta": "8204ac85b2b6ff780e4d",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. tornelero",
+      "ids_relevantes": "3050",
+      "esperados": [
+        {
+          "id": 3050,
+          "nome": "Rua Tornelero"
+        },
+        {
+          "id": 1579,
+          "nome": "R Simão Alvares"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        },
+        {
+          "id": 290,
+          "nome": "rua miller"
+        },
+        {
+          "id": 311,
+          "nome": "rua victoria"
+        }
+      ]
+    },
+    {
+      "id_consulta": "b1c229bd54ecc9532d93",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "ld. da memoria",
+      "ids_relevantes": "75",
+      "esperados": [
+        {
+          "id": 75,
+          "nome": "ladeira da memoria"
+        },
+        {
+          "id": 10008,
+          "nome": "largo da memoria impar"
+        },
+        {
+          "id": 439,
+          "nome": "rua da gloria"
+        },
+        {
+          "id": 156,
+          "nome": "rua da alegria"
+        },
+        {
+          "id": 311,
+          "nome": "rua victoria"
+        }
+      ]
+    },
+    {
+      "id_consulta": "514fb3f5a0d0aa7d4398",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. veiga filho",
+      "ids_relevantes": "295",
+      "esperados": [
+        {
+          "id": 295,
+          "nome": "rua veiga filho"
+        },
+        {
+          "id": 562,
+          "nome": "rua evaristo da veiga"
+        },
+        {
+          "id": 645,
+          "nome": "rua dos trilhos"
+        },
+        {
+          "id": 652,
+          "nome": "rua julio de castilho"
+        },
+        {
+          "id": 1579,
+          "nome": "R Simão Alvares"
+        }
+      ]
+    },
+    {
+      "id_consulta": "cf5ab798fa94cbb1cb56",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. andrade reis",
+      "ids_relevantes": "483",
+      "esperados": [
+        {
+          "id": 483,
+          "nome": "rua andrade reis"
+        },
+        {
+          "id": 261,
+          "nome": "rua monsenhor andrade"
+        },
+        {
+          "id": 3079,
+          "nome": "Rua Andrade Neves"
+        },
+        {
+          "id": 72,
+          "nome": "rua quirino de andrade"
+        },
+        {
+          "id": 369,
+          "nome": "rua correa de andrade"
+        }
+      ]
+    },
+    {
+      "id_consulta": "46ac005e306215509d50",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. santa theresa",
+      "ids_relevantes": "12",
+      "esperados": [
+        {
+          "id": 12,
+          "nome": "rua santa theresa"
+        },
+        {
+          "id": 307,
+          "nome": "rua maria theresa"
+        },
+        {
+          "id": 1579,
+          "nome": "R Simão Alvares"
+        },
+        {
+          "id": 23,
+          "nome": "viadcuto santa ephigenia"
+        },
+        {
+          "id": 89,
+          "nome": "rua santa isabel"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2c4c2cfd81946ea0f066",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua aerico basiliense",
+      "ids_relevantes": "364",
+      "esperados": [
+        {
+          "id": 364,
+          "nome": "rua americo brasiliense"
+        },
+        {
+          "id": 597,
+          "nome": "villa silverio jordao"
+        },
+        {
+          "id": 26,
+          "nome": "rua frederico alvarenga"
+        },
+        {
+          "id": 306,
+          "nome": "rua frederico steidel"
+        },
+        {
+          "id": 501,
+          "nome": "rua frederico abranches"
+        }
+      ]
+    },
+    {
+      "id_consulta": "5949b531f40c9a4c7932",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua crrea de adrade",
+      "ids_relevantes": "369",
+      "esperados": [
+        {
+          "id": 369,
+          "nome": "rua correa de andrade"
+        },
+        {
+          "id": 204,
+          "nome": "rua correa de mello"
+        },
+        {
+          "id": 72,
+          "nome": "rua quirino de andrade"
+        },
+        {
+          "id": 703,
+          "nome": "rua baroneza de porto carreiro"
+        },
+        {
+          "id": 197,
+          "nome": "rua correa dos santos"
+        }
+      ]
+    },
+    {
+      "id_consulta": "801f610ef7d08aa24c32",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "praca atonio pado par",
+      "ids_relevantes": "20003",
+      "esperados": [
+        {
+          "id": 20003,
+          "nome": "praca antonio prado par"
+        },
+        {
+          "id": 10003,
+          "nome": "praca antonio prado impar"
+        },
+        {
+          "id": 20001,
+          "nome": "praca da se  par"
+        },
+        {
+          "id": 20004,
+          "nome": "praca da republica par"
+        },
+        {
+          "id": 20002,
+          "nome": "praca carlos gomes par"
+        }
+      ]
+    },
+    {
+      "id_consulta": "48b545c7ecf792ab8fd1",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua gbriella sa brbosa",
+      "ids_relevantes": "268",
+      "esperados": [
+        {
+          "id": 268,
+          "nome": "rua gabriella sa barbosa"
+        },
+        {
+          "id": 342,
+          "nome": "rua sa barbosa"
+        },
+        {
+          "id": 267,
+          "nome": "rua amelia sa barbosa"
+        },
+        {
+          "id": 269,
+          "nome": "rua odette sa barbosa"
+        },
+        {
+          "id": 270,
+          "nome": "rua mathilde sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "7bb60fae1c65d246d6a7",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua dutor pcheco e silva",
+      "ids_relevantes": "283",
+      "esperados": [
+        {
+          "id": 283,
+          "nome": "rua doutor pacheco e silva"
+        },
+        {
+          "id": 428,
+          "nome": "rua doutor rodrigo silva"
+        },
+        {
+          "id": 575,
+          "nome": "rua doutor silva leme"
+        },
+        {
+          "id": 289,
+          "nome": "rua silva telles"
+        },
+        {
+          "id": 366,
+          "nome": "rua fernandes silva"
+        }
+      ]
+    },
+    {
+      "id_consulta": "b964bf1fdcaba72eee6f",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua jse kuer",
+      "ids_relevantes": "566",
+      "esperados": [
+        {
+          "id": 566,
+          "nome": "rua jose kauer"
+        },
+        {
+          "id": 460,
+          "nome": "rua tabatinguera"
+        },
+        {
+          "id": 716,
+          "nome": "rua anhanguera"
+        },
+        {
+          "id": 170,
+          "nome": "rua albuquerque lins"
+        },
+        {
+          "id": 259,
+          "nome": "rua jurua"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9fa957bb1761ec0cd9f3",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua bigadeiro glvao",
+      "ids_relevantes": "172",
+      "esperados": [
+        {
+          "id": 172,
+          "nome": "rua brigadeiro galvao"
+        },
+        {
+          "id": 173,
+          "nome": "alameda ribeiro da silva"
+        },
+        {
+          "id": 470,
+          "nome": "villa alvarenga"
+        },
+        {
+          "id": 1579,
+          "nome": "R Simão Alvares"
+        },
+        {
+          "id": 16,
+          "nome": "rua alvares penteado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c40a4dadbbc0aa385ac9",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua vnte e cnco de marco",
+      "ids_relevantes": "24",
+      "esperados": [
+        {
+          "id": 24,
+          "nome": "rua vinte e cinco de marco"
+        },
+        {
+          "id": 352,
+          "nome": "rua vinte e cinco de janeiro"
+        },
+        {
+          "id": 3009,
+          "nome": "Rua Marco Aurelio"
+        },
+        {
+          "id": 678,
+          "nome": "rua marquez de abrantes"
+        },
+        {
+          "id": 54,
+          "nome": "rua vinte e quatro de maio"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d9a03c02c10f7aac651c",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua atonio rposo",
+      "ids_relevantes": "3038",
+      "esperados": [
+        {
+          "id": 3038,
+          "nome": "Rua Antonio Raposo"
+        },
+        {
+          "id": 345,
+          "nome": "rua possidonio ignacio"
+        },
+        {
+          "id": 633,
+          "nome": "rua padre raposo"
+        },
+        {
+          "id": 337,
+          "nome": "rua antonio paes"
+        },
+        {
+          "id": 389,
+          "nome": "rua antonio carlos"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a9c231e2348f498d4425",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua suza cldas",
+      "ids_relevantes": "671",
+      "esperados": [
+        {
+          "id": 671,
+          "nome": "rua souza caldas"
+        },
+        {
+          "id": 163,
+          "nome": "rua souza lima"
+        },
+        {
+          "id": 335,
+          "nome": "rua paula souza"
+        },
+        {
+          "id": 3023,
+          "nome": "Rua Thome de Souza"
+        },
+        {
+          "id": 233,
+          "nome": "rua dos andradas"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a398e11afd0cd75c5c5c",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua joao ttheodoro",
+      "ids_relevantes": "218",
+      "esperados": [
+        {
+          "id": 218,
+          "nome": "rua joao theodoro"
+        },
+        {
+          "id": 3,
+          "nome": "rua joao briccola"
+        },
+        {
+          "id": 64,
+          "nome": "rua joao adolpho"
+        },
+        {
+          "id": 188,
+          "nome": "rua joao monteiro"
+        },
+        {
+          "id": 250,
+          "nome": "rua joao jacyntho"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d762e7f8d441a64e6c43",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua tordesilhaas",
+      "ids_relevantes": "3070",
+      "esperados": [
+        {
+          "id": 3070,
+          "nome": "Rua Tordesilhas"
+        },
+        {
+          "id": 366,
+          "nome": "rua fernandes silva"
+        },
+        {
+          "id": 428,
+          "nome": "rua doutor rodrigo silva"
+        },
+        {
+          "id": 575,
+          "nome": "rua doutor silva leme"
+        },
+        {
+          "id": 283,
+          "nome": "rua doutor pacheco e silva"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a482afa34e4442e00762",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "praca antonio praddo impar",
+      "ids_relevantes": "10003",
+      "esperados": [
+        {
+          "id": 10003,
+          "nome": "praca antonio prado impar"
+        },
+        {
+          "id": 20003,
+          "nome": "praca antonio prado par"
+        },
+        {
+          "id": 10005,
+          "nome": "praca eduardo rudge impar"
+        },
+        {
+          "id": 10001,
+          "nome": "praca da se impar"
+        },
+        {
+          "id": 10004,
+          "nome": "praca da republica impar"
+        }
+      ]
+    },
+    {
+      "id_consulta": "874d7715c7e846efed32",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua joao perreira",
+      "ids_relevantes": "3028",
+      "esperados": [
+        {
+          "id": 3028,
+          "nome": "Rua Joao Pereira"
+        },
+        {
+          "id": 188,
+          "nome": "rua joao monteiro"
+        },
+        {
+          "id": 617,
+          "nome": "rua joao antônio de oliveira"
+        },
+        {
+          "id": 613,
+          "nome": "rua conselheiro joao alfredo"
+        },
+        {
+          "id": 3,
+          "nome": "rua joao briccola"
+        }
+      ]
+    },
+    {
+      "id_consulta": "6ddd013e92224a4b3da7",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua do bbosque",
+      "ids_relevantes": "715",
+      "esperados": [
+        {
+          "id": 715,
+          "nome": "rua do bosque"
+        },
+        {
+          "id": 170,
+          "nome": "rua albuquerque lins"
+        },
+        {
+          "id": 139,
+          "nome": "rua queiroga"
+        },
+        {
+          "id": 3089,
+          "nome": "Rua Coaqueira"
+        },
+        {
+          "id": 342,
+          "nome": "rua sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2ce84bc5a07605c11a38",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua mariaa benedicta",
+      "ids_relevantes": "39",
+      "esperados": [
+        {
+          "id": 39,
+          "nome": "rua maria benedicta"
+        },
+        {
+          "id": 311,
+          "nome": "rua victoria"
+        },
+        {
+          "id": 604,
+          "nome": "rua benedicto barbosa"
+        },
+        {
+          "id": 271,
+          "nome": "rua teresa benedita sa barbosa"
+        },
+        {
+          "id": 272,
+          "nome": "rua benecdita sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "88067d0e0d343e4ab598",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua iitapirapes",
+      "ids_relevantes": "687",
+      "esperados": [
+        {
+          "id": 687,
+          "nome": "rua itapirapes"
+        },
+        {
+          "id": 476,
+          "nome": "rua itapira"
+        },
+        {
+          "id": 643,
+          "nome": "rua itapiraçaba"
+        },
+        {
+          "id": 2025,
+          "nome": "rua itapeva"
+        },
+        {
+          "id": 3065,
+          "nome": "Rua Guararapes"
+        }
+      ]
+    },
+    {
+      "id_consulta": "725b10aae93529eaad68",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua cristovaam goncalves",
+      "ids_relevantes": "1769",
+      "esperados": [
+        {
+          "id": 1769,
+          "nome": "Rua Cristovam Gonçalves"
+        },
+        {
+          "id": 281,
+          "nome": "rua mendes gonçalves"
+        },
+        {
+          "id": 535,
+          "nome": "rua ricardo gonçalves"
+        },
+        {
+          "id": 573,
+          "nome": "rua gonçalves dias"
+        },
+        {
+          "id": 59,
+          "nome": "rua christovam colombo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2fbc174f13c3103f4fa2",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua gabriiella sa barbosa",
+      "ids_relevantes": "268",
+      "esperados": [
+        {
+          "id": 268,
+          "nome": "rua gabriella sa barbosa"
+        },
+        {
+          "id": 342,
+          "nome": "rua sa barbosa"
+        },
+        {
+          "id": 267,
+          "nome": "rua amelia sa barbosa"
+        },
+        {
+          "id": 269,
+          "nome": "rua odette sa barbosa"
+        },
+        {
+          "id": 270,
+          "nome": "rua mathilde sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "ec0a5ba3cebd736e117f",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua visconde da lagunaa",
+      "ids_relevantes": "625",
+      "esperados": [
+        {
+          "id": 625,
+          "nome": "rua visconde da laguna"
+        },
+        {
+          "id": 158,
+          "nome": "rua visconde de parnahyba"
+        },
+        {
+          "id": 546,
+          "nome": "rua visconde de abaete"
+        },
+        {
+          "id": 702,
+          "nome": "rua visconde de taway"
+        },
+        {
+          "id": 103,
+          "nome": "rua visconde de ouro preto"
+        }
+      ]
+    },
+    {
+      "id_consulta": "be3d46e7dee89e8c7349",
+      "particao": "teste",
+      "tipo": "normalizacao",
+      "consulta": "rua omaguas",
+      "ids_relevantes": "1747",
+      "esperados": [
+        {
+          "id": 1747,
+          "nome": "Rua Omaguás"
+        },
+        {
+          "id": 245,
+          "nome": "rua iguassu"
+        },
+        {
+          "id": 296,
+          "nome": "rua jaguaribe"
+        },
+        {
+          "id": 528,
+          "nome": "rua araguaya"
+        },
+        {
+          "id": 692,
+          "nome": "rua jaragua"
+        }
+      ]
+    },
+    {
+      "id_consulta": "5bc1ecc50cdb5f3952d0",
+      "particao": "teste",
+      "tipo": "normalizacao",
+      "consulta": "rua cristovam goncalves",
+      "ids_relevantes": "1769",
+      "esperados": [
+        {
+          "id": 1769,
+          "nome": "Rua Cristovam Gonçalves"
+        },
+        {
+          "id": 281,
+          "nome": "rua mendes gonçalves"
+        },
+        {
+          "id": 535,
+          "nome": "rua ricardo gonçalves"
+        },
+        {
+          "id": 573,
+          "nome": "rua gonçalves dias"
+        },
+        {
+          "id": 59,
+          "nome": "rua christovam colombo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "64cacd52cb21a2c2d92f",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua newto prado",
+      "ids_relevantes": "685",
+      "esperados": [
+        {
+          "id": 685,
+          "nome": "rua newton prado"
+        },
+        {
+          "id": 95,
+          "nome": "rua caio prado"
+        },
+        {
+          "id": 99,
+          "nome": "rua martinho prado"
+        },
+        {
+          "id": 2014,
+          "nome": "rua arthur prado"
+        },
+        {
+          "id": 2034,
+          "nome": "rua vicente prado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "dcf0a5b7998660ede74f",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua auror",
+      "ids_relevantes": "304",
+      "esperados": [
+        {
+          "id": 304,
+          "nome": "rua aurora"
+        },
+        {
+          "id": 2004,
+          "nome": "rua bororos"
+        },
+        {
+          "id": 3001,
+          "nome": "rua mauricina"
+        },
+        {
+          "id": 3013,
+          "nome": "Rua Aurelia"
+        },
+        {
+          "id": 40,
+          "nome": "rua do tesouro"
+        }
+      ]
+    },
+    {
+      "id_consulta": "370378ca026daa037f6c",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua viscode de taway",
+      "ids_relevantes": "702",
+      "esperados": [
+        {
+          "id": 702,
+          "nome": "rua visconde de taway"
+        },
+        {
+          "id": 158,
+          "nome": "rua visconde de parnahyba"
+        },
+        {
+          "id": 546,
+          "nome": "rua visconde de abaete"
+        },
+        {
+          "id": 103,
+          "nome": "rua visconde de ouro preto"
+        },
+        {
+          "id": 55,
+          "nome": "rua de sao francisco"
+        }
+      ]
+    },
+    {
+      "id_consulta": "1036c72de1a23dcb3861",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua gilhen",
+      "ids_relevantes": "598",
+      "esperados": [
+        {
+          "id": 598,
+          "nome": "rua guilhen"
+        },
+        {
+          "id": 238,
+          "nome": "rua guilherme maw"
+        },
+        {
+          "id": 3034,
+          "nome": "Rua Felix Guilhem"
+        },
+        {
+          "id": 148,
+          "nome": "rua cavalheiro"
+        },
+        {
+          "id": 3070,
+          "nome": "Rua Tordesilhas"
+        }
+      ]
+    },
+    {
+      "id_consulta": "66014a1761abbf49a6e5",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua suza caldas",
+      "ids_relevantes": "671",
+      "esperados": [
+        {
+          "id": 671,
+          "nome": "rua souza caldas"
+        },
+        {
+          "id": 335,
+          "nome": "rua paula souza"
+        },
+        {
+          "id": 552,
+          "nome": "rua saldanha marinho"
+        },
+        {
+          "id": 3076,
+          "nome": "Rua Saldanha da Gama"
+        },
+        {
+          "id": 711,
+          "nome": "rua garibaldi"
+        }
+      ]
+    },
+    {
+      "id_consulta": "f185b849d5759093c4d7",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua ribeiro de lim",
+      "ids_relevantes": "201",
+      "esperados": [
+        {
+          "id": 201,
+          "nome": "rua ribeiro de lima"
+        },
+        {
+          "id": 437,
+          "nome": "rua thomaz ribeiro de lima"
+        },
+        {
+          "id": 182,
+          "nome": "rua barao de limeira"
+        },
+        {
+          "id": 114,
+          "nome": "rua barata ribeiro"
+        },
+        {
+          "id": 375,
+          "nome": "rua julio ribeiro"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9c649abe6844e92667fc",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua sebastiao de castr",
+      "ids_relevantes": "574",
+      "esperados": [
+        {
+          "id": 574,
+          "nome": "rua sebastiao de castro"
+        },
+        {
+          "id": 513,
+          "nome": "rua sebastiao pereira"
+        },
+        {
+          "id": 3044,
+          "nome": "Rua Sebastiao Velho"
+        },
+        {
+          "id": 652,
+          "nome": "rua julio de castilho"
+        },
+        {
+          "id": 487,
+          "nome": "rua ernersto de castro"
+        }
+      ]
+    },
+    {
+      "id_consulta": "de603fbff3c0db61ea34",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua do gazmetro",
+      "ids_relevantes": "143",
+      "esperados": [
+        {
+          "id": 143,
+          "nome": "rua do gazometro"
+        },
+        {
+          "id": 3077,
+          "nome": "Rua Amphitheatro"
+        },
+        {
+          "id": 178,
+          "nome": "rua lopes trovao"
+        },
+        {
+          "id": 2020,
+          "nome": "rua maestro cardim"
+        },
+        {
+          "id": 487,
+          "nome": "rua ernersto de castro"
+        }
+      ]
+    },
+    {
+      "id_consulta": "cb0f3d0c30193840db8e",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua anatacio",
+      "ids_relevantes": "3026",
+      "esperados": [
+        {
+          "id": 3026,
+          "nome": "Rua Anastacio"
+        },
+        {
+          "id": 82,
+          "nome": "rua epitacio pessoa"
+        },
+        {
+          "id": 345,
+          "nome": "rua possidonio ignacio"
+        },
+        {
+          "id": 499,
+          "nome": "rua jose bonifacio"
+        },
+        {
+          "id": 608,
+          "nome": "rua ignacio de araujo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "b5c5fe743ebb63f5f7f5",
+      "particao": "teste",
+      "tipo": "omissao",
+      "consulta": "rua joao ereira",
+      "ids_relevantes": "3028",
+      "esperados": [
+        {
+          "id": 3028,
+          "nome": "Rua Joao Pereira"
+        },
+        {
+          "id": 188,
+          "nome": "rua joao monteiro"
+        },
+        {
+          "id": 617,
+          "nome": "rua joao antônio de oliveira"
+        },
+        {
+          "id": 613,
+          "nome": "rua conselheiro joao alfredo"
+        },
+        {
+          "id": 3,
+          "nome": "rua joao briccola"
+        }
+      ]
+    },
+    {
+      "id_consulta": "bd7c6ab251f047eecf68",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua anacleto monsenhor",
+      "ids_relevantes": "124",
+      "esperados": [
+        {
+          "id": 124,
+          "nome": "rua monsenhor anacleto"
+        },
+        {
+          "id": 261,
+          "nome": "rua monsenhor andrade"
+        },
+        {
+          "id": 2016,
+          "nome": "rua monsenhor passalaqua"
+        },
+        {
+          "id": 616,
+          "nome": "rua monsenhor joao felipo"
+        },
+        {
+          "id": 157,
+          "nome": "rua parana"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a6005ed117c2e1cef6be",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua bento sao de",
+      "ids_relevantes": "21",
+      "esperados": [
+        {
+          "id": 21,
+          "nome": "rua de sao bento"
+        },
+        {
+          "id": 10011,
+          "nome": "largo sao bento impar"
+        },
+        {
+          "id": 20011,
+          "nome": "largo sao bento par"
+        },
+        {
+          "id": 180,
+          "nome": "rua sao vicente de paulo"
+        },
+        {
+          "id": 402,
+          "nome": "rua sao vicente"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c6483dd6c891ded9dc39",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "travessa penna tenente",
+      "ids_relevantes": "691",
+      "esperados": [
+        {
+          "id": 691,
+          "nome": "travessa tenente penna"
+        },
+        {
+          "id": 696,
+          "nome": "rua tenente penna"
+        },
+        {
+          "id": 570,
+          "nome": "travessa da intendencia"
+        },
+        {
+          "id": 330,
+          "nome": "travessa beneficiencia portugueza"
+        },
+        {
+          "id": 452,
+          "nome": "travessa dos estudantes"
+        }
+      ]
+    },
+    {
+      "id_consulta": "ec31f0d18f1ed57dcd89",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua leme silva doutor",
+      "ids_relevantes": "575",
+      "esperados": [
+        {
+          "id": 575,
+          "nome": "rua doutor silva leme"
+        },
+        {
+          "id": 428,
+          "nome": "rua doutor rodrigo silva"
+        },
+        {
+          "id": 283,
+          "nome": "rua doutor pacheco e silva"
+        },
+        {
+          "id": 725,
+          "nome": "rua salvador leme"
+        },
+        {
+          "id": 583,
+          "nome": "rua doutor clementino"
+        }
+      ]
+    },
+    {
+      "id_consulta": "8c6d6ca2df5b91d4ba95",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua olegario consorte",
+      "ids_relevantes": "3091",
+      "esperados": [
+        {
+          "id": 3091,
+          "nome": "Rua Consorte Olegario"
+        },
+        {
+          "id": 3085,
+          "nome": "Rua Consorte Ribas"
+        },
+        {
+          "id": 376,
+          "nome": "rua conselheiro belisario"
+        },
+        {
+          "id": 3094,
+          "nome": "Rua Consorte Candiao de Oliveira"
+        },
+        {
+          "id": 251,
+          "nome": "rua affonso arinos"
+        }
+      ]
+    },
+    {
+      "id_consulta": "1eaf80b93dce839ab691",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua rodrigues domingo",
+      "ids_relevantes": "3102",
+      "esperados": [
+        {
+          "id": 3102,
+          "nome": "Rua Domingo Rodrigues"
+        },
+        {
+          "id": 235,
+          "nome": "rua dutra rodrigues"
+        },
+        {
+          "id": 2039,
+          "nome": "rua barbosa rodrigues"
+        },
+        {
+          "id": 276,
+          "nome": "rua rodrigues dos santos"
+        },
+        {
+          "id": 460,
+          "nome": "rua tabatinguera"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a680c9bfa8c0e234491a",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua bosque do",
+      "ids_relevantes": "715",
+      "esperados": [
+        {
+          "id": 715,
+          "nome": "rua do bosque"
+        },
+        {
+          "id": 170,
+          "nome": "rua albuquerque lins"
+        },
+        {
+          "id": 139,
+          "nome": "rua queiroga"
+        },
+        {
+          "id": 3089,
+          "nome": "Rua Coaqueira"
+        },
+        {
+          "id": 342,
+          "nome": "rua sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "30af4a61e95ed5fe92be",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua oliveira de candiao consorte",
+      "ids_relevantes": "3094",
+      "esperados": [
+        {
+          "id": 3094,
+          "nome": "Rua Consorte Candiao de Oliveira"
+        },
+        {
+          "id": 3085,
+          "nome": "Rua Consorte Ribas"
+        },
+        {
+          "id": 3091,
+          "nome": "Rua Consorte Olegario"
+        },
+        {
+          "id": 165,
+          "nome": "rua lopes de oliveira"
+        },
+        {
+          "id": 495,
+          "nome": "rua benjamin de oliveira"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9ef2e4878465185f3c6f",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "ladeira geral porto",
+      "ids_relevantes": "4",
+      "esperados": [
+        {
+          "id": 4,
+          "nome": "ladeira porto geral"
+        },
+        {
+          "id": 5,
+          "nome": "travessa porto geral"
+        },
+        {
+          "id": 703,
+          "nome": "rua baroneza de porto carreiro"
+        },
+        {
+          "id": 653,
+          "nome": "rua porto calvo"
+        },
+        {
+          "id": 655,
+          "nome": "rua seguro porto"
+        }
+      ]
+    },
+    {
+      "id_consulta": "96a7814aac9f2de38753",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua cabral sacadura",
+      "ids_relevantes": "3060",
+      "esperados": [
+        {
+          "id": 3060,
+          "nome": "Rua Sacadura Cabral"
+        },
+        {
+          "id": 249,
+          "nome": "rua pedro alvares cabral"
+        },
+        {
+          "id": 643,
+          "nome": "rua itapiraçaba"
+        },
+        {
+          "id": 9,
+          "nome": "rua barao de paranapiacaba"
+        },
+        {
+          "id": 135,
+          "nome": "rua sobral"
+        }
+      ]
+    },
+    {
+      "id_consulta": "836763fcd6691dba2a3a",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "alameda eduardo prado",
+      "ids_relevantes": "167",
+      "esperados": [
+        {
+          "id": 167,
+          "nome": "alameda eduardo prado"
+        },
+        {
+          "id": 10005,
+          "nome": "praca eduardo rudge impar"
+        },
+        {
+          "id": 20005,
+          "nome": "praca eduardo rudge par"
+        },
+        {
+          "id": 185,
+          "nome": "alameda cleveland"
+        },
+        {
+          "id": 502,
+          "nome": "alameda barros"
+        }
+      ]
+    },
+    {
+      "id_consulta": "e2ff7cfa36b5b52b47e2",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua miller",
+      "ids_relevantes": "290",
+      "esperados": [
+        {
+          "id": 290,
+          "nome": "rua miller"
+        },
+        {
+          "id": 3000,
+          "nome": "rua camillo"
+        },
+        {
+          "id": 623,
+          "nome": "rua orville derby"
+        },
+        {
+          "id": 255,
+          "nome": "rua camomil"
+        },
+        {
+          "id": 3050,
+          "nome": "Rua Tornelero"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d9597bc58ba2d974b9b4",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua doutor theodoro bayma",
+      "ids_relevantes": "83",
+      "esperados": [
+        {
+          "id": 83,
+          "nome": "rua doutor theodoro bayma"
+        },
+        {
+          "id": 218,
+          "nome": "rua joao theodoro"
+        },
+        {
+          "id": 1730,
+          "nome": "rua theodoro sampaio"
+        },
+        {
+          "id": 62,
+          "nome": "rua doutor falcao"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        }
+      ]
+    },
+    {
+      "id_consulta": "895bf59eb914707ec4fa",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua visconde de taway",
+      "ids_relevantes": "702",
+      "esperados": [
+        {
+          "id": 702,
+          "nome": "rua visconde de taway"
+        },
+        {
+          "id": 158,
+          "nome": "rua visconde de parnahyba"
+        },
+        {
+          "id": 546,
+          "nome": "rua visconde de abaete"
+        },
+        {
+          "id": 103,
+          "nome": "rua visconde de ouro preto"
+        },
+        {
+          "id": 625,
+          "nome": "rua visconde da laguna"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9fe84916ad01622d7694",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua vicente prado",
+      "ids_relevantes": "2034",
+      "esperados": [
+        {
+          "id": 2034,
+          "nome": "rua vicente prado"
+        },
+        {
+          "id": 649,
+          "nome": "rua pedro vicente"
+        },
+        {
+          "id": 402,
+          "nome": "rua sao vicente"
+        },
+        {
+          "id": 95,
+          "nome": "rua caio prado"
+        },
+        {
+          "id": 99,
+          "nome": "rua martinho prado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "eefc857f33dafe32e24d",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua doutor pacheco e silva",
+      "ids_relevantes": "283",
+      "esperados": [
+        {
+          "id": 283,
+          "nome": "rua doutor pacheco e silva"
+        },
+        {
+          "id": 428,
+          "nome": "rua doutor rodrigo silva"
+        },
+        {
+          "id": 575,
+          "nome": "rua doutor silva leme"
+        },
+        {
+          "id": 681,
+          "nome": "rua jose pacheco"
+        },
+        {
+          "id": 688,
+          "nome": "rua luiz pacheco"
+        }
+      ]
+    },
+    {
+      "id_consulta": "633e8f8007ef978ae501",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "Rua Antonio Raposo",
+      "ids_relevantes": "3038",
+      "esperados": [
+        {
+          "id": 3038,
+          "nome": "Rua Antonio Raposo"
+        },
+        {
+          "id": 337,
+          "nome": "rua antonio paes"
+        },
+        {
+          "id": 389,
+          "nome": "rua antonio carlos"
+        },
+        {
+          "id": 633,
+          "nome": "rua padre raposo"
+        },
+        {
+          "id": 345,
+          "nome": "rua possidonio ignacio"
+        }
+      ]
+    },
+    {
+      "id_consulta": "63ff4210bdadbafe4f5f",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua hippia",
+      "ids_relevantes": "606",
+      "esperados": [
+        {
+          "id": 606,
+          "nome": "rua hippia"
+        },
+        {
+          "id": 106,
+          "nome": "rua piauhy"
+        },
+        {
+          "id": 3012,
+          "nome": "Rua Scipiao"
+        },
+        {
+          "id": 3018,
+          "nome": "Rua Ulpiano"
+        },
+        {
+          "id": 545,
+          "nome": "rua do hipodromo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c6928d4a5cf2b9428e1d",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua treze de maio",
+      "ids_relevantes": "506",
+      "esperados": [
+        {
+          "id": 506,
+          "nome": "rua treze de maio"
+        },
+        {
+          "id": 54,
+          "nome": "rua vinte e quatro de maio"
+        },
+        {
+          "id": 2,
+          "nome": "rua tres de dezembro"
+        },
+        {
+          "id": 561,
+          "nome": "rua rodrigo cesar de menezes"
+        },
+        {
+          "id": 203,
+          "nome": "rua tres rios"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c8bbc8d0efaa78ca3dca",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "Rua Gomes Freire",
+      "ids_relevantes": "3048",
+      "esperados": [
+        {
+          "id": 3048,
+          "nome": "Rua Gomes Freire"
+        },
+        {
+          "id": 69,
+          "nome": "rua braulio gomes"
+        },
+        {
+          "id": 558,
+          "nome": "rua gomes cardim"
+        },
+        {
+          "id": 279,
+          "nome": "rua coronel silva gomes"
+        },
+        {
+          "id": 10002,
+          "nome": "praca carlos gomes impar"
+        }
+      ]
+    },
+    {
+      "id_consulta": "d0761e3fbb37106e6645",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua oioac",
+      "ids_relevantes": "461",
+      "esperados": [
+        {
+          "id": 461,
+          "nome": "rua nioac"
+        },
+        {
+          "id": 259,
+          "nome": "rua jurua"
+        },
+        {
+          "id": 665,
+          "nome": "rua 5"
+        },
+        {
+          "id": 666,
+          "nome": "rua 6"
+        },
+        {
+          "id": 667,
+          "nome": "rua 3"
+        }
+      ]
+    },
+    {
+      "id_consulta": "e83e49d154b6e85ec8b8",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua redempcbo",
+      "ids_relevantes": "677",
+      "esperados": [
+        {
+          "id": 677,
+          "nome": "rua redempcao"
+        },
+        {
+          "id": 26,
+          "nome": "rua frederico alvarenga"
+        },
+        {
+          "id": 306,
+          "nome": "rua frederico steidel"
+        },
+        {
+          "id": 501,
+          "nome": "rua frederico abranches"
+        },
+        {
+          "id": 128,
+          "nome": "rua assumpcao"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2d3549703dd43f68ac54",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "avenida rudgf",
+      "ids_relevantes": "193",
+      "esperados": [
+        {
+          "id": 193,
+          "nome": "avenida rudge"
+        },
+        {
+          "id": 109,
+          "nome": "avenida hygienopolis"
+        },
+        {
+          "id": 171,
+          "nome": "avenida angelica"
+        },
+        {
+          "id": 215,
+          "nome": "avenida tiradentes"
+        },
+        {
+          "id": 241,
+          "nome": "avenida tamanduatehy"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a4fbb086bfdf604dc8ab",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua correa de andraee",
+      "ids_relevantes": "369",
+      "esperados": [
+        {
+          "id": 369,
+          "nome": "rua correa de andrade"
+        },
+        {
+          "id": 204,
+          "nome": "rua correa de mello"
+        },
+        {
+          "id": 197,
+          "nome": "rua correa dos santos"
+        },
+        {
+          "id": 285,
+          "nome": "rua coronel moraes"
+        },
+        {
+          "id": 72,
+          "nome": "rua quirino de andrade"
+        }
+      ]
+    },
+    {
+      "id_consulta": "baefcce05468083b7374",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua huilhen",
+      "ids_relevantes": "598",
+      "esperados": [
+        {
+          "id": 598,
+          "nome": "rua guilhen"
+        },
+        {
+          "id": 238,
+          "nome": "rua guilherme maw"
+        },
+        {
+          "id": 3034,
+          "nome": "Rua Felix Guilhem"
+        },
+        {
+          "id": 148,
+          "nome": "rua cavalheiro"
+        },
+        {
+          "id": 3003,
+          "nome": "Rua duilio"
+        }
+      ]
+    },
+    {
+      "id_consulta": "a6bb30dfe5fb3c68a60f",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua amelja",
+      "ids_relevantes": "239",
+      "esperados": [
+        {
+          "id": 239,
+          "nome": "rua amelia"
+        },
+        {
+          "id": 267,
+          "nome": "rua amelia sa barbosa"
+        },
+        {
+          "id": 176,
+          "nome": "rua camerino"
+        },
+        {
+          "id": 185,
+          "nome": "alameda cleveland"
+        },
+        {
+          "id": 502,
+          "nome": "alameda barros"
+        }
+      ]
+    },
+    {
+      "id_consulta": "cf990613ca88d2b0aa7d",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua henriquf dias",
+      "ids_relevantes": "373",
+      "esperados": [
+        {
+          "id": 373,
+          "nome": "rua henrique dias"
+        },
+        {
+          "id": 573,
+          "nome": "rua gonçalves dias"
+        },
+        {
+          "id": 1766,
+          "nome": "Rua Fernão Dias"
+        },
+        {
+          "id": 3021,
+          "nome": "Rua Marcilio Dias"
+        },
+        {
+          "id": 350,
+          "nome": "rua doutor gabriel dias"
+        }
+      ]
+    },
+    {
+      "id_consulta": "19eb40e94f2fbe832fe2",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua benedicto barbota",
+      "ids_relevantes": "604",
+      "esperados": [
+        {
+          "id": 604,
+          "nome": "rua benedicto barbosa"
+        },
+        {
+          "id": 271,
+          "nome": "rua teresa benedita sa barbosa"
+        },
+        {
+          "id": 272,
+          "nome": "rua benecdita sa barbosa"
+        },
+        {
+          "id": 39,
+          "nome": "rua maria benedicta"
+        },
+        {
+          "id": 311,
+          "nome": "rua victoria"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2abfefade76ed5f28a69",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua ana cintsa",
+      "ids_relevantes": "293",
+      "esperados": [
+        {
+          "id": 293,
+          "nome": "rua ana cintra"
+        },
+        {
+          "id": 200,
+          "nome": "rua carmo cintra"
+        },
+        {
+          "id": 387,
+          "nome": "rua bella cintra"
+        },
+        {
+          "id": 474,
+          "nome": "rua coronel cintra"
+        },
+        {
+          "id": 624,
+          "nome": "rua manoel cintra"
+        }
+      ]
+    },
+    {
+      "id_consulta": "444db38227e98b34a102",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua anattacio",
+      "ids_relevantes": "3026",
+      "esperados": [
+        {
+          "id": 3026,
+          "nome": "Rua Anastacio"
+        },
+        {
+          "id": 82,
+          "nome": "rua epitacio pessoa"
+        },
+        {
+          "id": 345,
+          "nome": "rua possidonio ignacio"
+        },
+        {
+          "id": 499,
+          "nome": "rua jose bonifacio"
+        },
+        {
+          "id": 608,
+          "nome": "rua ignacio de araujo"
+        }
+      ]
+    },
+    {
+      "id_consulta": "99f28bf2f5ec7440a689",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua s. nana",
+      "ids_relevantes": "138",
+      "esperados": [
+        {
+          "id": 138,
+          "nome": "rua s. anna"
+        },
+        {
+          "id": 157,
+          "nome": "rua parana"
+        },
+        {
+          "id": 214,
+          "nome": "rua deocliciana"
+        },
+        {
+          "id": 542,
+          "nome": "rua uruguayana"
+        },
+        {
+          "id": 3026,
+          "nome": "Rua Anastacio"
+        }
+      ]
+    },
+    {
+      "id_consulta": "f3546c62c7ef761af790",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua blechior carneiro",
+      "ids_relevantes": "3035",
+      "esperados": [
+        {
+          "id": 3035,
+          "nome": "Rua Belchior Carneiro"
+        },
+        {
+          "id": 1768,
+          "nome": "Rua Belchior Coqueiro"
+        },
+        {
+          "id": 18,
+          "nome": "rua general carneiro"
+        },
+        {
+          "id": 133,
+          "nome": "rua carneiro leao"
+        },
+        {
+          "id": 1736,
+          "nome": "Rua Belchior de Pontes"
+        }
+      ]
+    },
+    {
+      "id_consulta": "2d9f475ba56428cc683f",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua da aflandega",
+      "ids_relevantes": "161",
+      "esperados": [
+        {
+          "id": 161,
+          "nome": "rua da alfandega"
+        },
+        {
+          "id": 19,
+          "nome": "rua da quitanda"
+        },
+        {
+          "id": 570,
+          "nome": "travessa da intendencia"
+        },
+        {
+          "id": 625,
+          "nome": "rua visconde da laguna"
+        },
+        {
+          "id": 10014,
+          "nome": "largo do riachuelo (atual praca da bandeira) impar"
+        }
+      ]
+    },
+    {
+      "id_consulta": "9c6826f74627c8744ef5",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua trzee de maio",
+      "ids_relevantes": "506",
+      "esperados": [
+        {
+          "id": 506,
+          "nome": "rua treze de maio"
+        },
+        {
+          "id": 54,
+          "nome": "rua vinte e quatro de maio"
+        },
+        {
+          "id": 230,
+          "nome": "rua conde de sarzedas"
+        },
+        {
+          "id": 491,
+          "nome": "rua quatorze de julho"
+        },
+        {
+          "id": 95,
+          "nome": "rua caio prado"
+        }
+      ]
+    },
+    {
+      "id_consulta": "fdad1620ac78d36c16a7",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua bella citnra",
+      "ids_relevantes": "387",
+      "esperados": [
+        {
+          "id": 387,
+          "nome": "rua bella cintra"
+        },
+        {
+          "id": 100,
+          "nome": "rua florisbella"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        },
+        {
+          "id": 589,
+          "nome": "rua bello horizonte"
+        },
+        {
+          "id": 268,
+          "nome": "rua gabriella sa barbosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "66bf81e7f258a03cc67f",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua cotsa",
+      "ids_relevantes": "386",
+      "esperados": [
+        {
+          "id": 386,
+          "nome": "rua costa"
+        },
+        {
+          "id": 576,
+          "nome": "rua conselheiro cotegipe"
+        },
+        {
+          "id": 259,
+          "nome": "rua jurua"
+        },
+        {
+          "id": 665,
+          "nome": "rua 5"
+        },
+        {
+          "id": 666,
+          "nome": "rua 6"
+        }
+      ]
+    },
+    {
+      "id_consulta": "50c4d0df1fd723f1f626",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua anahngabahu",
+      "ids_relevantes": "355",
+      "esperados": [
+        {
+          "id": 355,
+          "nome": "rua anhangabahu"
+        },
+        {
+          "id": 2040,
+          "nome": "avenida anhagabau"
+        },
+        {
+          "id": 9,
+          "nome": "rua barao de paranapiacaba"
+        },
+        {
+          "id": 116,
+          "nome": "rua sabara"
+        },
+        {
+          "id": 145,
+          "nome": "rua piratininga"
+        }
+      ]
+    },
+    {
+      "id_consulta": "6303f879c73fe5119607",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua guaraitngueta",
+      "ids_relevantes": "638",
+      "esperados": [
+        {
+          "id": 638,
+          "nome": "rua guaratingueta"
+        },
+        {
+          "id": 3065,
+          "nome": "Rua Guararapes"
+        },
+        {
+          "id": 478,
+          "nome": "rua barao de jaguara"
+        },
+        {
+          "id": 680,
+          "nome": "rua serra de araraquara"
+        },
+        {
+          "id": 202,
+          "nome": "rua guarany"
+        }
+      ]
+    },
+    {
+      "id_consulta": "615d64be8b847e16ddf8",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua doutor flacao",
+      "ids_relevantes": "62",
+      "esperados": [
+        {
+          "id": 62,
+          "nome": "rua doutor falcao"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        },
+        {
+          "id": 438,
+          "nome": "rua doutor lund"
+        },
+        {
+          "id": 583,
+          "nome": "rua doutor clementino"
+        },
+        {
+          "id": 1764,
+          "nome": "Rua Doutor Rosa"
+        }
+      ]
+    },
+    {
+      "id_consulta": "c3d9f18834190752b183",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua duotor elias chaves",
+      "ids_relevantes": "168",
+      "esperados": [
+        {
+          "id": 168,
+          "nome": "rua doutor elias chaves"
+        },
+        {
+          "id": 3073,
+          "nome": "Rua Doutor Jose Elias"
+        },
+        {
+          "id": 648,
+          "nome": "rua eduardo chaves"
+        },
+        {
+          "id": 171,
+          "nome": "avenida angelica"
+        },
+        {
+          "id": 573,
+          "nome": "rua gonçalves dias"
+        }
+      ]
+    }
+  ],
+  "espaciais": [
+    {
+      "id_caso": "0a3e2341025021b3ead0",
+      "tipo": "inicio_intervalo",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "1",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.621883162322426,
+          -23.553405886379775
+        ]
+      ],
+      "ids_pontos": [
+        4459
+      ]
+    },
+    {
+      "id_caso": "170c582d18ef54adcc8c",
+      "tipo": "interior_intervalo",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "1",
+      "ano": 1922,
+      "coordenadas": [
+        [
+          -46.621883162322426,
+          -23.553405886379775
+        ]
+      ],
+      "ids_pontos": [
+        4459
+      ]
+    },
+    {
+      "id_caso": "839b3713675806d91284",
+      "tipo": "fim_intervalo",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "1",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.621883162322426,
+          -23.553405886379775
+        ]
+      ],
+      "ids_pontos": [
+        4459
+      ]
+    },
+    {
+      "id_caso": "e5f15ba1e5df931c5254",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "1",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c68f4dff9c3ba4d7374f",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "1",
+      "ano": 1937,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "8529dc7b924798b913a2",
+      "tipo": "inicio_intervalo",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "1",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.647868738337124,
+          -23.541777787374418
+        ]
+      ],
+      "ids_pontos": [
+        3065
+      ]
+    },
+    {
+      "id_caso": "3b503bf9aebc62b96567",
+      "tipo": "interior_intervalo",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "1",
+      "ano": 1921,
+      "coordenadas": [
+        [
+          -46.647868738337124,
+          -23.541777787374418
+        ]
+      ],
+      "ids_pontos": [
+        3065
+      ]
+    },
+    {
+      "id_caso": "7a5c3e6525492ab66d2a",
+      "tipo": "fim_intervalo",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "1",
+      "ano": 1935,
+      "coordenadas": [
+        [
+          -46.647868738337124,
+          -23.541777787374418
+        ]
+      ],
+      "ids_pontos": [
+        3065
+      ]
+    },
+    {
+      "id_caso": "e06b16858278ae9e01e5",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "1",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "caaf7f3240461b636f16",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "1",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "cc178f0b3b96bcda6b62",
+      "tipo": "inicio_intervalo",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "190",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.64991800085766,
+          -23.550148612106142
+        ]
+      ],
+      "ids_pontos": [
+        1083
+      ]
+    },
+    {
+      "id_caso": "c3e6f5fd5d6f9e0f6e16",
+      "tipo": "interior_intervalo",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "190",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.64991800085766,
+          -23.550148612106142
+        ]
+      ],
+      "ids_pontos": [
+        1083
+      ]
+    },
+    {
+      "id_caso": "c0424420c541a933a425",
+      "tipo": "limite_2000",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "190",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.64991800085766,
+          -23.550148612106142
+        ]
+      ],
+      "ids_pontos": [
+        1083
+      ]
+    },
+    {
+      "id_caso": "6f920d86ca17cb69b81c",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "190",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "3ee730309563a3f4f554",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "190",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "fedbcd440dd5d40e56c4",
+      "tipo": "inicio_intervalo",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "92",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.62484400389912,
+          -23.53103479302442
+        ]
+      ],
+      "ids_pontos": [
+        2676
+      ]
+    },
+    {
+      "id_caso": "5b1cfc4f8b760c76562b",
+      "tipo": "interior_intervalo",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "92",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.62484400389912,
+          -23.53103479302442
+        ]
+      ],
+      "ids_pontos": [
+        2676
+      ]
+    },
+    {
+      "id_caso": "d09b13e6be97f485880a",
+      "tipo": "limite_2000",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "92",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.62484400389912,
+          -23.53103479302442
+        ]
+      ],
+      "ids_pontos": [
+        2676
+      ]
+    },
+    {
+      "id_caso": "bddc91942f0ef2cf9017",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "92",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "2e3d064fe03bc7d16de5",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "92",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c7ab58d74b37097103dd",
+      "tipo": "inicio_intervalo",
+      "id_rua": 502,
+      "nome": "alameda barros",
+      "numero": "39",
+      "ano": 1911,
+      "coordenadas": [
+        [
+          -46.654067292717656,
+          -23.537017826555545
+        ]
+      ],
+      "ids_pontos": [
+        4662
+      ]
+    },
+    {
+      "id_caso": "c8e8f5f453cb74eca292",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 502,
+      "nome": "alameda barros",
+      "numero": "39",
+      "ano": 1910,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d81d5601d9238dab47e6",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 502,
+      "nome": "alameda barros",
+      "numero": "39",
+      "ano": 1912,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "ca51a71863bec687aae6",
+      "tipo": "inicio_intervalo",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "221",
+      "ano": 1938,
+      "coordenadas": [
+        [
+          -46.654050183580125,
+          -23.52070890898835
+        ]
+      ],
+      "ids_pontos": [
+        5087
+      ]
+    },
+    {
+      "id_caso": "41135f0be491b1cd384b",
+      "tipo": "interior_intervalo",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "221",
+      "ano": 1969,
+      "coordenadas": [
+        [
+          -46.654050183580125,
+          -23.52070890898835
+        ]
+      ],
+      "ids_pontos": [
+        5087
+      ]
+    },
+    {
+      "id_caso": "ca9e60c898793d1a650c",
+      "tipo": "limite_2000",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "221",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.654050183580125,
+          -23.52070890898835
+        ]
+      ],
+      "ids_pontos": [
+        5087
+      ]
+    },
+    {
+      "id_caso": "3a84f48088b5e00fc07e",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "221",
+      "ano": 1937,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "3812d4703980f853f185",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "221",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "0d9fc60037986e78daa1",
+      "tipo": "inicio_intervalo",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "93",
+      "ano": 1927,
+      "coordenadas": [
+        [
+          -46.65467706484575,
+          -23.556852005223952
+        ]
+      ],
+      "ids_pontos": [
+        1299
+      ]
+    },
+    {
+      "id_caso": "5b1b69a583ba155f6d38",
+      "tipo": "interior_intervalo",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "93",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.65467706484575,
+          -23.556852005223952
+        ]
+      ],
+      "ids_pontos": [
+        1299
+      ]
+    },
+    {
+      "id_caso": "9e85bfa93e85bf7d8188",
+      "tipo": "fim_intervalo",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "93",
+      "ano": 1940,
+      "coordenadas": [
+        [
+          -46.65467706484575,
+          -23.556852005223952
+        ]
+      ],
+      "ids_pontos": [
+        1299
+      ]
+    },
+    {
+      "id_caso": "d357b382036a639dd302",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "93",
+      "ano": 1926,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "b80b329a5110d9ef5bf1",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "93",
+      "ano": 1941,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "923222a72382277abcc3",
+      "tipo": "inicio_intervalo",
+      "id_rua": 2017,
+      "nome": "rua pedroso",
+      "numero": "48",
+      "ano": 1927,
+      "coordenadas": [
+        [
+          -46.642493120473816,
+          -23.56223095553842
+        ]
+      ],
+      "ids_pontos": [
+        5724
+      ]
+    },
+    {
+      "id_caso": "a4ec862fa5c3322a6af0",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 2017,
+      "nome": "rua pedroso",
+      "numero": "48",
+      "ano": 1926,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "e308758ca5305aab23d0",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 2017,
+      "nome": "rua pedroso",
+      "numero": "48",
+      "ano": 1928,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "01075a7bb42da3c07a9c",
+      "tipo": "inicio_intervalo",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "581",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.64323660817098,
+          -23.521317768675665
+        ]
+      ],
+      "ids_pontos": [
+        4941
+      ]
+    },
+    {
+      "id_caso": "3ba71412583c288d0f56",
+      "tipo": "interior_intervalo",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "581",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.64323660817098,
+          -23.521317768675665
+        ]
+      ],
+      "ids_pontos": [
+        4941
+      ]
+    },
+    {
+      "id_caso": "47821a48b778340b3530",
+      "tipo": "limite_2000",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "581",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.64323660817098,
+          -23.521317768675665
+        ]
+      ],
+      "ids_pontos": [
+        4941
+      ]
+    },
+    {
+      "id_caso": "4d6d970b4c781545597b",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "581",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "25d825632ac6011d7afa",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "581",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "14237108d1c090737965",
+      "tipo": "inicio_intervalo",
+      "id_rua": 165,
+      "nome": "rua lopes de oliveira",
+      "numero": "98",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.65608092248241,
+          -23.532348333722826
+        ]
+      ],
+      "ids_pontos": [
+        1775
+      ]
+    },
+    {
+      "id_caso": "4b66846361b1f0ac8f49",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 165,
+      "nome": "rua lopes de oliveira",
+      "numero": "98",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "b12c223ac09d03c33add",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 165,
+      "nome": "rua lopes de oliveira",
+      "numero": "98",
+      "ano": 1909,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "f237ffb9b146fb4a153d",
+      "tipo": "inicio_intervalo",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "34",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.63802322665149,
+          -23.551498864232357
+        ]
+      ],
+      "ids_pontos": [
+        589
+      ]
+    },
+    {
+      "id_caso": "24dd1e54deade5681f2c",
+      "tipo": "interior_intervalo",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "34",
+      "ano": 1922,
+      "coordenadas": [
+        [
+          -46.63802322665149,
+          -23.551498864232357
+        ]
+      ],
+      "ids_pontos": [
+        589
+      ]
+    },
+    {
+      "id_caso": "b2b43786e972daafc659",
+      "tipo": "fim_intervalo",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "34",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.63802322665149,
+          -23.551498864232357
+        ]
+      ],
+      "ids_pontos": [
+        589
+      ]
+    },
+    {
+      "id_caso": "4277ebfc7010feea0124",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "34",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "99c840b85e15b5a27070",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "34",
+      "ano": 1937,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "5b3b4e2018ccf677f27a",
+      "tipo": "inicio_intervalo",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "14",
+      "ano": 1923,
+      "coordenadas": [
+        [
+          -46.634532856168946,
+          -23.54574169309428
+        ]
+      ],
+      "ids_pontos": [
+        5885
+      ]
+    },
+    {
+      "id_caso": "d9b07013deaa42a82093",
+      "tipo": "interior_intervalo",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "14",
+      "ano": 1925,
+      "coordenadas": [
+        [
+          -46.634532856168946,
+          -23.54574169309428
+        ]
+      ],
+      "ids_pontos": [
+        5885
+      ]
+    },
+    {
+      "id_caso": "7eb171c677fb4678bf2a",
+      "tipo": "fim_intervalo",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "14",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.634532856168946,
+          -23.54574169309428
+        ]
+      ],
+      "ids_pontos": [
+        5885
+      ]
+    },
+    {
+      "id_caso": "2154b4b346e71bd83a1e",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "14",
+      "ano": 1922,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "8075278ce2f834f302b3",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "14",
+      "ano": 1929,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "90fdae7f9c0158cd10f1",
+      "tipo": "inicio_intervalo",
+      "id_rua": 2043,
+      "nome": "rua cincinato braga",
+      "numero": "5",
+      "ano": 1934,
+      "coordenadas": [
+        [
+          -46.64469672719596,
+          -23.56948684878893
+        ]
+      ],
+      "ids_pontos": [
+        5817
+      ]
+    },
+    {
+      "id_caso": "53f6507ee63fbe566d00",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 2043,
+      "nome": "rua cincinato braga",
+      "numero": "5",
+      "ano": 1933,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "765bcc358e3414de8fb3",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 2043,
+      "nome": "rua cincinato braga",
+      "numero": "5",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "5b457200bed038f4d152",
+      "tipo": "inicio_intervalo",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "75",
+      "ano": 1940,
+      "coordenadas": [
+        [
+          -46.65310693446172,
+          -23.535088093807552
+        ]
+      ],
+      "ids_pontos": [
+        1895
+      ]
+    },
+    {
+      "id_caso": "fae2d0a97dda1c6fc5bf",
+      "tipo": "interior_intervalo",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "75",
+      "ano": 1970,
+      "coordenadas": [
+        [
+          -46.65310693446172,
+          -23.535088093807552
+        ]
+      ],
+      "ids_pontos": [
+        1895
+      ]
+    },
+    {
+      "id_caso": "96ea9cb8634481be2581",
+      "tipo": "limite_2000",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "75",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.65310693446172,
+          -23.535088093807552
+        ]
+      ],
+      "ids_pontos": [
+        1895
+      ]
+    },
+    {
+      "id_caso": "f298dd54073c8d03229a",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "75",
+      "ano": 1939,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "88d0aa0eb91177eeca49",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "75",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "91da3fc76598925fee71",
+      "tipo": "inicio_intervalo",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "31",
+      "ano": 1935,
+      "coordenadas": [
+        [
+          -46.63276741160473,
+          -23.554699067502263
+        ]
+      ],
+      "ids_pontos": [
+        2548
+      ]
+    },
+    {
+      "id_caso": "e499c0b3ffaa6d34403f",
+      "tipo": "interior_intervalo",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "31",
+      "ano": 1967,
+      "coordenadas": [
+        [
+          -46.63276741160473,
+          -23.554699067502263
+        ]
+      ],
+      "ids_pontos": [
+        2548
+      ]
+    },
+    {
+      "id_caso": "f4f84dff76bb82eea8ae",
+      "tipo": "limite_2000",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "31",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.63276741160473,
+          -23.554699067502263
+        ]
+      ],
+      "ids_pontos": [
+        2548
+      ]
+    },
+    {
+      "id_caso": "a2cf2bdba9d41df194fb",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "31",
+      "ano": 1934,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "3d220e88ff15216448b1",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "31",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "e67393a727bf6917a39f",
+      "tipo": "inicio_intervalo",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "103",
+      "ano": 1911,
+      "coordenadas": [
+        [
+          -46.64919286818742,
+          -23.555736264450438
+        ]
+      ],
+      "ids_pontos": [
+        1342
+      ]
+    },
+    {
+      "id_caso": "21bc4f4cb3b14b2ecc5c",
+      "tipo": "interior_intervalo",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "103",
+      "ano": 1918,
+      "coordenadas": [
+        [
+          -46.64919286818742,
+          -23.555736264450438
+        ]
+      ],
+      "ids_pontos": [
+        1342
+      ]
+    },
+    {
+      "id_caso": "e06775ed9f3072397f43",
+      "tipo": "fim_intervalo",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "103",
+      "ano": 1925,
+      "coordenadas": [
+        [
+          -46.64919286818742,
+          -23.555736264450438
+        ]
+      ],
+      "ids_pontos": [
+        1342
+      ]
+    },
+    {
+      "id_caso": "885244f08bf5da4fe81f",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "103",
+      "ano": 1910,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c25a89ddee0552b00fd5",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "103",
+      "ano": 1926,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "103745fe15582aaa1ab8",
+      "tipo": "inicio_intervalo",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "16",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.631008194301835,
+          -23.541779979020113
+        ]
+      ],
+      "ids_pontos": [
+        3405
+      ]
+    },
+    {
+      "id_caso": "bd65b6d3e495417f85e4",
+      "tipo": "interior_intervalo",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "16",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.631008194301835,
+          -23.541779979020113
+        ]
+      ],
+      "ids_pontos": [
+        3405
+      ]
+    },
+    {
+      "id_caso": "fe8370db8032b7bc3a68",
+      "tipo": "fim_intervalo",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "16",
+      "ano": 1939,
+      "coordenadas": [
+        [
+          -46.631008194301835,
+          -23.541779979020113
+        ]
+      ],
+      "ids_pontos": [
+        3405
+      ]
+    },
+    {
+      "id_caso": "0ee3ba1621174b2d9d0d",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "16",
+      "ano": 1927,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d780f5e78b4f884f27be",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "16",
+      "ano": 1940,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "339fc2df2b91cb2e104b",
+      "tipo": "inicio_intervalo",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "167",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.64898689263187,
+          -23.531085724116853
+        ]
+      ],
+      "ids_pontos": [
+        3225
+      ]
+    },
+    {
+      "id_caso": "f21772dbb2a14d2ae3bd",
+      "tipo": "interior_intervalo",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "167",
+      "ano": 1918,
+      "coordenadas": [
+        [
+          -46.64898689263187,
+          -23.531085724116853
+        ]
+      ],
+      "ids_pontos": [
+        3225
+      ]
+    },
+    {
+      "id_caso": "f2849ef5a86186bb3c36",
+      "tipo": "fim_intervalo",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "167",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.64898689263187,
+          -23.531085724116853
+        ]
+      ],
+      "ids_pontos": [
+        3225
+      ]
+    },
+    {
+      "id_caso": "bd455e4ed0f4fa77e4bb",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "167",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d54adfacd52963048751",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "167",
+      "ano": 1929,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c1d53aa6f4c363be0ca1",
+      "tipo": "inicio_intervalo",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "114",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.62461955128764,
+          -23.53477882705435
+        ]
+      ],
+      "ids_pontos": [
+        2671
+      ]
+    },
+    {
+      "id_caso": "21ca0719eab37be3b82c",
+      "tipo": "interior_intervalo",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "114",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.62461955128764,
+          -23.53477882705435
+        ]
+      ],
+      "ids_pontos": [
+        2671
+      ]
+    },
+    {
+      "id_caso": "47c7e79fab566f0903c8",
+      "tipo": "limite_2000",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "114",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.62461955128764,
+          -23.53477882705435
+        ]
+      ],
+      "ids_pontos": [
+        2671
+      ]
+    },
+    {
+      "id_caso": "f8ff8a1e968ecab0bcf4",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "114",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "b0f089eb03b9832c927c",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "114",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "9b6daaae8ea64e7190ae",
+      "tipo": "inicio_intervalo",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "113",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.63028060468361,
+          -23.53738403772924
+        ]
+      ],
+      "ids_pontos": [
+        3376
+      ]
+    },
+    {
+      "id_caso": "ba5860f321cc26b7ffae",
+      "tipo": "interior_intervalo",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "113",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.63028060468361,
+          -23.53738403772924
+        ]
+      ],
+      "ids_pontos": [
+        3376
+      ]
+    },
+    {
+      "id_caso": "e7c93aba6c59638becaf",
+      "tipo": "limite_2000",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "113",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.63028060468361,
+          -23.53738403772924
+        ]
+      ],
+      "ids_pontos": [
+        3376
+      ]
+    },
+    {
+      "id_caso": "e0b3cf1e3d136bdefa3c",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "113",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "eafefd5729e55552a4be",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "113",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d1c961ce88ad0e3d3ff3",
+      "tipo": "inicio_intervalo",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "191",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.65442536067175,
+          -23.52935419674699
+        ]
+      ],
+      "ids_pontos": [
+        1755
+      ]
+    },
+    {
+      "id_caso": "52eb45b24e746c789555",
+      "tipo": "interior_intervalo",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "191",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.65442536067175,
+          -23.52935419674699
+        ]
+      ],
+      "ids_pontos": [
+        1755
+      ]
+    },
+    {
+      "id_caso": "607569aa7d32f03f62f9",
+      "tipo": "limite_2000",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "191",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.65442536067175,
+          -23.52935419674699
+        ]
+      ],
+      "ids_pontos": [
+        1755
+      ]
+    },
+    {
+      "id_caso": "55d52d93fd89704f51f6",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "191",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "085b23b514ddd48ee1e0",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "191",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "aea3c756fc7347b694ca",
+      "tipo": "inicio_intervalo",
+      "id_rua": 411,
+      "nome": "avenida brigadeiro luis antonio",
+      "numero": "2",
+      "ano": 1934,
+      "coordenadas": [
+        [
+          -46.63675382856482,
+          -23.550678830337095
+        ]
+      ],
+      "ids_pontos": [
+        4109
+      ]
+    },
+    {
+      "id_caso": "7cd5a012832f9799ab40",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 411,
+      "nome": "avenida brigadeiro luis antonio",
+      "numero": "2",
+      "ano": 1933,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c2898e6eeee0d6e7afea",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 411,
+      "nome": "avenida brigadeiro luis antonio",
+      "numero": "2",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "0385d60f7b557c5509e1",
+      "tipo": "inicio_intervalo",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "73",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.62989368396134,
+          -23.534313385864326
+        ]
+      ],
+      "ids_pontos": [
+        2607
+      ]
+    },
+    {
+      "id_caso": "07ba473a2af67a78df6b",
+      "tipo": "interior_intervalo",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "73",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.62989368396134,
+          -23.534313385864326
+        ]
+      ],
+      "ids_pontos": [
+        2607
+      ]
+    },
+    {
+      "id_caso": "43d373af4982c9507d1c",
+      "tipo": "limite_2000",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "73",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.62989368396134,
+          -23.534313385864326
+        ]
+      ],
+      "ids_pontos": [
+        2607
+      ]
+    },
+    {
+      "id_caso": "60dff69d4ece383e7263",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "73",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "8b1ef64bcfdf9ac4077f",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "73",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "b314073a0a07d6fda671",
+      "tipo": "inicio_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "178",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.64252424619631,
+          -23.55919136066253
+        ]
+      ],
+      "ids_pontos": [
+        4089
+      ]
+    },
+    {
+      "id_caso": "abb98a8a48559ccd0452",
+      "tipo": "interior_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "178",
+      "ano": 1910,
+      "coordenadas": [
+        [
+          -46.64252424619631,
+          -23.55919136066253
+        ]
+      ],
+      "ids_pontos": [
+        4089
+      ]
+    },
+    {
+      "id_caso": "04df63d753b9f93d86ad",
+      "tipo": "fim_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "178",
+      "ano": 1912,
+      "coordenadas": [
+        [
+          -46.642610859522755,
+          -23.558446105065777
+        ],
+        [
+          -46.64252424619631,
+          -23.55919136066253
+        ]
+      ],
+      "ids_pontos": [
+        4084,
+        4089
+      ]
+    },
+    {
+      "id_caso": "224d14f980e1b985893c",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "178",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c7eb0a763f1664d482e8",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "178",
+      "ano": 1937,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "1870d4948aaf9e6fe306",
+      "tipo": "inicio_intervalo",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "209",
+      "ano": 1930,
+      "coordenadas": [
+        [
+          -46.645908340737705,
+          -23.522722981404936
+        ]
+      ],
+      "ids_pontos": [
+        2099
+      ]
+    },
+    {
+      "id_caso": "7bca924218fe4ab90515",
+      "tipo": "interior_intervalo",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "209",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.645908340737705,
+          -23.522722981404936
+        ]
+      ],
+      "ids_pontos": [
+        2099
+      ]
+    },
+    {
+      "id_caso": "bfbc120979ba473cd088",
+      "tipo": "fim_intervalo",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "209",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.645908340737705,
+          -23.522722981404936
+        ]
+      ],
+      "ids_pontos": [
+        2099
+      ]
+    },
+    {
+      "id_caso": "20207c1f8ff2bef6bccf",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "209",
+      "ano": 1929,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "7396ba51f1b70402ba6f",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "209",
+      "ano": 1938,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "4906c44fe868936f433c",
+      "tipo": "inicio_intervalo",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "193",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.62009863869441,
+          -23.541790166962738
+        ]
+      ],
+      "ids_pontos": [
+        3557
+      ]
+    },
+    {
+      "id_caso": "5901f330bdb9bfac3162",
+      "tipo": "interior_intervalo",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "193",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.62009863869441,
+          -23.541790166962738
+        ]
+      ],
+      "ids_pontos": [
+        3557
+      ]
+    },
+    {
+      "id_caso": "f7f549e5d0fb59b9ede7",
+      "tipo": "limite_2000",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "193",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.62009863869441,
+          -23.541790166962738
+        ]
+      ],
+      "ids_pontos": [
+        3557
+      ]
+    },
+    {
+      "id_caso": "0dab606438ed5a8263ba",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "193",
+      "ano": 1935,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "ca2b60d2cf58a123a151",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "193",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "9b354f2dae5d322eacd8",
+      "tipo": "inicio_intervalo",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "305",
+      "ano": 1938,
+      "coordenadas": [
+        [
+          -46.64592833084124,
+          -23.55991726200309
+        ]
+      ],
+      "ids_pontos": [
+        5630
+      ]
+    },
+    {
+      "id_caso": "ce4cb2e8aff3cf4f1fc8",
+      "tipo": "interior_intervalo",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "305",
+      "ano": 1969,
+      "coordenadas": [
+        [
+          -46.64592833084124,
+          -23.55991726200309
+        ]
+      ],
+      "ids_pontos": [
+        5630
+      ]
+    },
+    {
+      "id_caso": "501630506a5aeca17651",
+      "tipo": "limite_2000",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "305",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.64592833084124,
+          -23.55991726200309
+        ]
+      ],
+      "ids_pontos": [
+        5630
+      ]
+    },
+    {
+      "id_caso": "a1ca6327780b73e20fd3",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "305",
+      "ano": 1937,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "8cd53e97b63919983225",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "305",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "a6a20b845d784648fa5d",
+      "tipo": "inicio_intervalo",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "42",
+      "ano": 1914,
+      "coordenadas": [
+        [
+          -46.653521850467015,
+          -23.542701981216812
+        ]
+      ],
+      "ids_pontos": [
+        3127
+      ]
+    },
+    {
+      "id_caso": "e0c795632ed05b514c99",
+      "tipo": "interior_intervalo",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "42",
+      "ano": 1924,
+      "coordenadas": [
+        [
+          -46.653521850467015,
+          -23.542701981216812
+        ]
+      ],
+      "ids_pontos": [
+        3127
+      ]
+    },
+    {
+      "id_caso": "d45ba1a1defa563df96e",
+      "tipo": "fim_intervalo",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "42",
+      "ano": 1935,
+      "coordenadas": [
+        [
+          -46.653521850467015,
+          -23.542701981216812
+        ]
+      ],
+      "ids_pontos": [
+        3127
+      ]
+    },
+    {
+      "id_caso": "8d95cc06f7e0d86c3149",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "42",
+      "ano": 1913,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "dad634110bf7d72788cf",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "42",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "54a170c063206ce63ee0",
+      "tipo": "inicio_intervalo",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "116",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.623829461157435,
+          -23.55138620445754
+        ]
+      ],
+      "ids_pontos": [
+        1713
+      ]
+    },
+    {
+      "id_caso": "4dc3bbf8e54c9b1845ff",
+      "tipo": "interior_intervalo",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "116",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.623829461157435,
+          -23.55138620445754
+        ]
+      ],
+      "ids_pontos": [
+        1713
+      ]
+    },
+    {
+      "id_caso": "d94eba85889441669a09",
+      "tipo": "limite_2000",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "116",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.623829461157435,
+          -23.55138620445754
+        ]
+      ],
+      "ids_pontos": [
+        1713
+      ]
+    },
+    {
+      "id_caso": "14f61e2cd0846238d67f",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "116",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "080b5c7804f3545d0d91",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "116",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "921293f42d57031d2d22",
+      "tipo": "inicio_intervalo",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "4",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.63779489556721,
+          -23.53686117942431
+        ]
+      ],
+      "ids_pontos": [
+        3262
+      ]
+    },
+    {
+      "id_caso": "7fe4e2194bddf384809e",
+      "tipo": "interior_intervalo",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "4",
+      "ano": 1931,
+      "coordenadas": [
+        [
+          -46.63779489556721,
+          -23.53686117942431
+        ]
+      ],
+      "ids_pontos": [
+        3262
+      ]
+    },
+    {
+      "id_caso": "1cb447df62d92f85717a",
+      "tipo": "fim_intervalo",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "4",
+      "ano": 1935,
+      "coordenadas": [
+        [
+          -46.63779489556721,
+          -23.53686117942431
+        ]
+      ],
+      "ids_pontos": [
+        3262
+      ]
+    },
+    {
+      "id_caso": "53f84a955b313a0e41b4",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "4",
+      "ano": 1927,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c53793680145db4891d8",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "4",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c97de35a80c3b55dad24",
+      "tipo": "inicio_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "45",
+      "ano": 1912,
+      "coordenadas": [
+        [
+          -46.642939454138755,
+          -23.555294371179823
+        ],
+        [
+          -46.642908897100234,
+          -23.55560248136531
+        ]
+      ],
+      "ids_pontos": [
+        4038,
+        4043
+      ]
+    },
+    {
+      "id_caso": "bdb9bad2c567cd87f83d",
+      "tipo": "interior_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "45",
+      "ano": 1919,
+      "coordenadas": [
+        [
+          -46.642939454138755,
+          -23.555294371179823
+        ]
+      ],
+      "ids_pontos": [
+        4038
+      ]
+    },
+    {
+      "id_caso": "dbc717b7f57834061ec8",
+      "tipo": "fim_intervalo",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "45",
+      "ano": 1926,
+      "coordenadas": [
+        [
+          -46.642939454138755,
+          -23.555294371179823
+        ]
+      ],
+      "ids_pontos": [
+        4038
+      ]
+    },
+    {
+      "id_caso": "5bafe3716edf396a2b7e",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "45",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d4d1a07095aed654a6bb",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "45",
+      "ano": 1927,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "94b33c18c31d526755a8",
+      "tipo": "inicio_intervalo",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1",
+      "ano": 1929,
+      "coordenadas": [
+        [
+          -46.62451672060069,
+          -23.55132026056776
+        ],
+        [
+          -46.624316668757174,
+          -23.551339455934006
+        ]
+      ],
+      "ids_pontos": [
+        1728,
+        1731
+      ]
+    },
+    {
+      "id_caso": "8b4a57ae3a052bcee851",
+      "tipo": "interior_intervalo",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.62451672060069,
+          -23.55132026056776
+        ]
+      ],
+      "ids_pontos": [
+        1728
+      ]
+    },
+    {
+      "id_caso": "a8edd65459d7a9f96a8b",
+      "tipo": "fim_intervalo",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.62451672060069,
+          -23.55132026056776
+        ]
+      ],
+      "ids_pontos": [
+        1728
+      ]
+    },
+    {
+      "id_caso": "c7e3479d3075dbd0ccb1",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1",
+      "ano": 1916,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "aed375d87883e07528b8",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1",
+      "ano": 1938,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c19bd3503f590e70de30",
+      "tipo": "inicio_intervalo",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "134",
+      "ano": 1911,
+      "coordenadas": [
+        [
+          -46.64255554611036,
+          -23.541033007412043
+        ],
+        [
+          -46.64115592944006,
+          -23.54184830378438
+        ]
+      ],
+      "ids_pontos": [
+        431,
+        470
+      ]
+    },
+    {
+      "id_caso": "960ebace7bca597cfc19",
+      "tipo": "interior_intervalo",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "134",
+      "ano": 1922,
+      "coordenadas": [
+        [
+          -46.64255554611036,
+          -23.541033007412043
+        ],
+        [
+          -46.64115592944006,
+          -23.54184830378438
+        ]
+      ],
+      "ids_pontos": [
+        431,
+        470
+      ]
+    },
+    {
+      "id_caso": "0865c858d970b0d33545",
+      "tipo": "fim_intervalo",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "134",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.64255554611036,
+          -23.541033007412043
+        ],
+        [
+          -46.64115592944006,
+          -23.54184830378438
+        ]
+      ],
+      "ids_pontos": [
+        431,
+        470
+      ]
+    },
+    {
+      "id_caso": "ab222a97fbed0287fcb5",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "134",
+      "ano": 1910,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "95db8fba52d57798b1b4",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "134",
+      "ano": 1934,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "09556edf2c26868bc721",
+      "tipo": "inicio_intervalo",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "45",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.65465334992728,
+          -23.554978646119636
+        ],
+        [
+          -46.65465289876457,
+          -23.55497944196576
+        ]
+      ],
+      "ids_pontos": [
+        1257,
+        1274
+      ]
+    },
+    {
+      "id_caso": "769f26b44ed0a3db88f8",
+      "tipo": "interior_intervalo",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "45",
+      "ano": 1968,
+      "coordenadas": [
+        [
+          -46.65465334992728,
+          -23.554978646119636
+        ],
+        [
+          -46.65465289876457,
+          -23.55497944196576
+        ]
+      ],
+      "ids_pontos": [
+        1257,
+        1274
+      ]
+    },
+    {
+      "id_caso": "2ebf966303c42f6d7350",
+      "tipo": "limite_2000",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "45",
+      "ano": 2000,
+      "coordenadas": [
+        [
+          -46.65465334992728,
+          -23.554978646119636
+        ],
+        [
+          -46.65465289876457,
+          -23.55497944196576
+        ]
+      ],
+      "ids_pontos": [
+        1257,
+        1274
+      ]
+    },
+    {
+      "id_caso": "d20d133efbf28a5aad71",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "45",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "162ea535f45cf95cd079",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "45",
+      "ano": 2001,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "e59e1009c9f9de6cd1d7",
+      "tipo": "inicio_intervalo",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "62.1",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.6435053026468,
+          -23.557823386361147
+        ]
+      ],
+      "ids_pontos": [
+        1221
+      ]
+    },
+    {
+      "id_caso": "a7627e8268c9b5015be7",
+      "tipo": "interior_intervalo",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "62.1",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.6435053026468,
+          -23.557823386361147
+        ]
+      ],
+      "ids_pontos": [
+        1221
+      ]
+    },
+    {
+      "id_caso": "807fb0bce2bb2c0bfde5",
+      "tipo": "fim_intervalo",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "62.1",
+      "ano": 1938,
+      "coordenadas": [
+        [
+          -46.6435053026468,
+          -23.557823386361147
+        ]
+      ],
+      "ids_pontos": [
+        1221
+      ]
+    },
+    {
+      "id_caso": "43a871e843d83d4f486a",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "62.1",
+      "ano": 1927,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d7a2e1736d61ea28eb28",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "62.1",
+      "ano": 1939,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "3bdd51080e7cb7826ac2",
+      "tipo": "inicio_intervalo",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "53.2",
+      "ano": 1908,
+      "coordenadas": [
+        [
+          -46.64056188857573,
+          -23.552134210965157
+        ]
+      ],
+      "ids_pontos": [
+        616
+      ]
+    },
+    {
+      "id_caso": "b1f8786a459cdc1623a5",
+      "tipo": "interior_intervalo",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "53.2",
+      "ano": 1910,
+      "coordenadas": [
+        [
+          -46.64056188857573,
+          -23.552134210965157
+        ]
+      ],
+      "ids_pontos": [
+        616
+      ]
+    },
+    {
+      "id_caso": "ed58edd31194888090c6",
+      "tipo": "fim_intervalo",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "53.2",
+      "ano": 1912,
+      "coordenadas": [
+        [
+          -46.64056188857573,
+          -23.552134210965157
+        ]
+      ],
+      "ids_pontos": [
+        616
+      ]
+    },
+    {
+      "id_caso": "03badbc3c570811d0a32",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "53.2",
+      "ano": 1907,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "4d7a1fbde5494c495cff",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "53.2",
+      "ano": 1913,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "7b1f451e109e4f0ecf23",
+      "tipo": "inicio_intervalo",
+      "id_rua": 80,
+      "nome": "rua general jardim",
+      "numero": "30.2",
+      "ano": 1940,
+      "coordenadas": [
+        [
+          -46.64481559956733,
+          -23.544761018277114
+        ]
+      ],
+      "ids_pontos": [
+        856
+      ]
+    },
+    {
+      "id_caso": "4b95df1a215b0eca6b36",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 80,
+      "nome": "rua general jardim",
+      "numero": "30.2",
+      "ano": 1939,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "fc7be47cd2deef3fc265",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 80,
+      "nome": "rua general jardim",
+      "numero": "30.2",
+      "ano": 1941,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "1ef214333d75c805a857",
+      "tipo": "inicio_intervalo",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "88.1",
+      "ano": 1927,
+      "coordenadas": [
+        [
+          -46.61593440650691,
+          -23.531895337632104
+        ]
+      ],
+      "ids_pontos": [
+        2984
+      ]
+    },
+    {
+      "id_caso": "6c408cd0b956b2349d60",
+      "tipo": "interior_intervalo",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "88.1",
+      "ano": 1930,
+      "coordenadas": [
+        [
+          -46.61593440650691,
+          -23.531895337632104
+        ]
+      ],
+      "ids_pontos": [
+        2984
+      ]
+    },
+    {
+      "id_caso": "e27ead3b8c96a99367f6",
+      "tipo": "fim_intervalo",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "88.1",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.61593440650691,
+          -23.531895337632104
+        ]
+      ],
+      "ids_pontos": [
+        2984
+      ]
+    },
+    {
+      "id_caso": "675453361ba1386c15f9",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "88.1",
+      "ano": 1926,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "2ceb6ad8f17f157ff046",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "88.1",
+      "ano": 1934,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "420e57c0ff8d71b4c57c",
+      "tipo": "inicio_intervalo",
+      "id_rua": 697,
+      "nome": "rua do areal",
+      "numero": "67.1",
+      "ano": 1930,
+      "coordenadas": [
+        [
+          -46.641494441235395,
+          -23.52430775373384
+        ]
+      ],
+      "ids_pontos": [
+        5034
+      ]
+    },
+    {
+      "id_caso": "323c9f7cf3411cb8969b",
+      "tipo": "antes_de_todos_intervalos",
+      "id_rua": 697,
+      "nome": "rua do areal",
+      "numero": "67.1",
+      "ano": 1929,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "ec1828c1df40f6e513c9",
+      "tipo": "apos_todos_intervalos",
+      "id_rua": 697,
+      "nome": "rua do areal",
+      "numero": "67.1",
+      "ano": 1931,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c12d96462bd73fbbce97",
+      "tipo": "numero_inexistente",
+      "id_rua": 45,
+      "nome": "avenida sao joao",
+      "numero": "1477",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "a6235f3ac1b3eae2d71d",
+      "tipo": "numero_inexistente",
+      "id_rua": 60,
+      "nome": "rua asdrubal do nascimento",
+      "numero": "495",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "bc8faeb00252f9571cab",
+      "tipo": "numero_inexistente",
+      "id_rua": 61,
+      "nome": "rua santo amaro",
+      "numero": "771",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "6bef55b2bd2b9017cc4c",
+      "tipo": "numero_inexistente",
+      "id_rua": 80,
+      "nome": "rua general jardim",
+      "numero": "130",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "3e0564e2afa9e59f6fa8",
+      "tipo": "numero_inexistente",
+      "id_rua": 104,
+      "nome": "rua marquez de paranagua",
+      "numero": "191",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "513470d6ce6e54842f4b",
+      "tipo": "numero_inexistente",
+      "id_rua": 112,
+      "nome": "rua maria jose",
+      "numero": "447",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "a5f63a296b7380ff3bb3",
+      "tipo": "numero_inexistente",
+      "id_rua": 113,
+      "nome": "rua sao miguel",
+      "numero": "122",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "81dacf0fc6a03e8c3e5b",
+      "tipo": "numero_inexistente",
+      "id_rua": 114,
+      "nome": "rua barata ribeiro",
+      "numero": "497",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "18ef3f93e39ea408601c",
+      "tipo": "numero_inexistente",
+      "id_rua": 115,
+      "nome": "rua manoel dutra",
+      "numero": "649",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "9d815898ac8bf8d48fbc",
+      "tipo": "numero_inexistente",
+      "id_rua": 158,
+      "nome": "rua visconde de parnahyba",
+      "numero": "1086",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "06ebe5946096194b6e14",
+      "tipo": "numero_inexistente",
+      "id_rua": 163,
+      "nome": "rua souza lima",
+      "numero": "331",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "e6471ef3f7416d447176",
+      "tipo": "numero_inexistente",
+      "id_rua": 165,
+      "nome": "rua lopes de oliveira",
+      "numero": "623",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "7e38e968237988ffef09",
+      "tipo": "numero_inexistente",
+      "id_rua": 175,
+      "nome": "rua dos pyrineus",
+      "numero": "120",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "944da781201721ca0dbe",
+      "tipo": "numero_inexistente",
+      "id_rua": 190,
+      "nome": "rua anhaia",
+      "numero": "1247",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d6f18efbcd1aa6bb2103",
+      "tipo": "numero_inexistente",
+      "id_rua": 232,
+      "nome": "rua santa luzia",
+      "numero": "92",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "2b8ac5cfc759ec81bf85",
+      "tipo": "numero_inexistente",
+      "id_rua": 238,
+      "nome": "rua guilherme maw",
+      "numero": "180",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "38dc15166913ef1cc291",
+      "tipo": "numero_inexistente",
+      "id_rua": 250,
+      "nome": "rua joao jacyntho",
+      "numero": "132",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "5ae69c90cb85adbd0451",
+      "tipo": "numero_inexistente",
+      "id_rua": 251,
+      "nome": "rua affonso arinos",
+      "numero": "215",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "090a765eb2b34068b1c8",
+      "tipo": "numero_inexistente",
+      "id_rua": 286,
+      "nome": "rua parahyba",
+      "numero": "302",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "09c04a060996a00622e8",
+      "tipo": "numero_inexistente",
+      "id_rua": 296,
+      "nome": "rua jaguaribe",
+      "numero": "786",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "f40b6199a550a0514dfd",
+      "tipo": "numero_inexistente",
+      "id_rua": 301,
+      "nome": "rua doutor martinico prado",
+      "numero": "452",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "869296597866fa212178",
+      "tipo": "numero_inexistente",
+      "id_rua": 312,
+      "nome": "rua conselheiro nebias",
+      "numero": "1741",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "692a10c9b19fc460d250",
+      "tipo": "numero_inexistente",
+      "id_rua": 314,
+      "nome": "rua do triumpho",
+      "numero": "285",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "46f43cc9e769353150c5",
+      "tipo": "numero_inexistente",
+      "id_rua": 337,
+      "nome": "rua antonio paes",
+      "numero": "163",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "0291ee0d810ad6814a0f",
+      "tipo": "numero_inexistente",
+      "id_rua": 339,
+      "nome": "rua page",
+      "numero": "199",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "a7c0a67ce2385afc57a8",
+      "tipo": "numero_inexistente",
+      "id_rua": 368,
+      "nome": "rua sampaio moreira",
+      "numero": "248",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "0f5e903bc666ec9f3496",
+      "tipo": "numero_inexistente",
+      "id_rua": 405,
+      "nome": "rua major diogo",
+      "numero": "907",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "0603f1f47b7b2faf9578",
+      "tipo": "numero_inexistente",
+      "id_rua": 411,
+      "nome": "avenida brigadeiro luis antonio",
+      "numero": "967",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "cdcedeea17b344d5476a",
+      "tipo": "numero_inexistente",
+      "id_rua": 476,
+      "nome": "rua itapira",
+      "numero": "205",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "e8f4d936de82ae1a1187",
+      "tipo": "numero_inexistente",
+      "id_rua": 502,
+      "nome": "alameda barros",
+      "numero": "296",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c618ae2d4b686375a87c",
+      "tipo": "numero_inexistente",
+      "id_rua": 693,
+      "nome": "rua general flores",
+      "numero": "587",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c3562b601b40aa339186",
+      "tipo": "numero_inexistente",
+      "id_rua": 697,
+      "nome": "rua do areal",
+      "numero": "250",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "6929b32b0a4ae3d1f7a4",
+      "tipo": "numero_inexistente",
+      "id_rua": 707,
+      "nome": "rua solimoes",
+      "numero": "326",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "c6b78bdf72c1e9578602",
+      "tipo": "numero_inexistente",
+      "id_rua": 2013,
+      "nome": "rua fortaleza",
+      "numero": "311",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "d4f0eb87fe29d9670168",
+      "tipo": "numero_inexistente",
+      "id_rua": 2017,
+      "nome": "rua pedroso",
+      "numero": "625",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "afbcbdc9f958a501e81b",
+      "tipo": "numero_inexistente",
+      "id_rua": 2043,
+      "nome": "rua cincinato braga",
+      "numero": "561",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "70ce46b691290e27e0a4",
+      "tipo": "numero_inexistente",
+      "id_rua": 10003,
+      "nome": "praca antonio prado impar",
+      "numero": "46",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    },
+    {
+      "id_caso": "4a7feeb8311ad4454876",
+      "tipo": "rua_inexistente",
+      "id_rua": 20019,
+      "nome": "ID inexistente",
+      "numero": "1",
+      "ano": 1936,
+      "coordenadas": [],
+      "ids_pontos": []
+    }
+  ],
+  "fluxos": [
+    {
+      "id_consulta": "a398e11afd0cd75c5c5c",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua joao ttheodoro",
+      "ids_relevantes": "218",
+      "esperados": [
+        {
+          "id": 218,
+          "nome": "rua joao theodoro"
+        },
+        {
+          "id": 3,
+          "nome": "rua joao briccola"
+        },
+        {
+          "id": 64,
+          "nome": "rua joao adolpho"
+        },
+        {
+          "id": 188,
+          "nome": "rua joao monteiro"
+        },
+        {
+          "id": 250,
+          "nome": "rua joao jacyntho"
+        }
+      ],
+      "id_rua": 218,
+      "numero": "1205",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.621176232826876,
+          -23.53518679780009
+        ]
+      ],
+      "ids_pontos": [
+        2441
+      ]
+    },
+    {
+      "id_consulta": "0579dd50487ac6baba70",
+      "particao": "complementar",
+      "tipo": "fonetica_simulada",
+      "consulta": "rua sao karlos pinhal",
+      "ids_relevantes": "2018",
+      "esperados": [
+        {
+          "id": 2018,
+          "nome": "rua sao carlos pinhal"
+        },
+        {
+          "id": 222,
+          "nome": "rua conde do pinhal"
+        },
+        {
+          "id": 38,
+          "nome": "rua sao nicolau"
+        },
+        {
+          "id": 110,
+          "nome": "rua sao domingos"
+        },
+        {
+          "id": 113,
+          "nome": "rua sao miguel"
+        }
+      ],
+      "id_rua": 2018,
+      "numero": "37",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.64859829432702,
+          -23.56617506506393
+        ]
+      ],
+      "ids_pontos": [
+        5743
+      ]
+    },
+    {
+      "id_consulta": "836763fcd6691dba2a3a",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "alameda eduardo prado",
+      "ids_relevantes": "167",
+      "esperados": [
+        {
+          "id": 167,
+          "nome": "alameda eduardo prado"
+        },
+        {
+          "id": 10005,
+          "nome": "praca eduardo rudge impar"
+        },
+        {
+          "id": 20005,
+          "nome": "praca eduardo rudge par"
+        },
+        {
+          "id": 185,
+          "nome": "alameda cleveland"
+        },
+        {
+          "id": 502,
+          "nome": "alameda barros"
+        }
+      ],
+      "id_rua": 167,
+      "numero": "112",
+      "ano": 1914,
+      "coordenadas": [
+        [
+          -46.652669277702046,
+          -23.532755376523955
+        ]
+      ],
+      "ids_pontos": [
+        1789
+      ]
+    },
+    {
+      "id_consulta": "e2ff7cfa36b5b52b47e2",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua miller",
+      "ids_relevantes": "290",
+      "esperados": [
+        {
+          "id": 290,
+          "nome": "rua miller"
+        },
+        {
+          "id": 3000,
+          "nome": "rua camillo"
+        },
+        {
+          "id": 623,
+          "nome": "rua orville derby"
+        },
+        {
+          "id": 255,
+          "nome": "rua camomil"
+        },
+        {
+          "id": 3050,
+          "nome": "Rua Tornelero"
+        }
+      ],
+      "id_rua": 290,
+      "numero": "877",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.61793410077696,
+          -23.533673506578825
+        ]
+      ],
+      "ids_pontos": [
+        3024
+      ]
+    },
+    {
+      "id_consulta": "a482afa34e4442e00762",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "praca antonio praddo impar",
+      "ids_relevantes": "10003",
+      "esperados": [
+        {
+          "id": 10003,
+          "nome": "praca antonio prado impar"
+        },
+        {
+          "id": 20003,
+          "nome": "praca antonio prado par"
+        },
+        {
+          "id": 10005,
+          "nome": "praca eduardo rudge impar"
+        },
+        {
+          "id": 10001,
+          "nome": "praca da se impar"
+        },
+        {
+          "id": 10004,
+          "nome": "praca da republica impar"
+        }
+      ],
+      "id_rua": 10003,
+      "numero": "3",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.63474860546368,
+          -23.545589261527347
+        ],
+        [
+          -46.63459643115481,
+          -23.545696775984695
+        ],
+        [
+          -46.634532856168946,
+          -23.54574169309428
+        ]
+      ],
+      "ids_pontos": [
+        5884,
+        5887,
+        5893
+      ]
+    },
+    {
+      "id_consulta": "2c4c2cfd81946ea0f066",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "rua aerico basiliense",
+      "ids_relevantes": "364",
+      "esperados": [
+        {
+          "id": 364,
+          "nome": "rua americo brasiliense"
+        },
+        {
+          "id": 597,
+          "nome": "villa silverio jordao"
+        },
+        {
+          "id": 26,
+          "nome": "rua frederico alvarenga"
+        },
+        {
+          "id": 306,
+          "nome": "rua frederico steidel"
+        },
+        {
+          "id": 501,
+          "nome": "rua frederico abranches"
+        }
+      ],
+      "id_rua": 364,
+      "numero": "191",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.626287384696376,
+          -23.54092671426131
+        ]
+      ],
+      "ids_pontos": [
+        3523
+      ]
+    },
+    {
+      "id_consulta": "a6005ed117c2e1cef6be",
+      "particao": "teste",
+      "tipo": "ordem",
+      "consulta": "rua bento sao de",
+      "ids_relevantes": "21",
+      "esperados": [
+        {
+          "id": 21,
+          "nome": "rua de sao bento"
+        },
+        {
+          "id": 10011,
+          "nome": "largo sao bento impar"
+        },
+        {
+          "id": 20011,
+          "nome": "largo sao bento par"
+        },
+        {
+          "id": 180,
+          "nome": "rua sao vicente de paulo"
+        },
+        {
+          "id": 402,
+          "nome": "rua sao vicente"
+        }
+      ],
+      "id_rua": 21,
+      "numero": "16",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.63665666327736,
+          -23.548815397700455
+        ],
+        [
+          -46.63592508198937,
+          -23.54754094702506
+        ]
+      ],
+      "ids_pontos": [
+        278,
+        281
+      ]
+    },
+    {
+      "id_consulta": "9c6826f74627c8744ef5",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua trzee de maio",
+      "ids_relevantes": "506",
+      "esperados": [
+        {
+          "id": 506,
+          "nome": "rua treze de maio"
+        },
+        {
+          "id": 54,
+          "nome": "rua vinte e quatro de maio"
+        },
+        {
+          "id": 230,
+          "nome": "rua conde de sarzedas"
+        },
+        {
+          "id": 491,
+          "nome": "rua quatorze de julho"
+        },
+        {
+          "id": 95,
+          "nome": "rua caio prado"
+        }
+      ],
+      "id_rua": 506,
+      "numero": "86",
+      "ano": 1911,
+      "coordenadas": [
+        [
+          -46.64651966794915,
+          -23.55726913273987
+        ]
+      ],
+      "ids_pontos": [
+        4753
+      ]
+    },
+    {
+      "id_consulta": "fdad1620ac78d36c16a7",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua bella citnra",
+      "ids_relevantes": "387",
+      "esperados": [
+        {
+          "id": 387,
+          "nome": "rua bella cintra"
+        },
+        {
+          "id": 100,
+          "nome": "rua florisbella"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        },
+        {
+          "id": 589,
+          "nome": "rua bello horizonte"
+        },
+        {
+          "id": 268,
+          "nome": "rua gabriella sa barbosa"
+        }
+      ],
+      "id_rua": 387,
+      "numero": "368",
+      "ano": 1933,
+      "coordenadas": [
+        [
+          -46.65598702244311,
+          -23.552756188874007
+        ]
+      ],
+      "ids_pontos": [
+        3723
+      ]
+    },
+    {
+      "id_consulta": "6ddd013e92224a4b3da7",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua do bbosque",
+      "ids_relevantes": "715",
+      "esperados": [
+        {
+          "id": 715,
+          "nome": "rua do bosque"
+        },
+        {
+          "id": 170,
+          "nome": "rua albuquerque lins"
+        },
+        {
+          "id": 139,
+          "nome": "rua queiroga"
+        },
+        {
+          "id": 3089,
+          "nome": "Rua Coaqueira"
+        },
+        {
+          "id": 342,
+          "nome": "rua sa barbosa"
+        }
+      ],
+      "id_rua": 715,
+      "numero": "217",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.658937807900195,
+          -23.524574976011525
+        ]
+      ],
+      "ids_pontos": [
+        5187
+      ]
+    },
+    {
+      "id_consulta": "d9597bc58ba2d974b9b4",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua doutor theodoro bayma",
+      "ids_relevantes": "83",
+      "esperados": [
+        {
+          "id": 83,
+          "nome": "rua doutor theodoro bayma"
+        },
+        {
+          "id": 218,
+          "nome": "rua joao theodoro"
+        },
+        {
+          "id": 1730,
+          "nome": "rua theodoro sampaio"
+        },
+        {
+          "id": 62,
+          "nome": "rua doutor falcao"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        }
+      ],
+      "id_rua": 83,
+      "numero": "1",
+      "ano": 1935,
+      "coordenadas": [
+        [
+          -46.64602885330815,
+          -23.546258743400685
+        ]
+      ],
+      "ids_pontos": [
+        872
+      ]
+    },
+    {
+      "id_consulta": "16826e5e6478681f8936",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. epitacio pessoa",
+      "ids_relevantes": "82",
+      "esperados": [
+        {
+          "id": 82,
+          "nome": "rua epitacio pessoa"
+        },
+        {
+          "id": 17,
+          "nome": "travessa do commercio"
+        },
+        {
+          "id": 485,
+          "nome": "travessa placidina"
+        },
+        {
+          "id": 687,
+          "nome": "rua itapirapes"
+        },
+        {
+          "id": 284,
+          "nome": "rua capitao mor passos"
+        }
+      ],
+      "id_rua": 82,
+      "numero": "2",
+      "ano": 1936,
+      "coordenadas": [
+        [
+          -46.64352198057514,
+          -23.545189788980284
+        ]
+      ],
+      "ids_pontos": [
+        864
+      ]
+    },
+    {
+      "id_consulta": "2d3549703dd43f68ac54",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "avenida rudgf",
+      "ids_relevantes": "193",
+      "esperados": [
+        {
+          "id": 193,
+          "nome": "avenida rudge"
+        },
+        {
+          "id": 109,
+          "nome": "avenida hygienopolis"
+        },
+        {
+          "id": 171,
+          "nome": "avenida angelica"
+        },
+        {
+          "id": 215,
+          "nome": "avenida tiradentes"
+        },
+        {
+          "id": 241,
+          "nome": "avenida tamanduatehy"
+        }
+      ],
+      "id_rua": 193,
+      "numero": "607",
+      "ano": 1938,
+      "coordenadas": [
+        [
+          -46.651659607762134,
+          -23.5210473393888
+        ]
+      ],
+      "ids_pontos": [
+        2139
+      ]
+    },
+    {
+      "id_consulta": "895bf59eb914707ec4fa",
+      "particao": "teste",
+      "tipo": "original",
+      "consulta": "rua visconde de taway",
+      "ids_relevantes": "702",
+      "esperados": [
+        {
+          "id": 702,
+          "nome": "rua visconde de taway"
+        },
+        {
+          "id": 158,
+          "nome": "rua visconde de parnahyba"
+        },
+        {
+          "id": 546,
+          "nome": "rua visconde de abaete"
+        },
+        {
+          "id": 103,
+          "nome": "rua visconde de ouro preto"
+        },
+        {
+          "id": 625,
+          "nome": "rua visconde da laguna"
+        }
+      ],
+      "id_rua": 702,
+      "numero": "39",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.64792955334168,
+          -23.524828857883907
+        ],
+        [
+          -46.64697643134471,
+          -23.52646416522825
+        ]
+      ],
+      "ids_pontos": [
+        5035,
+        5040
+      ]
+    },
+    {
+      "id_consulta": "a4fbb086bfdf604dc8ab",
+      "particao": "teste",
+      "tipo": "substituicao",
+      "consulta": "rua correa de andraee",
+      "ids_relevantes": "369",
+      "esperados": [
+        {
+          "id": 369,
+          "nome": "rua correa de andrade"
+        },
+        {
+          "id": 204,
+          "nome": "rua correa de mello"
+        },
+        {
+          "id": 197,
+          "nome": "rua correa dos santos"
+        },
+        {
+          "id": 285,
+          "nome": "rua coronel moraes"
+        },
+        {
+          "id": 72,
+          "nome": "rua quirino de andrade"
+        }
+      ],
+      "id_rua": 369,
+      "numero": "43",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.61998396533802,
+          -23.542805339330144
+        ]
+      ],
+      "ids_pontos": [
+        3588
+      ]
+    },
+    {
+      "id_consulta": "4a40e4145915f818f4ae",
+      "particao": "complementar",
+      "tipo": "historica_simulada",
+      "consulta": "rua paulo afonso",
+      "ids_relevantes": "147",
+      "esperados": [
+        {
+          "id": 147,
+          "nome": "rua paulo affonso"
+        },
+        {
+          "id": 435,
+          "nome": "rua sao paulo"
+        },
+        {
+          "id": 212,
+          "nome": "rua afonso penna"
+        },
+        {
+          "id": 449,
+          "nome": "travessa sao paulo"
+        },
+        {
+          "id": 56,
+          "nome": "rua senador paulo egydio"
+        }
+      ],
+      "id_rua": 147,
+      "numero": "65",
+      "ano": 1939,
+      "coordenadas": [
+        [
+          -46.61502236168039,
+          -23.544222969375276
+        ]
+      ],
+      "ids_pontos": [
+        1590
+      ]
+    },
+    {
+      "id_consulta": "b7b73b7732e97a79246a",
+      "particao": "teste",
+      "tipo": "abreviacao",
+      "consulta": "r. rodolpho miranda",
+      "ids_relevantes": "726",
+      "esperados": [
+        {
+          "id": 726,
+          "nome": "rua rodolpho miranda"
+        },
+        {
+          "id": 217,
+          "nome": "rua jorge miranda"
+        },
+        {
+          "id": 64,
+          "nome": "rua joao adolpho"
+        },
+        {
+          "id": 169,
+          "nome": "rua adolpho gordo"
+        },
+        {
+          "id": 314,
+          "nome": "rua do triumpho"
+        }
+      ],
+      "id_rua": 726,
+      "numero": "323",
+      "ano": 1937,
+      "coordenadas": [
+        [
+          -46.63427439336385,
+          -23.52514734132101
+        ]
+      ],
+      "ids_pontos": [
+        5248
+      ]
+    },
+    {
+      "id_consulta": "615d64be8b847e16ddf8",
+      "particao": "teste",
+      "tipo": "transposicao",
+      "consulta": "rua doutor flacao",
+      "ids_relevantes": "62",
+      "esperados": [
+        {
+          "id": 62,
+          "nome": "rua doutor falcao"
+        },
+        {
+          "id": 277,
+          "nome": "rua doutor ornellas"
+        },
+        {
+          "id": 438,
+          "nome": "rua doutor lund"
+        },
+        {
+          "id": 583,
+          "nome": "rua doutor clementino"
+        },
+        {
+          "id": 1764,
+          "nome": "Rua Doutor Rosa"
+        }
+      ],
+      "id_rua": 62,
+      "numero": "15",
+      "ano": 1909,
+      "coordenadas": [
+        [
+          -46.63749001757657,
+          -23.548182174211416
+        ]
+      ],
+      "ids_pontos": [
+        706
+      ]
+    },
+    {
+      "id_consulta": "2ce84bc5a07605c11a38",
+      "particao": "teste",
+      "tipo": "insercao",
+      "consulta": "rua mariaa benedicta",
+      "ids_relevantes": "39",
+      "esperados": [
+        {
+          "id": 39,
+          "nome": "rua maria benedicta"
+        },
+        {
+          "id": 311,
+          "nome": "rua victoria"
+        },
+        {
+          "id": 604,
+          "nome": "rua benedicto barbosa"
+        },
+        {
+          "id": 271,
+          "nome": "rua teresa benedita sa barbosa"
+        },
+        {
+          "id": 272,
+          "nome": "rua benecdita sa barbosa"
+        }
+      ],
+      "id_rua": 39,
+      "numero": "11",
+      "ano": 1909,
+      "coordenadas": [
+        [
+          -46.63122687849757,
+          -23.547662278751165
+        ]
+      ],
+      "ids_pontos": [
+        414
+      ]
+    },
+    {
+      "id_consulta": "801f610ef7d08aa24c32",
+      "particao": "teste",
+      "tipo": "duas_omissoes",
+      "consulta": "praca atonio pado par",
+      "ids_relevantes": "20003",
+      "esperados": [
+        {
+          "id": 20003,
+          "nome": "praca antonio prado par"
+        },
+        {
+          "id": 10003,
+          "nome": "praca antonio prado impar"
+        },
+        {
+          "id": 20001,
+          "nome": "praca da se  par"
+        },
+        {
+          "id": 20004,
+          "nome": "praca da republica par"
+        },
+        {
+          "id": 20002,
+          "nome": "praca carlos gomes par"
+        }
+      ],
+      "id_rua": 20003,
+      "numero": "2",
+      "ano": 1928,
+      "coordenadas": [
+        [
+          -46.634348513421116,
+          -23.545782446592092
+        ],
+        [
+          -46.63429925932,
+          -23.54573180505151
+        ]
+      ],
+      "ids_pontos": [
+        5959,
+        5962
+      ]
+    }
+  ],
+  "limites": [
+    "Latência HTTP pelo proxy do portal; inclui Elasticsearch e RF, exclui desenho no navegador.",
+    "Requisições sequenciais com nova conexão, serviço aquecido; não é teste de carga.",
+    "Geometrias conferidas com o backup, não com levantamento de campo ou fonte histórica independente.",
+    "O fim ausente/zero é tratado como 2000 conforme contrato da API, não como evidência histórica.",
+    "Fluxo completo usa seleção explícita de um ID relevante presente nas sugestões, não necessariamente o primeiro.",
+    "O novo fluxo consulta pontos cadastrados; não avalia interpolação da API legada."
+  ]
+}

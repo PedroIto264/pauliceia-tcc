@@ -1,0 +1,24 @@
+% Gerado por gerar_tabelas.py a partir dos resultados congelados.
+\begin{table}[tb]
+\caption{Top-1 por transformação no teste (\%).}
+\label{tab:tipos}
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Transformação & n & BM25 & Tri. & DL & RF \\
+\midrule
+Original & 167 & 100,00 & 100,00 & 100,00 & 100,00 \\
+Normalização & 2 & 100,00 & 100,00 & 100,00 & 100,00 \\
+Abreviação & 166 & 98,19 & 99,40 & 98,80 & 100,00 \\
+Omissão & 165 & 47,88 & 97,58 & 100,00 & 100,00 \\
+Substituição & 165 & 47,27 & 96,97 & 100,00 & 100,00 \\
+Inserção & 165 & 46,67 & 100,00 & 100,00 & 100,00 \\
+Transposição & 165 & 46,67 & 89,70 & 100,00 & 100,00 \\
+Duas omissões & 97 & 9,28 & 90,72 & 100,00 & 100,00 \\
+Ordem & 115 & 100,00 & 100,00 & 15,65 & 100,00 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize Tri.: BM25 com trigramas; DL: Damerau--Levenshtein; RF: Random Forest.}
+\end{table}

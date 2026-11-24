@@ -1,0 +1,83 @@
+\section{Metodologia}
+
+\subsection{Delineamento, catálogo e relevância}
+
+Realizamos um estudo experimental de recuperação textual, seguido de avaliações complementares e validação funcional do protótipo. Utilizamos uma cópia local do banco disponibilizado para o projeto. Dos 873 registros de logradouros, excluímos cinco sem nome e 15 com marcadores genéricos, como ``nao oficial'' e ``n.o''. O índice resultante contém 853 registros e 847 nomes normalizados. Trata-se do recorte disponível nesse backup, sem pressupor cobertura integral do acervo Pauliceia, dos séculos XIX e XX ou dos livros de emplacamento mencionados no planejamento.
+
+A normalização para agrupamento e cálculo das similaridades aplicou decomposição Unicode NFD, remoção de marcas de acentuação, conversão por \texttt{casefold} e regularização dos espaços. Mantivemos os nomes originais para exibição e não modernizamos suas grafias no cadastro. Cada consulta recebeu como relevantes todos os IDs com o mesmo nome normalizado de sua referência. Essa decisão avalia a correspondência textual: registros homônimos podem representar situações espaciais diferentes, que o nome isolado não resolve.
+
+\subsection{Consultas e separação dos dados}
+
+O conjunto principal reuniu 6.136 consultas: 847 nomes do cadastro e 5.289 variantes sintéticas. Geramos variantes de normalização, abreviação do tipo de logradouro, omissão, substituição, inserção e transposição de caracteres, duas omissões em palavras distintas e inversão da ordem das palavras após o primeiro termo. As posições de edição foram determinadas por hash e semente fixa. A substituição utilizou a letra seguinte no alfabeto e a inserção repetiu um caractere. Portanto, esses exemplos representam perturbações controladas; não reproduzem frequências observadas de erros de teclado, OCR ou uso real.
+
+As regras tiveram condições de aplicação, de modo que nem todo nome recebeu todas as variantes. O gerador removeu uma repetição e verificou colisões entre consultas e referências distintas; não houve exclusões por ambiguidade nessa execução. As nove categorias totalizaram 847 originais, 22 normalizações, 834 abreviações, 834 omissões, 834 substituições, 834 inserções, 834 transposições, 491 casos de duas omissões e 606 inversões de ordem.
+
+Para reduzir a transferência de variantes relacionadas entre partições, agrupamos nomes após normalização, desconsiderando a ordem das palavras e os sufixos de lado par/ímpar. Reservamos os seis grupos utilizados no piloto para desenvolvimento. Os demais foram ordenados por hash com a semente \texttt{pauliceia-tcc-v1} e distribuídos aproximadamente em 60\% para treino, 20\% para validação e 20\% para teste. A Tabela~\ref{tab:particoes} apresenta as quantidades efetivas. Consultas do conjunto de desenvolvimento não participaram do ajuste nem da seleção do modelo.
+
+\input{Tabelas/particoes}
+
+O índice manteve o catálogo completo em todas as etapas, porque recuperar um nome exige que ele esteja indexado. A separação incidiu sobre os grupos de consultas e seus rótulos para ajuste e seleção, não sobre a disponibilidade dos documentos candidatos. Consequentemente, nomes associados às consultas de teste podem aparecer como candidatos negativos em consultas de treino. O classificador recebeu medidas numéricas de similaridade, sem IDs ou nomes como atributos categóricos. O protocolo avalia generalização para novos grupos de consultas dentro de um catálogo fixo, não para outro catálogo.
+
+\subsection{Recuperação de candidatos}
+
+Configuramos o Elasticsearch 8.19.4 com um fragmento primário e sem réplicas. O campo de palavras utilizou tokenização \texttt{standard}, conversão para minúsculas e \texttt{asciifolding}. Um segundo campo acrescentou um filtro de n-gramas com tamanho mínimo e máximo iguais a três, aplicado aos tokens. Ambos usaram BM25 com os parâmetros padrão, $k_1=1{,}2$ e $b=0{,}75$~\cite{elasticSimilarity}.
+
+A referência BM25 consultou apenas o campo de palavras. A alternativa BM25 com trigramas utilizou \texttt{multi\_match} do tipo \texttt{most\_fields}, combinando os escores dos dois campos sem pesos adicionais~\cite{elasticMulti}. Cada método recuperou até 100 candidatos, ordenados por escore decrescente e ID crescente no desempate. O limite foi mantido nos experimentos e no serviço, sem busca posterior por valores alternativos. BM25 e trigramas podem produzir conjuntos distintos; todos os reordenadores operaram sobre a mesma lista obtida pelos trigramas.
+
+\subsection{Similaridades e reordenação supervisionada}
+
+Representamos cada par consulta--candidato por sete atributos: similaridades normalizadas de Damerau--Levenshtein, Jaro--Winkler e Levenshtein; Token Sort e Token Set divididos por 100; escore do Elasticsearch dividido pelo maior escore da consulta; e razão entre o menor e o maior comprimento das strings. Usamos RapidFuzz 3.14.3 e matrizes \texttt{float32}, com as mesmas funções no experimento e no serviço online.
+
+Damerau--Levenshtein considera operações de edição, incluindo transposições adjacentes; sua similaridade normalizada utiliza o maior comprimento como referência~\cite{rapidDL}. Token Sort ordena as palavras antes da comparação, enquanto Token Set considera palavras únicas e comuns. Essas funções empregam a similaridade Indel normalizada do RapidFuzz, e não devem ser descritas simplesmente como distância de Levenshtein sobre tokens~\cite{rapidFuzz}. As diferentes representações fornecem sinais que podem responder de maneira distinta a alterações locais e à ordem das palavras.
+
+Treinamos um Random Forest, família de modelos baseada na combinação de árvores~\cite{breiman2001}, para classificar pares como relevantes ou não relevantes. A implementação \texttt{RandomForestClassifier}, do scikit-learn 1.7.2~\cite{sklearnRF}, recebeu 347.363 pares, dos quais 3.678 relevantes. Cada par teve peso inversamente proporcional ao número de candidatos de sua consulta, e as classes foram balanceadas em cada amostra bootstrap com \texttt{balanced\_subsample}. A diferença entre consultas e pares positivos decorre da quantidade de relevantes recuperados, que pode ser nula ou maior que um.
+
+Fixamos 200 árvores e semente 42. A grade combinou profundidade máxima 12 ou ilimitada com mínimo de dois ou cinco exemplos por folha; os demais parâmetros permaneceram nos padrões da versão registrada. Selecionamos a configuração pelo maior MRR médio por nome na validação, com desempate pelo acerto na primeira posição por nome e, depois, pela ordem da grade. O modelo selecionado teve profundidade 12 e mínimo de dois exemplos por folha. O treinamento usou até quatro tarefas paralelas e a previsão uma tarefa, preservando a ordem de soma das árvores.
+
+A saída da classe relevante em \texttt{predict\_proba} foi utilizada como escore de ordenação, sem assumir calibração probabilística. Empates conservaram a ordem dos trigramas. O modelo foi serializado, e as previsões antes e depois da leitura do arquivo foram comparadas. Após a seleção pela validação, o modelo permaneceu congelado para o teste e as avaliações adicionais.
+
+Como comparadores adicionais, reordenamos os candidatos por Damerau--Levenshtein, Jaro--Winkler, Token Sort e Token Set individualmente, com o mesmo desempate. Essa comparação foi acrescentada após a observação do teste original, sem retreinamento, novos pesos ou escolha de hiperparâmetros. Ela compara métodos finais; não constitui remoção controlada de atributos do Random Forest, que recebe sete medidas.
+
+\subsection{Métricas de recuperação}
+
+Para uma consulta $q$, sejam $G_q$ o conjunto de IDs relevantes e $L_q^k$ os IDs nas primeiras $k$ posições. Calculamos o acerto em $k$ posições, a precisão e a cobertura:
+\begin{align}
+ H@k(q) &= \mathbf{1}[G_q\cap L_q^k\ne\varnothing],\\
+ P@k(q) &= \frac{|G_q\cap L_q^k|}{k},\\
+ R@100(q) &= \frac{|G_q\cap L_q^{100}|}{|G_q|}.
+\end{align}
+O recíproco da posição do primeiro relevante, limitado aos 100 candidatos, foi definido por
+\begin{equation}
+ RR@100(q)=\begin{cases}1/r_q,&r_q\leq100,\\0,&\text{sem relevante recuperado},\end{cases}
+\end{equation}
+em que $r_q$ é a primeira posição relevante. MRR@100 corresponde à média de $RR@100$. Reportamos Top-1 como a média de $H@1$, além de $H@3$, $H@5$, $P@1$, $P@3$, $P@5$ e Recall@100. Uma consulta sem alvo entre os candidatos continuou contribuindo com zero para acerto e MRR. A reordenação não introduziu IDs ausentes.
+
+As tabelas principais usam médias por consulta. Também preservamos médias por nome e resultados por transformação. Acerto@K e Precision@K têm interpretações diferentes: encontrar uma referência entre cinco sugestões não torna todas as cinco relevantes. As comparações de ganhos e perdas são descritivas, sem testes de significância ou intervalos de confiança. As variantes de uma mesma referência não são observações independentes para inferência estatística.
+
+\subsection{Avaliação complementar e fontes documentais}
+
+Após o teste original, construímos um complemento exploratório de 179 consultas referentes a 168 nomes: 90 variantes históricas simuladas, 79 fonéticas simuladas e dez grafias documentadas. As simulações aplicaram substituições textuais controladas. O grupo chamado fonético não resulta de gravações de fala ou validação fonológica, e o grupo histórico simulado não corresponde a ocorrências documentais verificadas para cada transformação.
+
+As dez consultas documentadas foram associadas a sete fontes municipais digitais. As ementas da Lei 1.734/1913 e do Ato 3.330/1930 registram, respectivamente, Higienópolis e Teodoro Sampaio~\cite{lei1734,ato3330}. Outras fontes registram Santa Ifigênia~\cite{santaIfigenia}, Artur Azevedo~\cite{conpresp7}, Bela Cintra, Barão de Tatuí, Humaitá e Triunfo~\cite{smsub40}, Travessa do Comércio~\cite{lei1552} e Beco dos Aflitos~\cite{aflitos}. O manifesto preservou URL, trecho localizador, consulta e ID associado.
+
+A evidência documental atesta a ocorrência da grafia consultada. O vínculo dessa grafia ao ID do backup foi uma inferência textual sem revisão histórica independente. Ementas digitais de normas antigas podem refletir modernizações editoriais; a data da norma não foi tratada como comprovação da grafia no documento original. Não inferimos continuidade da extensão física da rua a partir dessas ocorrências.
+
+O complemento incluiu nomes de diferentes partições e sete consultas já presentes nos conjuntos anteriores, incluindo o piloto. Identificamos separadamente 32 consultas novas ligadas a nomes do teste original. Nenhuma dessas avaliações foi usada para modificar o modelo. A construção posterior e a exposição anterior de parte dos nomes impedem tratar as 179 consultas como um novo teste independente.
+
+\subsection{Integração e validação do portal}
+
+O portal local passou a apresentar cinco sugestões com nome e ID após a recuperação de 100 candidatos e a reordenação. O usuário seleciona uma rua e informa número e ano; a API consulta os pontos cadastrados no PostgreSQL/PostGIS. O novo fluxo não interpola coordenadas. Os intervalos temporais são inclusivos; ano final nulo ou zero é interpretado como 2000, convenção herdada da API e não evidência histórica adicional.
+
+A arquitetura usou Elasticsearch para recuperação e um serviço Python para similaridades e previsão. O planejamento inicial previa Painless no indexador; essa implementação não foi realizada. O serviço Python permitiu compartilhar funções, versões e representação numérica com o experimento, evitando uma segunda implementação cuja equivalência precisaria ser verificada. Não comparamos desempenho de Python com Painless. O serviço carrega o modelo uma vez, verifica sua assinatura e fornece identificação do modelo na resposta; indisponibilidade resulta em erro explícito.
+
+A amostra de latência foi fixada antes da medição: 112 consultas, sendo 82 do teste e 30 do complemento. Após uma chamada de aquecimento por consulta, executamos três rodadas sequenciais, totalizando 336 buscas medidas. O cronômetro monotônico abrangeu a requisição HTTP pelo proxy local, o processamento e a leitura do JSON. A busca incluiu API, Elasticsearch, similaridades e previsão. Foram usadas novas conexões HTTP, sem concorrência. O P95 foi calculado por interpolação linear na posição $(n-1)\times0{,}95$ dos tempos ordenados.
+
+Para a verificação espacial, um leitor independente da rota extraiu coordenadas e intervalos do backup. Dos 5.872 registros de pontos, 20 não tinham geometria ou ano inicial necessários, restando 5.852 no oráculo. Um registro com ano inicial 199 foi sinalizado e preservado, sem correção presumida; endereços associados a essa anomalia não serviram como âncoras da seleção temporal. Os 219 controles incluíram 103 respostas com coordenadas e 116 vazias, abrangendo 37 ruas e um ID inexistente. Houve nove casos com múltiplas coordenadas e 21 com numeração decimal. A comparação usou conjuntos de coordenadas, sem dependência da ordem, e tolerância de $10^{-9}$ grau por componente.
+
+Também executamos três rodadas de 20 fluxos compostos por busca, seleção explícita do ID esperado entre as sugestões e consulta de pontos. Os 60 fluxos não representam 60 endereços independentes. A medição excluiu renderização do navegador, digitação e decisão humana. A verificação espacial avaliou fidelidade ao backup, sem levantamento externo para medir erro geográfico em metros.
+
+\subsection{Ambiente e rastreabilidade}
+
+O ambiente local utilizou contêineres Linux, PostgreSQL 16/PostGIS 3.5, Elasticsearch 8.19.4 e API Node.js 22, integrada à interface Vue/OpenLayers. O treinamento registrou Python 3.13.3, NumPy 2.2.5, scikit-learn 1.7.2 e RapidFuzz 3.14.3. O cliente da medição HTTP registrou Windows 11 e 16 processadores lógicos; modelo de CPU, memória e recursos atribuídos aos contêineres não foram registrados no protocolo. Os tempos devem ser interpretados nesse limite de caracterização do ambiente.
+
+Os artefatos locais incluem consultas, partições, candidatos, escores, métricas individuais, parâmetros, versões e hashes das entradas e do modelo. As avaliações adicionais reutilizaram os candidatos salvos e verificaram a reprodução dos resultados anteriores. Essa rastreabilidade permite conferir as tabelas e repetir os procedimentos com os mesmos arquivos, sem implicar publicação de todo o banco de origem.

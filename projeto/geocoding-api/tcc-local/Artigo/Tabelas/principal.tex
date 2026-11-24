@@ -1,0 +1,22 @@
+% Gerado por gerar_tabelas.py a partir dos resultados congelados.
+\begin{table}[tb]
+\caption{Teste reservado: médias por consulta (1.207 consultas).}
+\label{tab:principal}
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}
+\toprule
+Método & Top-1 (\%) & R@100 (\%) & MRR@100 \\
+\midrule
+BM25 & 63,55 & 86,50 & 0,6889 \\
+BM25 + trigramas & 97,02 & 100,00 & 0,9808 \\
+Damerau--Levenshtein & 91,80 & 100,00 & 0,9264 \\
+Jaro--Winkler & 95,36 & 100,00 & 0,9670 \\
+Token Sort & 98,18 & 100,00 & 0,9854 \\
+Token Set & 98,59 & 100,00 & 0,9923 \\
+Random Forest & 100,00 & 100,00 & 1,0000 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize As quatro similaridades isoladas foram comparadas após o teste original, sem modificar o modelo.}
+\end{table}

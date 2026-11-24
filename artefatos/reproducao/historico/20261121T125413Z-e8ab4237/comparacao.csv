@@ -1,0 +1,180 @@
+﻿id_consulta;consulta;nome_referencia;categoria;fonte_id;particao_original;consulta_preexistente;posicao_bm25;posicao_trigramas;posicao_rf;primeiro_rf;status;ganho_top1
+892d368a1a46b1699713;avenida higienopolis;avenida hygienopolis;grafia_documentada;lei_1734_1913;desenvolvimento;piloto;1;1;1;avenida hygienopolis;acerto;0
+73e2e36c10d723d13d76;rua teodoro sampaio;rua theodoro sampaio;grafia_documentada;ato_3330_1930;treino;;2;1;1;rua theodoro sampaio;acerto;0
+8208a1abddf2de00ff63;rua santa ifigênia;rua santa ephigenia;grafia_documentada;smul_santa_ifigenia;validacao;;5;1;1;rua santa ephigenia;acerto;0
+b5b02ce83f16575ae94e;rua artur azevedo;rua arthur azevedo;grafia_documentada;conpresp_7_2003;treino;;2;1;1;Rua Arthur Azevedo;acerto;0
+2c024ab54f0858432789;rua bela cintra;rua bella cintra;grafia_documentada;smsub_40_2021;teste;;3;1;1;rua bella cintra;acerto;0
+afff5927e8d655fc395b;rua barão de tatuí;rua barao de tatuhy;grafia_documentada;smsub_40_2021;treino;;7;1;1;rua barao de tatuhy;acerto;0
+80c74146c8d0e602f287;rua humaitá;rua humayta;grafia_documentada;smsub_40_2021;treino;;72;1;1;rua humayta;acerto;0
+5edd473cf3e093a607e3;rua do triunfo;rua do triumpho;grafia_documentada;smsub_40_2021;validacao;;7;1;1;rua do triumpho;acerto;0
+d35101bcdc42baf7720c;travessa do comercio;travessa do commercio;grafia_documentada;lei_1552_1912;treino;;1;1;1;travessa do commercio;acerto;0
+a98ddaad83bdce119f56;beco dos aflitos;becco dos afflictos;grafia_documentada;spurbanismo_aflitos;desenvolvimento;piloto;10;1;1;becco dos afflictos;acerto;0
+e795820b92ff240bc078;avenida sao joaum;avenida sao joao;fonetica_simulada;;desenvolvimento;;1;1;1;avenida sao joao;acerto;0
+17600684b19eed451c54;avenida tamanduatei;avenida tamanduatehy;historica_simulada;;teste;;5;1;1;avenida tamanduatehy;acerto;0
+cb87cddb29da441a3d4f;beco da fabrica;becco da fabrica;historica_simulada;;validacao;;1;1;1;becco da fabrica;acerto;0
+e445805703e40acc446f;beco dos afflictos;becco dos afflictos;historica_simulada;;desenvolvimento;;1;1;1;becco dos afflictos;acerto;0
+da4ba3b6e29edaa099c4;becco dos aflitos;becco dos afflictos;historica_simulada;;desenvolvimento;;1;1;1;becco dos afflictos;acerto;0
+33b671dbcdceb05a42f2;beco paysandu;becco paysandu;historica_simulada;;validacao;;1;1;1;becco paysandu;acerto;0
+84903394f234c82b4204;estrada velha de jundiai;estrada velha de jundiahy;historica_simulada;;treino;;1;1;1;Estrada velha de Jundiahy;acerto;0
+d6567ecc76b2250a438d;ladeira do karmo;ladeira do carmo;fonetica_simulada;;validacao;;1;1;1;ladeira do carmo;acerto;0
+852f813cb08e842bbd8f;largo santa sessilia impar;largo santa cecilia impar;fonetica_simulada;;treino;;1;1;1;largo santa cecilia impar;acerto;0
+74bfea35146eb54863f7;largo santa sessilia par;largo santa cecilia par;fonetica_simulada;;treino;;1;1;1;largo santa cecilia par;acerto;0
+243d8aa96474d82978c8;praca karlos gomes impar;praca carlos gomes impar;fonetica_simulada;;validacao;;1;1;1;praca carlos gomes impar;acerto;0
+82ae8ae498bf927db76d;praca karlos gomes par;praca carlos gomes par;fonetica_simulada;;validacao;;1;1;1;praca carlos gomes par;acerto;0
+4e8cd2ab2ceb4035760d;rua adolfo gordo;rua adolpho gordo;historica_simulada;;treino;;1;1;1;rua adolpho gordo;acerto;0
+8ba88ebfcc8bd0863bf1;rua afonso arinos;rua affonso arinos;historica_simulada;;desenvolvimento;piloto;2;1;1;rua affonso arinos;acerto;0
+6d4dcb80278e9ba5eab9;rua afonso sardinha;rua affonso sardinha;historica_simulada;;validacao;;2;1;1;Rua Affonso Sardinha;acerto;0
+183c95d85a52f98132f9;rua afonso pena;rua afonso penna;historica_simulada;;treino;;1;1;1;rua afonso penna;acerto;0
+c0b57bada0f03a4a29d2;rua americo de kampos;rua americo de campos;fonetica_simulada;;treino;;1;1;1;rua americo de campos;acerto;0
+6c128d72a2426dede093;rua anfiteatro;rua amphitheatro;historica_simulada;;teste;;;1;1;Rua Amphitheatro;acerto;0
+fbc547ca3ff61aebc54b;rua anita garibaldi;rua anitta garibaldi;historica_simulada;;treino;;2;1;1;rua anitta garibaldi;acerto;0
+c723a9612917c0e48e9b;rua ana nery;rua anna nery;historica_simulada;;treino;;2;1;1;rua anna nery;acerto;0
+a0348728ae7553d7f6cc;rua ana rosa;rua anna rosa;historica_simulada;;treino;treino;3;3;1;rua anna rosa;acerto;1
+b74abab2461c598f9af5;rua anna roza;rua anna rosa;fonetica_simulada;;treino;;2;2;1;rua anna rosa;acerto;1
+b965dba7a57a639f91c0;rua antonia de queiros;rua antonia de queiroz;fonetica_simulada;;treino;;1;1;1;rua antonia de queiroz;acerto;0
+965781f8b1a284a736c2;rua antonio karlos;rua antonio carlos;fonetica_simulada;;treino;;2;1;1;rua antonio carlos;acerto;0
+a8927ade160a2b07d06c;rua araguaia;rua araguaya;historica_simulada;;treino;;88;1;1;rua araguaya;acerto;0
+3fc86950001d791fafda;rua artur motta;rua arthur motta;historica_simulada;;treino;;2;1;1;rua arthur motta;acerto;0
+4656984c7ce53a35f53c;rua arthur mota;rua arthur motta;historica_simulada;;treino;;1;1;1;rua arthur motta;acerto;0
+119a00120f06d7dca68b;rua artur mota;rua arthur motta;historica_simulada;;treino;;;1;1;rua arthur motta;acerto;0
+5b13f08a9c7522e5a25e;rua artur prado;rua arthur prado;historica_simulada;;teste;;4;2;1;rua arthur prado;acerto;1
+f47c524e367db3daa308;rua assuncao;rua assumpcao;historica_simulada;;treino;;17;1;1;rua assumpcao;acerto;0
+de1413ac7d2b4c71f6c6;rua augusto de queiros;rua augusto de queiroz;fonetica_simulada;;treino;;1;1;1;rua augusto de queiroz;acerto;0
+27a51fc1ce2a8c76e82c;rua aimores;rua aymores;historica_simulada;;treino;;30;1;1;rua aymores;acerto;0
+ee5083d1d52cd7e47666;rua baltazar carrasco;rua balthazar carrasco;historica_simulada;;teste;;1;1;1;Rua Balthazar Carrasco;acerto;0
+6bb2465508331e1f4916;rua bartolomeu;rua bartholomeu;historica_simulada;;teste;;;1;1;Rua Bartholomeu;acerto;0
+6ecccd5658d8df2d97c2;rua belisario de souza;rua belisario de sousa;fonetica_simulada;;treino;;1;1;1;rua belisario de sousa;acerto;0
+48ed2135ddefa8a70830;rua belo horizonte;rua bello horizonte;historica_simulada;;treino;;1;1;1;rua bello horizonte;acerto;0
+f460025521c1331c7f3d;rua benjamin de olivera;rua benjamin de oliveira;fonetica_simulada;;validacao;;1;1;1;rua benjamin de oliveira;acerto;0
+d6d3f8e02ab2292d4f53;rua boaventura roza;rua boaventura rosa;fonetica_simulada;;validacao;;1;1;1;Rua Boaventura Rosa;acerto;0
+174a8dfc428af8050a38;rua brigadeiro maxado;rua brigadeiro machado;fonetica_simulada;;treino;;3;1;1;rua brigadeiro machado;acerto;0
+50c03300d36f5a760c37;rua camilo;rua camillo;historica_simulada;;treino;;;1;1;rua camillo;acerto;0
+ac17f7dd9e54588c68ab;rua kampos sales;rua campos sales;fonetica_simulada;;validacao;;1;1;1;rua campos sales;acerto;0
+95cf05052cdbf14b210c;rua capitao mor jeronimo leitao;rua capitao mor jeronymo leitao;historica_simulada;;treino;;1;1;1;rua capitao mor jeronymo leitao;acerto;0
+cc113c746b1d882ad975;rua karlos de campos;rua carlos de campos;fonetica_simulada;;treino;;1;1;1;rua carlos de campos;acerto;0
+8f53754580fe30562d64;rua carlos de kampos;rua carlos de campos;fonetica_simulada;;treino;;1;1;1;rua carlos de campos;acerto;0
+0b3704d4a694af513dcd;rua karlos garcia;rua carlos garcia;fonetica_simulada;;treino;;1;1;1;rua carlos garcia;acerto;0
+4eb4b2cb59a103d6e550;rua karlos guimaraes;rua carlos guimaraes;fonetica_simulada;;treino;;1;1;1;rua carlos guimaraes;acerto;0
+a7a273207b27ad7b438b;rua karlos sampaio;rua carlos sampaio;fonetica_simulada;;treino;;3;1;1;rua carlos sampaio;acerto;0
+cea54c663a0d6e796fd7;rua karmo cintra;rua carmo cintra;fonetica_simulada;;treino;;1;1;1;rua carmo cintra;acerto;0
+a43ab7dbec3fbacff4e9;rua carvalho melo;rua carvalho mello;historica_simulada;;validacao;validacao;2;1;1;Rua Carvalho Mello;acerto;0
+cf1323282f4d4621dfab;rua catarina brahyda;rua catharina brahyda;historica_simulada;;treino;;1;1;1;rua catharina brahyda;acerto;0
+df250dfd0927fb9ccfb3;rua catarina cortez;rua catharina cortez;historica_simulada;;teste;;1;1;1;rua catharina cortez;acerto;0
+10a845e702cc9e4a5f72;rua catumbi;rua catumby;historica_simulada;;treino;;97;1;1;rua catumby;acerto;0
+4c8b261ad707bfcbd2d0;rua cezario mota;rua cezario motta;historica_simulada;;treino;;1;1;1;rua cezario motta;acerto;0
+b9333d7bce4e939319f0;rua cesario motta;rua cezario motta;fonetica_simulada;;treino;;2;1;1;rua cezario motta;acerto;0
+bda14bfede8762d13e7e;rua christina tomas;rua christina thomaz;historica_simulada;;treino;;1;1;1;rua christina thomaz;acerto;0
+9003f02a89d8143b88b3;rua conselheiro joaum alfredo;rua conselheiro joao alfredo;fonetica_simulada;;treino;;1;1;1;rua conselheiro joao alfredo;acerto;0
+0fc00868042b79c03639;rua consorte candiao de olivera;rua consorte candiao de oliveira;fonetica_simulada;;teste;;1;1;1;Rua Consorte Candiao de Oliveira;acerto;0
+eccebc3c95a733e0a030;rua coronel batista da luz;rua coronel baptista da luz;historica_simulada;;treino;;1;1;1;rua coronel baptista da luz;acerto;0
+ca5a134749f371576bc2;rua coronel chavier de toledo;rua coronel xavier de toledo;fonetica_simulada;;treino;;1;1;1;rua coronel xavier de toledo;acerto;0
+d7921c612e82e956651e;rua correa de melo;rua correa de mello;historica_simulada;;treino;;1;1;1;rua correa de mello;acerto;0
+3130110a83ed8fd7b7af;rua kosta;rua costa;fonetica_simulada;;teste;;69;1;1;rua costa;acerto;0
+9b7876c11964cf80f8e5;rua das oficinas;rua das officinas;historica_simulada;;treino;;4;1;1;Rua das Officinas;acerto;0
+e510753c170b5ba6d040;rua de sao joaum;rua de sao joao;fonetica_simulada;;validacao;;4;1;1;rua de sao joao;acerto;0
+97f6fa69da3c2afed595;rua do karmo;rua do carmo;fonetica_simulada;;treino;;9;1;1;rua do carmo;acerto;0
+5fb240685e8d61410f0c;rua dom antonio de melo;rua dom antonio de mello;historica_simulada;;treino;;1;1;1;rua dom antonio de mello;acerto;0
+18b1b075f14208af627e;rua dom francisco de sousa;rua dom francisco de souza;fonetica_simulada;;treino;;1;1;1;rua dom francisco de souza;acerto;0
+e7fd2dccf3d454ddd1a0;rua dom joaum v;rua dom joao v;fonetica_simulada;;treino;;1;1;1;Rua Dom Joao V;acerto;0
+b90ea1d04cd70be6e778;rua dom joze de barros;rua dom jose de barros;fonetica_simulada;;teste;;1;1;1;rua dom jose de barros;acerto;0
+34ed6ed81d92cbb6d357;rua dos guaianazes;rua dos guayanazes;historica_simulada;;treino;;2;1;1;rua dos guayanazes;acerto;0
+9a2940029acc6b6191bc;rua dos pirineus;rua dos pyrineus;historica_simulada;;treino;;1;1;1;rua dos pyrineus;acerto;0
+0bba216b928689b884f1;rua dos timbiras;rua dos tymbiras;historica_simulada;;validacao;;8;1;1;rua dos tymbiras;acerto;0
+89a045716ad32903a120;rua doutor karlos botelho;rua doutor carlos botelho;fonetica_simulada;;treino;;1;1;1;rua doutor carlos botelho;acerto;0
+d8fb977df1e788f35b2b;rua doutor claudio de sousa;rua doutor claudio de souza;fonetica_simulada;;treino;;1;1;1;rua doutor claudio de souza;acerto;0
+af7e756ca0b96b82dfba;rua doutor elias xaves;rua doutor elias chaves;fonetica_simulada;;teste;;1;1;1;rua doutor elias chaves;acerto;0
+49095b12a194eeaa7865;rua doutor joze elias;rua doutor jose elias;fonetica_simulada;;validacao;;2;2;1;Rua Doutor Jose Elias;acerto;1
+db14b91e053c3b40b61b;rua doutor ricardo batista;rua doutor ricardo baptista;historica_simulada;;treino;;1;1;1;rua doutor ricardo baptista;acerto;0
+0b717bcddabeff42b600;rua doutor roza;rua doutor rosa;fonetica_simulada;;teste;;5;5;1;Rua Doutor Rosa;acerto;1
+78cefcface77644c19d8;rua doutor teodoro bayma;rua doutor theodoro bayma;historica_simulada;;teste;;1;1;1;rua doutor theodoro bayma;acerto;0
+e609a4681416be11f450;rua doutor vila nova;rua doutor villa nova;historica_simulada;;treino;;1;1;1;rua doutor villa nova;acerto;0
+502bf6c07eadc9033b72;rua duarte da kosta;rua duarte da costa;fonetica_simulada;;validacao;;1;1;1;Rua Duarte da Costa;acerto;0
+064ac578b3cfce7b86c1;rua eduardo xaves;rua eduardo chaves;fonetica_simulada;;treino;;1;1;1;rua eduardo chaves;acerto;0
+a6e9d2d68136ab4bd572;rua eloi cerqueira;rua eloy cerqueira;historica_simulada;;treino;;1;1;1;rua eloy cerqueira;acerto;0
+c35d8b6f94030d97384a;rua ernersto de kastro;rua ernersto de castro;fonetica_simulada;;treino;;1;1;1;rua ernersto de castro;acerto;0
+9fa0bf94bf68cf368dfb;rua florisbela;rua florisbella;historica_simulada;;treino;;8;1;1;rua florisbella;acerto;0
+802e50654011edd8e9db;rua gabriela sa barbosa;rua gabriella sa barbosa;historica_simulada;;teste;;3;1;1;rua gabriella sa barbosa;acerto;0
+b86ed0dc37a39722ffa4;rua glicerio;rua glycerio;historica_simulada;;teste;;77;1;1;rua glycerio;acerto;0
+0ea1b6d666e7f4d01f85;rua guarani;rua guarany;historica_simulada;;validacao;;31;1;1;rua guarany;acerto;0
+87dc6bf4901a7344eb3d;rua itacolomi;rua itacolomy;historica_simulada;;treino;;16;1;1;rua itacolomy;acerto;0
+65e32dbd4c44a9b66ea9;rua itajai;rua itajahy;historica_simulada;;treino;;;1;1;rua itajahy;acerto;0
+f8b9148cb969ef09c579;rua itaqui;rua itaquy;historica_simulada;;treino;;46;1;1;rua itaquy;acerto;0
+d6a5d7e8303cde040446;rua itariri;rua itariry;historica_simulada;;validacao;;48;1;1;rua itariry;acerto;0
+13b98caac6110436f999;rua jacarei;rua jacarehy;historica_simulada;;treino;;;1;1;rua jacarehy;acerto;0
+429a7188bdc1b7bc1cba;rua javari;rua javary;historica_simulada;;treino;;;1;1;rua javary;acerto;0
+28c0c234a90d3817b4ec;rua joao adolfo;rua joao adolpho;historica_simulada;;treino;;2;1;1;rua joao adolpho;acerto;0
+78fd6f22549059c9b52a;rua joaum adolpho;rua joao adolpho;fonetica_simulada;;treino;;1;1;1;rua joao adolpho;acerto;0
+527b3e3c00261a6d44b4;rua joaum antonio de oliveira;rua joao antonio de oliveira;fonetica_simulada;;treino;;1;1;1;rua joao antônio de oliveira;acerto;0
+120d08ae1917717117df;rua joao antonio de olivera;rua joao antonio de oliveira;fonetica_simulada;;treino;;1;1;1;rua joao antônio de oliveira;acerto;0
+aa9e2e13763af0998fe0;rua joaum bohemer;rua joao bohemer;fonetica_simulada;;treino;;1;1;1;rua joao bohemer;acerto;0
+34a20628480b30f88cfc;rua joaum briccola;rua joao briccola;fonetica_simulada;;validacao;;1;1;1;rua joao briccola;acerto;0
+eb30ad12032152a784eb;rua joaum caetano;rua joao caetano;fonetica_simulada;;treino;;3;1;1;rua joao caetano;acerto;0
+b62584c77b68d29d6ef1;rua joaum jacyntho;rua joao jacyntho;fonetica_simulada;;treino;;1;1;1;rua joao jacyntho;acerto;0
+36f7794790e516c2d93e;rua joaum monteiro;rua joao monteiro;fonetica_simulada;;validacao;;1;1;1;rua joao monteiro;acerto;0
+4e8743cdb58fc3e06025;rua joaum passalacqua;rua joao passalacqua;fonetica_simulada;;treino;;1;1;1;rua joao passalacqua;acerto;0
+557268aed3da1a1491c2;rua joaum pereira;rua joao pereira;fonetica_simulada;;teste;;2;1;1;Rua Joao Pereira;acerto;0
+112f89d5914ece0ef379;rua joao teodoro;rua joao theodoro;historica_simulada;;teste;;4;1;1;rua joao theodoro;acerto;0
+3919060111e10db62202;rua joaum theodoro;rua joao theodoro;fonetica_simulada;;teste;;1;1;1;rua joao theodoro;acerto;0
+c9c2524779a13650e829;rua joaum tobias;rua joao tobias;fonetica_simulada;;treino;;2;1;1;rua joao tobias;acerto;0
+2fdb4823b5b5c70bec3a;rua joaquim karlos;rua joaquim carlos;fonetica_simulada;;treino;;2;1;1;rua joaquim carlos;acerto;0
+ed029f0c879782b51d9a;rua joaquim maxado;rua joaquim machado;fonetica_simulada;;treino;;3;1;1;Rua Joaquim Machado;acerto;0
+5d248081831da9b0f7fb;rua joze bonifacio;rua jose bonifacio;fonetica_simulada;;treino;;1;1;1;rua jose bonifacio;acerto;0
+8e8dc3afbc035b41364e;rua joze de alencar;rua jose de alencar;fonetica_simulada;;teste;;1;1;1;rua jose de alencar;acerto;0
+bbde904891c3308a2801;rua joze kauer;rua jose kauer;fonetica_simulada;;teste;;1;1;1;rua jose kauer;acerto;0
+1b88d034d69ed3258bd6;rua joze monteiro;rua jose monteiro;fonetica_simulada;;treino;;2;2;1;rua jose monteiro;acerto;1
+c74cbdf2c3de10192e96;rua joze pacheco;rua jose pacheco;fonetica_simulada;;treino;;1;1;1;rua jose pacheco;acerto;0
+bcb7ea037b317a0d7ccd;rua joze paulino;rua jose paulino;fonetica_simulada;;treino;;1;1;1;rua jose paulino;acerto;0
+e389bc67d37d651b44a2;rua lopes de olivera;rua lopes de oliveira;fonetica_simulada;;treino;;1;1;1;rua lopes de oliveira;acerto;0
+09a290dee8d2bddbc36e;rua marcelina;rua marcellina;historica_simulada;;treino;;;1;1;Rua Marcellina;acerto;0
+6f4c28c80f738a9dcf42;rua maria domitila;rua maria domitilla;historica_simulada;;treino;;5;1;1;rua maria domitilla;acerto;0
+c8082f67271def9fcff0;rua maria joze;rua maria jose;fonetica_simulada;;treino;;4;5;1;rua maria jose;acerto;1
+fe211fef08e14f3d3581;rua maria teresa;rua maria theresa;historica_simulada;;validacao;;7;1;1;rua maria theresa;acerto;0
+98269b04ae531c7d60fc;rua marques de itu;rua marques de ytu;historica_simulada;;treino;;2;2;1;rua marques de ytu;acerto;1
+8d1792222a7f0b2a1c98;rua martim afonso;rua martim affonso;historica_simulada;;treino;;3;1;1;rua martim affonso;acerto;0
+92da1794b95220c4c604;rua martinho de kampos;rua martinho de campos;fonetica_simulada;;validacao;;2;1;1;Rua Martinho de Campos;acerto;0
+14852062b276c5b0f3a6;rua matilde sa barbosa;rua mathilde sa barbosa;historica_simulada;;treino;;5;1;1;rua mathilde sa barbosa;acerto;0
+c4cfbf95a2c5c9572552;rua melo barreto;rua mello barreto;historica_simulada;;treino;;1;1;1;rua mello barreto;acerto;0
+cccf144bd59f6ccc6d9f;rua miguel karlos;rua miguel carlos;fonetica_simulada;;treino;;2;1;1;rua miguel carlos;acerto;0
+7cde7922a50e7da68c47;rua monsenhor joaum felipo;rua monsenhor joao felipo;fonetica_simulada;;validacao;;1;1;1;rua monsenhor joao felipo;acerto;0
+1419d2afbfb449cb5f5f;rua monteiro de melo;rua monteiro de mello;historica_simulada;;treino;;1;1;1;Rua Monteiro de Mello;acerto;0
+b5d609e4fd634627e854;rua niteroi;rua nitcheroy;historica_simulada;;teste;;80;1;1;rua nitcheroy;acerto;0
+891873eba89e7999a569;rua nova de sao joze;rua nova de sao jose;fonetica_simulada;;treino;;1;1;1;rua nova de sao jose;acerto;0
+d6d85459aa7507572b54;rua paraiba;rua parahyba;historica_simulada;;treino;;52;6;1;rua parahyba;acerto;1
+f63cb478ba9af6ee75cb;rua paula sousa;rua paula souza;fonetica_simulada;;treino;;1;1;1;rua paula souza;acerto;0
+4a40e4145915f818f4ae;rua paulo afonso;rua paulo affonso;historica_simulada;;treino;;2;1;1;rua paulo affonso;acerto;0
+e44ef1ef84257e140462;rua pedro tomas;rua pedro thomaz;historica_simulada;;treino;;2;1;1;rua pedro thomaz;acerto;0
+a5477e6bac2fa8e50d3d;rua piaui;rua piauhy;historica_simulada;;teste;;11;1;1;rua piauhy;acerto;0
+7854ad707bb9488c8908;rua pinheiro maxado;rua pinheiro machado;fonetica_simulada;;treino;;1;1;1;Rua Pinheiro Machado;acerto;0
+1558a7775f6a82bd0b4c;rua pirai;rua pirahy;historica_simulada;;treino;;;7;1;Rua Pirahy;acerto;1
+7b5f66b9d08256e2dc45;rua quintino bocaiuva;rua quintino bocayuva;historica_simulada;;validacao;;1;1;1;rua quintino bocayuva;acerto;0
+0ff2777033fa179d6b0a;rua rodolfo miranda;rua rodolpho miranda;historica_simulada;;teste;;2;1;1;rua rodolpho miranda;acerto;0
+bc26422aee644e9dee7e;rua rubino de olivera;rua rubino de oliveira;fonetica_simulada;;treino;treino;1;1;1;rua rubino de oliveira;acerto;0
+c0f66bce20bc56b1da04;rua s. ana;rua s. anna;historica_simulada;;teste;teste;1;2;1;rua s. anna;acerto;1
+7892fa17d9f70aae733e;rua santa roza;rua santa rosa;fonetica_simulada;;treino;;3;4;1;rua santa rosa;acerto;1
+43c554a7fd5050a2ef8d;rua santa teresa;rua santa theresa;historica_simulada;;teste;;2;1;1;rua santa theresa;acerto;0
+0579dd50487ac6baba70;rua sao karlos pinhal;rua sao carlos pinhal;fonetica_simulada;;treino;;1;1;1;rua sao carlos pinhal;acerto;0
+09993495de10059c70f9;rua sebastiao de kastro;rua sebastiao de castro;fonetica_simulada;;teste;;1;1;1;rua sebastiao de castro;acerto;0
+eff248cf7ff53ac78a60;rua senador paulo egidio;rua senador paulo egydio;historica_simulada;;teste;;1;1;1;rua senador paulo egydio;acerto;0
+52a5f492de940bb96afe;rua senador queiros;rua senador queiroz;fonetica_simulada;;validacao;;2;1;1;rua senador queiroz;acerto;0
+b92e1af1b1bb81132909;rua sergio tomas;rua sergio thomaz;historica_simulada;;treino;;2;1;1;rua sergio thomaz;acerto;0
+ad77f34dbbee65b573f1;rua sousa caldas;rua souza caldas;fonetica_simulada;;teste;;1;1;1;rua souza caldas;acerto;0
+a159429e1ec95f4ee11d;rua sousa lima;rua souza lima;fonetica_simulada;;treino;;3;1;1;rua souza lima;acerto;0
+fc8fb2cf826d600de148;rua texeira de freitas;rua teixeira de freitas;fonetica_simulada;;validacao;;2;1;1;rua teixeira de freitas;acerto;0
+b63e028c56e54eb2f9ce;rua texeira leite;rua teixeira leite;fonetica_simulada;;treino;;1;1;1;rua teixeira leite;acerto;0
+60df3ffe963ae5af44ae;rua tenente pena;rua tenente penna;historica_simulada;;treino;;1;1;1;rua tenente penna;acerto;0
+1931a77f325180c6823e;rua tomas gonzaga;rua thomaz gonzaga;historica_simulada;;treino;;1;1;1;rua thomaz gonzaga;acerto;0
+82a1c0347289ce6c5009;rua tomas ribeiro de lima;rua thomaz ribeiro de lima;historica_simulada;;teste;;2;1;1;rua thomaz ribeiro de lima;acerto;0
+21bc45b9b83f125137cd;rua tome de souza;rua thome de souza;historica_simulada;;teste;;1;1;1;Rua Thome de Souza;acerto;0
+33deef910a531d26d8a4;rua thome de sousa;rua thome de souza;fonetica_simulada;;teste;;2;1;1;Rua Thome de Souza;acerto;0
+3a3053df39772e0e24a5;rua uruguaiana;rua uruguayana;historica_simulada;;treino;;92;1;1;rua uruguayana;acerto;0
+f88a737489a853f1038a;rua visconde de parnaiba;rua visconde de parnahyba;historica_simulada;;treino;;1;1;1;rua visconde de parnahyba;acerto;0
+f063680163bcd45ec848;rua ipiranga;rua ypiranga;historica_simulada;;validacao;;58;1;1;rua ypiranga;acerto;0
+b32c44abf1ef8678f14c;travessa sao joaum;travessa sao joao;fonetica_simulada;;treino;;1;1;1;travessa sao joao;acerto;0
+368b7106975519914929;travessa tenente pena;travessa tenente penna;historica_simulada;;teste;;1;1;1;travessa tenente penna;acerto;0
+7cc6957b252fd8c71244;viadcuto santa ifigenia;viadcuto santa ephigenia;historica_simulada;;validacao;;1;1;1;viadcuto santa ephigenia;acerto;0
+58e98d7562db1b39324f;vila alvarenga;villa alvarenga;historica_simulada;;treino;;1;1;1;villa alvarenga;acerto;0
+677fe96fc4d0e5b74c4e;vila boyes;villa boyes;historica_simulada;;treino;;1;1;1;villa boyes;acerto;0
+51bfc7c325279ddb77b7;vila gordinho;villa gordinho;historica_simulada;;validacao;;1;1;1;villa gordinho;acerto;0
+cf31407c9ef17b764b78;vila hortencia;villa hortencia;historica_simulada;;treino;;1;1;1;villa hortencia;acerto;0
+c86ce3316d003f44d0e2;vila silverio jordao;villa silverio jordao;historica_simulada;;treino;;1;1;1;villa silverio jordao;acerto;0
+65693db7313175dcd73f;vila simione;villa simione;historica_simulada;;teste;;1;1;1;villa simione;acerto;0

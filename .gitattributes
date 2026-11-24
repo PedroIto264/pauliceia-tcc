@@ -1,0 +1,19 @@
+# Preservar os bytes dos scripts comparados com snapshots congelados.
+# Não converter LF/CRLF automaticamente no clone.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.py diff
+*.js diff
+*.vue diff
+*.md diff
+*.json diff
+*.yaml diff
+*.tex diff
+*.bib diff
+*.csv diff
+*.pdf binary
+*.pptx binary
+*.joblib binary
+*.gz binary
+*.png binary
+*.jpg binary

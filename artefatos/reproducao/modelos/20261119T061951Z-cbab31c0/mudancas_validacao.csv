@@ -1,0 +1,55 @@
+﻿id_consulta;consulta;nome_referencia;tipo;posicao_anterior;posicao_rf
+e0ae3edeae66754a0f40;rua aruajo;rua araujo;transposicao;14;1
+eb50f4408b331ab90d77;rua barao de itavna;Rua Barão de Itauna;substituicao;2;1
+57b6d3c927634c33672d;rua barao de ituana;Rua Barão de Itauna;transposicao;14;1
+ee4ee360d880a5e68e40;rua belm;rua belem;omissao;3;1
+e3deb32c0ccf2601151a;rua belfm;rua belem;substituicao;2;1
+80667bfbcd74fb2a31e1;rua belme;rua belem;transposicao;3;1
+a573b36e50c751c17581;rua baventura rsa;Rua Boaventura Rosa;duas_omissoes;2;1
+b7f1287a6ab8249f77fd;rua caio grco;Rua Caio Greco;omissao;2;1
+e5fa6884e0685d91bee8;rua caio grfco;Rua Caio Greco;substituicao;2;1
+3e8484085170e1cdcc91;rua cio geco;Rua Caio Greco;duas_omissoes;4;1
+50523fc2194fb141c215;rua carneiro leo;rua carneiro leao;omissao;2;1
+7b65f01362db02c3c6f8;rua crneiro lao;rua carneiro leao;duas_omissoes;2;1
+983ffb2a7e9d701e8b99;rua cuz banca;rua cruz branca;duas_omissoes;2;1
+741ad6dc95edb60aa370;rua da fote;rua da fonte;omissao;19;1
+089174272d719e79d102;rua da foote;rua da fonte;substituicao;19;1
+c1bbfc71faeab81db3dd;rua de sao jpao;rua de sao joao;substituicao;4;1
+ece26d3a7a5497a424dd;rua de sao jaoo;rua de sao joao;transposicao;4;1
+dc25f6dd0dc0d3a3083e;rua do lcuas;rua do lucas;transposicao;7;1
+7ccafce8e6c6786486ad;rua dos amroes;rua dos amores;transposicao;15;1
+c45820c5ad787a89aead;rua dos beglas;rua dos belgas;transposicao;22;1
+a32dfcab5802802d85bd;rua dutor jse elias;Rua Doutor Jose Elias;duas_omissoes;2;1
+4cb6cdcf64d948af1232;rua dutor lnd;rua doutor lund;duas_omissoes;3;1
+cb49e38ed5d7fac6d8df;rua diulio;Rua duilio;transposicao;5;1
+c42524397eb078141bc4;rua ester;rua esther;omissao;2;1
+601878613673e8b3eace;rua estier;rua esther;substituicao;3;1
+c4f8b5f4b7659092d939;rua estehr;rua esther;transposicao;3;1
+d4017bdae3d0c7c0788c;rua flor;rua flora;omissao;3;1
+4428c958eb347d087e78;rua floar;rua flora;transposicao;3;1
+a53951ada700a2b922a8;rua fortuanto;rua fortunato;transposicao;2;1
+cd7673da8fba7e2a557f;rua fei gspar;rua frei gaspar;duas_omissoes;3;1
+7164ea649ccab33871d4;rua gncalves das;rua gonçalves dias;duas_omissoes;8;1
+06bc1b6fc99f85ad5930;rua gratso;Rua Grasso;substituicao;5;1
+eee402124923483040e5;rua iuarare;rua itarare;substituicao;3;1
+fdd7eaccc02447c5e665;rua itraare;rua itarare;transposicao;2;1
+574bdef1348eaf60c222;rua jargaua;rua jaragua;transposicao;2;1
+d991d7b8b05e16753fed;rua juura;rua jurua;transposicao;6;2
+e5a02d97fea6cd1a4905;rua luiz de caomes;rua luiz de camoes;transposicao;2;1
+51a3e033ba18e5786ae5;rua liz mrtins;Rua Luiz Martins;duas_omissoes;5;1
+71fdfc35ccde2af59ddc;rua mria teresa;rua maria theresa;duas_omissoes;2;1
+8968c3888959390bb397;rua matrim carrasco;Rua Martim Carrasco;transposicao;2;1
+8b06e415a47e99124fe2;rua maau;rua maua;transposicao;93;1
+579fd6905eee6fde7dff;rua miarnha;Rua Miranha;transposicao;8;1
+5cee2c1f73e4daf43b0f;rua oze de aosto;rua onze de agosto;duas_omissoes;2;1
+a32fb56dabbb85dae791;rua paran;rua parana;omissao;2;1
+f3603f7e05b09e1fd4c5;rua paarna;rua parana;transposicao;41;1
+7c20f851385226ad3a08;rua sabra;rua sabara;omissao;6;1
+f71463267a3b66c44abc;rua sbaara;rua sabara;transposicao;7;1
+06093c84c3404f28719c;r. santa ephigenia;rua santa ephigenia;abreviacao;2;1
+2664939fdcba06227f50;rua sebastiao veho;Rua Sebastiao Velho;omissao;2;1
+b42c8de55a194b73e08d;rua upliano;Rua Ulpiano;transposicao;3;1
+36634cf29555153de21e;rua victor hguo;rua victor hugo;transposicao;2;1
+a75d52b40ce37cb546e9;rua vctor hgo;rua victor hugo;duas_omissoes;3;1
+1ab53cac91096c6d1d75;rua zaara;Rua Zapara;omissao;19;1
+8b9751d7c3c5e6fb1d5e;tv. dos estudantes;travessa dos estudantes;abreviacao;1;2

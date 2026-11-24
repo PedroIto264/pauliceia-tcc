@@ -1,0 +1,68 @@
+{
+  "versao": 1,
+  "data_consulta": "2026-11-21",
+  "escopo": "Grafias consultadas em fontes municipais digitais, vinculadas por curadoria textual aos nomes do backup. A fonte comprova a ocorrência da grafia consultada, não uma consulta real de usuário, nem a identidade geométrica ou a extensão histórica da via. A associação ao ID do catálogo é uma inferência explícita, ainda sem revisão independente. Ementas digitais de normas antigas não são transcrições paleográficas certificadas do original.",
+  "fontes": [
+    {
+      "id": "lei_1734_1913",
+      "titulo": "Catálogo municipal: Lei 1.734, de 23 de agosto de 1913",
+      "url": "https://legislacao.prefeitura.sp.gov.br/lei-1734-de-23-de-agosto-de-1913",
+      "localizador": "Ementa digital",
+      "trecho": "AVENIDA HIGIENOPOLIS",
+      "casos": [{"id_rua": 109, "consulta": "avenida higienopolis", "regra": "hygienopolis -> higienopolis"}]
+    },
+    {
+      "id": "ato_3330_1930",
+      "titulo": "Catálogo municipal: Ato 3.330, de 18 de setembro de 1930",
+      "url": "https://legislacao.prefeitura.sp.gov.br/ato-gabinete-do-prefeito-3330-de-18-de-setembro-de-1930",
+      "localizador": "Ementa digital",
+      "trecho": "RUA TEODORO SAMPAIO",
+      "casos": [{"id_rua": 1730, "consulta": "rua teodoro sampaio", "regra": "theodoro -> teodoro"}]
+    },
+    {
+      "id": "smul_santa_ifigenia",
+      "titulo": "São Paulo Urbanismo: Rua dos Eletrônicos (Rua Santa Ifigênia)",
+      "url": "https://gestaourbana.prefeitura.sp.gov.br/projetos-urbanos/ruas-tematicas/rua-dos-eletronicos-rua-santa-ifigenia/",
+      "localizador": "Título e descrição da via no distrito da República",
+      "trecho": "Rua Santa Ifigênia",
+      "casos": [{"id_rua": 321, "consulta": "rua santa ifigênia", "regra": "ephigenia -> ifigenia"}]
+    },
+    {
+      "id": "conpresp_7_2003",
+      "titulo": "CONPRESP: Resolução 7, de 4 de novembro de 2003",
+      "url": "https://legislacao.prefeitura.sp.gov.br/resolucao-secretaria-municipal-da-cultuura-conpre-7-de-4-de-novembro-de-2003/consolidado",
+      "localizador": "Ementa: Artur Azevedo; artigo 1: Arthur de Azevedo, em Pinheiros",
+      "trecho": "ARTUR AZEVEDO",
+      "casos": [{"id_rua": 1743, "consulta": "rua artur azevedo", "regra": "arthur -> artur"}]
+    },
+    {
+      "id": "smsub_40_2021",
+      "titulo": "SMSUB: Portaria 40, de 27 de agosto de 2021 (texto consolidado)",
+      "url": "https://legislacao.prefeitura.sp.gov.br/portaria-secretaria-municipal-das-subprefeituras-smsub-40-de-27-de-agosto-de-2021/consolidado",
+      "localizador": "Anexo único, lista de vias",
+      "trecho": "Rua Bela Cintra; Rua Barão de Tatuí; Rua Humaitá; Rua do Triunfo",
+      "casos": [
+        {"id_rua": 387, "consulta": "rua bela cintra", "regra": "bella -> bela"},
+        {"id_rua": 299, "consulta": "rua barão de tatuí", "regra": "tatuhy -> tatui"},
+        {"id_rua": 396, "consulta": "rua humaitá", "regra": "humayta -> humaita"},
+        {"id_rua": 314, "consulta": "rua do triunfo", "regra": "triumpho -> triunfo"}
+      ]
+    },
+    {
+      "id": "lei_1552_1912",
+      "titulo": "Catálogo municipal: Lei 1.552, de 27 de junho de 1912",
+      "url": "https://legislacao.prefeitura.sp.gov.br/lei-1552-de-27-de-junho-de-1912",
+      "localizador": "Ementa digital, alinhamento das ruas da Quitanda, Álvares Penteado e Travessa do Comércio",
+      "trecho": "TRAVESSA DO COMERCIO",
+      "casos": [{"id_rua": 17, "consulta": "travessa do comercio", "regra": "commercio -> comercio"}]
+    },
+    {
+      "id": "spurbanismo_aflitos",
+      "titulo": "São Paulo Urbanismo: requalificação do bairro da Liberdade",
+      "url": "https://prefeitura.sp.gov.br/web/sp_urbanismo/w/prefeitura-inicia-obras-para-requalificar-o-bairro-da-liberdade-com-cal%C3%A7adas-mais-largas-travessias-seguras-e-novos-espa%C3%A7os-de-perman%C3%AAncia%C2%A0%C2%A0",
+      "localizador": "Descrição das intervenções e seção Requalificação do histórico Beco dos Aflitos",
+      "trecho": "Beco dos Aflitos",
+      "casos": [{"id_rua": 440, "consulta": "beco dos aflitos", "regra": "becco -> beco; afflictos -> aflitos"}]
+    }
+  ]
+}

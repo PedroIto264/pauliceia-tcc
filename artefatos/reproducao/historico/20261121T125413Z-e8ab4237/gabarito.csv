@@ -1,0 +1,180 @@
+﻿id_consulta;grupo;particao;nome_referencia;ids_relevantes;tipo;origem;consulta;regra;fonte_id;particao_original;consulta_preexistente;vinculo_relevancia
+892d368a1a46b1699713;57e5e8d8d0f010a80125;complementar;avenida hygienopolis;109;grafia_documentada;fonte_municipal;avenida higienopolis;hygienopolis -> higienopolis;lei_1734_1913;desenvolvimento;piloto;inferencia_textual_sem_revisao_independente
+73e2e36c10d723d13d76;e5aabfe231e4a5fe83f6;complementar;rua theodoro sampaio;1730;grafia_documentada;fonte_municipal;rua teodoro sampaio;theodoro -> teodoro;ato_3330_1930;treino;;inferencia_textual_sem_revisao_independente
+8208a1abddf2de00ff63;5f837b51ff917ba93b23;complementar;rua santa ephigenia;321;grafia_documentada;fonte_municipal;rua santa ifigênia;ephigenia -> ifigenia;smul_santa_ifigenia;validacao;;inferencia_textual_sem_revisao_independente
+b5b02ce83f16575ae94e;50b64d62e40c7f089c35;complementar;rua arthur azevedo;1743;grafia_documentada;fonte_municipal;rua artur azevedo;arthur -> artur;conpresp_7_2003;treino;;inferencia_textual_sem_revisao_independente
+2c024ab54f0858432789;4e663ed4619f87304684;complementar;rua bella cintra;387;grafia_documentada;fonte_municipal;rua bela cintra;bella -> bela;smsub_40_2021;teste;;inferencia_textual_sem_revisao_independente
+afff5927e8d655fc395b;55ad4f50d07b2dab47e1;complementar;rua barao de tatuhy;299;grafia_documentada;fonte_municipal;rua barão de tatuí;tatuhy -> tatui;smsub_40_2021;treino;;inferencia_textual_sem_revisao_independente
+80c74146c8d0e602f287;ec9acb29118b434ed8fa;complementar;rua humayta;396;grafia_documentada;fonte_municipal;rua humaitá;humayta -> humaita;smsub_40_2021;treino;;inferencia_textual_sem_revisao_independente
+5edd473cf3e093a607e3;706e72f12e32ca6646a8;complementar;rua do triumpho;314;grafia_documentada;fonte_municipal;rua do triunfo;triumpho -> triunfo;smsub_40_2021;validacao;;inferencia_textual_sem_revisao_independente
+d35101bcdc42baf7720c;4ca82249cb34ddf8b325;complementar;travessa do commercio;17;grafia_documentada;fonte_municipal;travessa do comercio;commercio -> comercio;lei_1552_1912;treino;;inferencia_textual_sem_revisao_independente
+a98ddaad83bdce119f56;0847ebef48e5f73ba3ea;complementar;becco dos afflictos;440;grafia_documentada;fonte_municipal;beco dos aflitos;"becco -> beco; afflictos -> aflitos";spurbanismo_aflitos;desenvolvimento;piloto;inferencia_textual_sem_revisao_independente
+e795820b92ff240bc078;49bba4d00baa60eedaa7;complementar;avenida sao joao;45;fonetica_simulada;simulacao_controlada;avenida sao joaum;joao -> joaum;;desenvolvimento;;nome_gerador
+17600684b19eed451c54;97b77cbcb1a6a20163e3;complementar;avenida tamanduatehy;241|243;historica_simulada;simulacao_controlada;avenida tamanduatei;tamanduatehy -> tamanduatei;;teste;;nome_gerador
+cb87cddb29da441a3d4f;680a3ca60e8436794f09;complementar;becco da fabrica;361;historica_simulada;simulacao_controlada;beco da fabrica;becco -> beco;;validacao;;nome_gerador
+e445805703e40acc446f;0847ebef48e5f73ba3ea;complementar;becco dos afflictos;440;historica_simulada;simulacao_controlada;beco dos afflictos;becco -> beco;;desenvolvimento;;nome_gerador
+da4ba3b6e29edaa099c4;0847ebef48e5f73ba3ea;complementar;becco dos afflictos;440;historica_simulada;simulacao_controlada;becco dos aflitos;afflictos -> aflitos;;desenvolvimento;;nome_gerador
+33b671dbcdceb05a42f2;74a24bdc8e9f7bdbf1b7;complementar;becco paysandu;52;historica_simulada;simulacao_controlada;beco paysandu;becco -> beco;;validacao;;nome_gerador
+84903394f234c82b4204;44655e7f9aad68c29879;complementar;estrada velha de jundiahy;3080;historica_simulada;simulacao_controlada;estrada velha de jundiai;jundiahy -> jundiai;;treino;;nome_gerador
+d6567ecc76b2250a438d;93cdc8de03c7a4c5b148;complementar;ladeira do carmo;516;fonetica_simulada;simulacao_controlada;ladeira do karmo;carmo -> karmo;;validacao;;nome_gerador
+852f813cb08e842bbd8f;acc0f40d03391d323039;complementar;largo santa cecilia impar;10017;fonetica_simulada;simulacao_controlada;largo santa sessilia impar;cecilia -> sessilia;;treino;;nome_gerador
+74bfea35146eb54863f7;acc0f40d03391d323039;complementar;largo santa cecilia par;20017;fonetica_simulada;simulacao_controlada;largo santa sessilia par;cecilia -> sessilia;;treino;;nome_gerador
+243d8aa96474d82978c8;cc2b6b22dde76dce6c69;complementar;praca carlos gomes impar;10002;fonetica_simulada;simulacao_controlada;praca karlos gomes impar;carlos -> karlos;;validacao;;nome_gerador
+82ae8ae498bf927db76d;cc2b6b22dde76dce6c69;complementar;praca carlos gomes par;20002;fonetica_simulada;simulacao_controlada;praca karlos gomes par;carlos -> karlos;;validacao;;nome_gerador
+4e8cd2ab2ceb4035760d;68ca5ee337b80c28ec82;complementar;rua adolpho gordo;169;historica_simulada;simulacao_controlada;rua adolfo gordo;adolpho -> adolfo;;treino;;nome_gerador
+8ba88ebfcc8bd0863bf1;89e5ad22ad69cbb2c01b;complementar;rua affonso arinos;251;historica_simulada;simulacao_controlada;rua afonso arinos;affonso -> afonso;;desenvolvimento;piloto;nome_gerador
+6d4dcb80278e9ba5eab9;b0cc827eca31a610776a;complementar;rua affonso sardinha;3041;historica_simulada;simulacao_controlada;rua afonso sardinha;affonso -> afonso;;validacao;;nome_gerador
+183c95d85a52f98132f9;6b099b0dbc51145ca9fb;complementar;rua afonso penna;212;historica_simulada;simulacao_controlada;rua afonso pena;penna -> pena;;treino;;nome_gerador
+c0b57bada0f03a4a29d2;a5b82a1c56f71aa00d6a;complementar;rua americo de campos;434;fonetica_simulada;simulacao_controlada;rua americo de kampos;campos -> kampos;;treino;;nome_gerador
+6c128d72a2426dede093;01b3b5794aef17cdf675;complementar;rua amphitheatro;3077;historica_simulada;simulacao_controlada;rua anfiteatro;amphitheatro -> anfiteatro;;teste;;nome_gerador
+fbc547ca3ff61aebc54b;e821919045c9899e7600;complementar;rua anitta garibaldi;226;historica_simulada;simulacao_controlada;rua anita garibaldi;anitta -> anita;;treino;;nome_gerador
+c723a9612917c0e48e9b;9a6f94688620a0e08896;complementar;rua anna nery;614;historica_simulada;simulacao_controlada;rua ana nery;anna -> ana;;treino;;nome_gerador
+a0348728ae7553d7f6cc;4c69854ce9d59afe9f2a;complementar;rua anna rosa;224;historica_simulada;simulacao_controlada;rua ana rosa;anna -> ana;;treino;treino;nome_gerador
+b74abab2461c598f9af5;4c69854ce9d59afe9f2a;complementar;rua anna rosa;224;fonetica_simulada;simulacao_controlada;rua anna roza;rosa -> roza;;treino;;nome_gerador
+b965dba7a57a639f91c0;4872cc4801a584cc7ee9;complementar;rua antonia de queiroz;105;fonetica_simulada;simulacao_controlada;rua antonia de queiros;queiroz -> queiros;;treino;;nome_gerador
+965781f8b1a284a736c2;cbf9c6dd0b32ebec106d;complementar;rua antonio carlos;389;fonetica_simulada;simulacao_controlada;rua antonio karlos;carlos -> karlos;;treino;;nome_gerador
+a8927ade160a2b07d06c;d81688452d440e6c01bb;complementar;rua araguaya;528;historica_simulada;simulacao_controlada;rua araguaia;araguaya -> araguaia;;treino;;nome_gerador
+3fc86950001d791fafda;48732931326015d6abed;complementar;rua arthur motta;594;historica_simulada;simulacao_controlada;rua artur motta;arthur -> artur;;treino;;nome_gerador
+4656984c7ce53a35f53c;48732931326015d6abed;complementar;rua arthur motta;594;historica_simulada;simulacao_controlada;rua arthur mota;motta -> mota;;treino;;nome_gerador
+119a00120f06d7dca68b;48732931326015d6abed;complementar;rua arthur motta;594;historica_simulada;simulacao_controlada;rua artur mota;"arthur -> artur; motta -> mota";;treino;;nome_gerador
+5b13f08a9c7522e5a25e;8337edbe3cef56d496fc;complementar;rua arthur prado;2014;historica_simulada;simulacao_controlada;rua artur prado;arthur -> artur;;teste;;nome_gerador
+f47c524e367db3daa308;8a024c5403ac793c26e4;complementar;rua assumpcao;128;historica_simulada;simulacao_controlada;rua assuncao;assumpcao -> assuncao;;treino;;nome_gerador
+de1413ac7d2b4c71f6c6;0a3a05f9090b1d23116f;complementar;rua augusto de queiroz;333;fonetica_simulada;simulacao_controlada;rua augusto de queiros;queiroz -> queiros;;treino;;nome_gerador
+27a51fc1ce2a8c76e82c;a061a61f2c9460c851df;complementar;rua aymores;199;historica_simulada;simulacao_controlada;rua aimores;aymores -> aimores;;treino;;nome_gerador
+ee5083d1d52cd7e47666;fd0cada30a5d144329f4;complementar;rua balthazar carrasco;1748;historica_simulada;simulacao_controlada;rua baltazar carrasco;balthazar -> baltazar;;teste;;nome_gerador
+6bb2465508331e1f4916;85b753a23a668b33e904;complementar;rua bartholomeu;1740;historica_simulada;simulacao_controlada;rua bartolomeu;bartholomeu -> bartolomeu;;teste;;nome_gerador
+6ecccd5658d8df2d97c2;b11edb4de258119214bb;complementar;rua belisario de sousa;675;fonetica_simulada;simulacao_controlada;rua belisario de souza;sousa -> souza;;treino;;nome_gerador
+48ed2135ddefa8a70830;7b9accc6fb03a001a995;complementar;rua bello horizonte;589;historica_simulada;simulacao_controlada;rua belo horizonte;bello -> belo;;treino;;nome_gerador
+f460025521c1331c7f3d;116cf708df1fd96345c0;complementar;rua benjamin de oliveira;495;fonetica_simulada;simulacao_controlada;rua benjamin de olivera;oliveira -> olivera;;validacao;;nome_gerador
+d6d3f8e02ab2292d4f53;e04a68bb4365598a9b99;complementar;rua boaventura rosa;1763;fonetica_simulada;simulacao_controlada;rua boaventura roza;rosa -> roza;;validacao;;nome_gerador
+174a8dfc428af8050a38;8ca56cb0ad6ba02b6ec4;complementar;rua brigadeiro machado;547;fonetica_simulada;simulacao_controlada;rua brigadeiro maxado;machado -> maxado;;treino;;nome_gerador
+50c03300d36f5a760c37;df2534142f5f0a731b54;complementar;rua camillo;3000;historica_simulada;simulacao_controlada;rua camilo;camillo -> camilo;;treino;;nome_gerador
+ac17f7dd9e54588c68ab;3e7b623010507a91d875;complementar;rua campos sales;153;fonetica_simulada;simulacao_controlada;rua kampos sales;campos -> kampos;;validacao;;nome_gerador
+95cf05052cdbf14b210c;089d18a562a5172ceff2;complementar;rua capitao mor jeronymo leitao;324;historica_simulada;simulacao_controlada;rua capitao mor jeronimo leitao;jeronymo -> jeronimo;;treino;;nome_gerador
+cc113c746b1d882ad975;b4a4baebd8003f65c637;complementar;rua carlos de campos;280;fonetica_simulada;simulacao_controlada;rua karlos de campos;carlos -> karlos;;treino;;nome_gerador
+8f53754580fe30562d64;b4a4baebd8003f65c637;complementar;rua carlos de campos;280;fonetica_simulada;simulacao_controlada;rua carlos de kampos;campos -> kampos;;treino;;nome_gerador
+0b3704d4a694af513dcd;0760da6d88cc36a6539c;complementar;rua carlos garcia;363;fonetica_simulada;simulacao_controlada;rua karlos garcia;carlos -> karlos;;treino;;nome_gerador
+4eb4b2cb59a103d6e550;0c2d18c5f11673c3a98e;complementar;rua carlos guimaraes;560;fonetica_simulada;simulacao_controlada;rua karlos guimaraes;carlos -> karlos;;treino;;nome_gerador
+a7a273207b27ad7b438b;0b15494ad6041222ded6;complementar;rua carlos sampaio;2005;fonetica_simulada;simulacao_controlada;rua karlos sampaio;carlos -> karlos;;treino;;nome_gerador
+cea54c663a0d6e796fd7;d8c613b7609c27719b1c;complementar;rua carmo cintra;200;fonetica_simulada;simulacao_controlada;rua karmo cintra;carmo -> karmo;;treino;;nome_gerador
+a43ab7dbec3fbacff4e9;f315a11f707df8a9fc8d;complementar;rua carvalho mello;1761;historica_simulada;simulacao_controlada;rua carvalho melo;mello -> melo;;validacao;validacao;nome_gerador
+cf1323282f4d4621dfab;b3e119a674ed527b11ef;complementar;rua catharina brahyda;644;historica_simulada;simulacao_controlada;rua catarina brahyda;catharina -> catarina;;treino;;nome_gerador
+df250dfd0927fb9ccfb3;83c179bb2cfdd04c8552;complementar;rua catharina cortez;603;historica_simulada;simulacao_controlada;rua catarina cortez;catharina -> catarina;;teste;;nome_gerador
+10a845e702cc9e4a5f72;962b738253ef38f1afd6;complementar;rua catumby;563;historica_simulada;simulacao_controlada;rua catumbi;catumby -> catumbi;;treino;;nome_gerador
+4c8b261ad707bfcbd2d0;45cc8bd5d1129b681db8;complementar;rua cezario motta;88;historica_simulada;simulacao_controlada;rua cezario mota;motta -> mota;;treino;;nome_gerador
+b9333d7bce4e939319f0;45cc8bd5d1129b681db8;complementar;rua cezario motta;88;fonetica_simulada;simulacao_controlada;rua cesario motta;cezario -> cesario;;treino;;nome_gerador
+bda14bfede8762d13e7e;5d6999bd53662a8054c3;complementar;rua christina thomaz;695;historica_simulada;simulacao_controlada;rua christina tomas;thomaz -> tomas;;treino;;nome_gerador
+9003f02a89d8143b88b3;b2370c11b657109fc727;complementar;rua conselheiro joao alfredo;613;fonetica_simulada;simulacao_controlada;rua conselheiro joaum alfredo;joao -> joaum;;treino;;nome_gerador
+0fc00868042b79c03639;d4ecd877a95219ca6004;complementar;rua consorte candiao de oliveira;3094;fonetica_simulada;simulacao_controlada;rua consorte candiao de olivera;oliveira -> olivera;;teste;;nome_gerador
+eccebc3c95a733e0a030;911adae66e97b9605175;complementar;rua coronel baptista da luz;323;historica_simulada;simulacao_controlada;rua coronel batista da luz;baptista -> batista;;treino;;nome_gerador
+ca5a134749f371576bc2;10e7d7278c977d17d458;complementar;rua coronel xavier de toledo;71;fonetica_simulada;simulacao_controlada;rua coronel chavier de toledo;xavier -> chavier;;treino;;nome_gerador
+d7921c612e82e956651e;3148ab9f6ee796bf94f3;complementar;rua correa de mello;204;historica_simulada;simulacao_controlada;rua correa de melo;mello -> melo;;treino;;nome_gerador
+3130110a83ed8fd7b7af;cd2bc11c268e4ac65c33;complementar;rua costa;386;fonetica_simulada;simulacao_controlada;rua kosta;costa -> kosta;;teste;;nome_gerador
+9b7876c11964cf80f8e5;b0c545e95913d7ff4873;complementar;rua das officinas;3101;historica_simulada;simulacao_controlada;rua das oficinas;officinas -> oficinas;;treino;;nome_gerador
+e510753c170b5ba6d040;ca500b0d23289ef3bde4;complementar;rua de sao joao;326;fonetica_simulada;simulacao_controlada;rua de sao joaum;joao -> joaum;;validacao;;nome_gerador
+97f6fa69da3c2afed595;3380e4134a2f269062ff;complementar;rua do carmo;517;fonetica_simulada;simulacao_controlada;rua do karmo;carmo -> karmo;;treino;;nome_gerador
+5fb240685e8d61410f0c;94a3ee33cbf0d1ed9f48;complementar;rua dom antonio de mello;236;historica_simulada;simulacao_controlada;rua dom antonio de melo;mello -> melo;;treino;;nome_gerador
+18b1b075f14208af627e;2ee4ad935a05fc42e916;complementar;rua dom francisco de souza;332;fonetica_simulada;simulacao_controlada;rua dom francisco de sousa;souza -> sousa;;treino;;nome_gerador
+e7fd2dccf3d454ddd1a0;e0ec4f89d0c4223f4e19;complementar;rua dom joao v;3043;fonetica_simulada;simulacao_controlada;rua dom joaum v;joao -> joaum;;treino;;nome_gerador
+b90ea1d04cd70be6e778;111ea50849557156e5f1;complementar;rua dom jose de barros;48;fonetica_simulada;simulacao_controlada;rua dom joze de barros;jose -> joze;;teste;;nome_gerador
+34ed6ed81d92cbb6d357;1977d0500c95eadf34ce;complementar;rua dos guayanazes;192;historica_simulada;simulacao_controlada;rua dos guaianazes;guayanazes -> guaianazes;;treino;;nome_gerador
+9a2940029acc6b6191bc;912f732f8722f0caff43;complementar;rua dos pyrineus;175;historica_simulada;simulacao_controlada;rua dos pirineus;pyrineus -> pirineus;;treino;;nome_gerador
+0bba216b928689b884f1;e9f82f75786ac36dafe6;complementar;rua dos tymbiras;317;historica_simulada;simulacao_controlada;rua dos timbiras;tymbiras -> timbiras;;validacao;;nome_gerador
+89a045716ad32903a120;6be7c1de210033b245a2;complementar;rua doutor carlos botelho;735;fonetica_simulada;simulacao_controlada;rua doutor karlos botelho;carlos -> karlos;;treino;;nome_gerador
+d8fb977df1e788f35b2b;fdb9a6a1a05f54b01831;complementar;rua doutor claudio de souza;347;fonetica_simulada;simulacao_controlada;rua doutor claudio de sousa;souza -> sousa;;treino;;nome_gerador
+af7e756ca0b96b82dfba;5115a82536c5ed8dc119;complementar;rua doutor elias chaves;168;fonetica_simulada;simulacao_controlada;rua doutor elias xaves;chaves -> xaves;;teste;;nome_gerador
+49095b12a194eeaa7865;a5e79ea6c2047c7a447d;complementar;rua doutor jose elias;3073;fonetica_simulada;simulacao_controlada;rua doutor joze elias;jose -> joze;;validacao;;nome_gerador
+db14b91e053c3b40b61b;4e61b27993ca412f9117;complementar;rua doutor ricardo baptista;2011;historica_simulada;simulacao_controlada;rua doutor ricardo batista;baptista -> batista;;treino;;nome_gerador
+0b717bcddabeff42b600;96f866d2ef5d1b565ac9;complementar;rua doutor rosa;1764;fonetica_simulada;simulacao_controlada;rua doutor roza;rosa -> roza;;teste;;nome_gerador
+78cefcface77644c19d8;22632fcd24dc60130cab;complementar;rua doutor theodoro bayma;83;historica_simulada;simulacao_controlada;rua doutor teodoro bayma;theodoro -> teodoro;;teste;;nome_gerador
+e609a4681416be11f450;931787874f19ebd41424;complementar;rua doutor villa nova;90;historica_simulada;simulacao_controlada;rua doutor vila nova;villa -> vila;;treino;;nome_gerador
+502bf6c07eadc9033b72;8a6f942d46415b1d57ba;complementar;rua duarte da costa;3114;fonetica_simulada;simulacao_controlada;rua duarte da kosta;costa -> kosta;;validacao;;nome_gerador
+064ac578b3cfce7b86c1;ef447af86e14a3663078;complementar;rua eduardo chaves;648;fonetica_simulada;simulacao_controlada;rua eduardo xaves;chaves -> xaves;;treino;;nome_gerador
+a6e9d2d68136ab4bd572;7ef11945bca4dbe03ce7;complementar;rua eloy cerqueira;580;historica_simulada;simulacao_controlada;rua eloi cerqueira;eloy -> eloi;;treino;;nome_gerador
+c35d8b6f94030d97384a;25a0f68da429698b7a95;complementar;rua ernersto de castro;487;fonetica_simulada;simulacao_controlada;rua ernersto de kastro;castro -> kastro;;treino;;nome_gerador
+9fa0bf94bf68cf368dfb;944cfd2d757a8803040e;complementar;rua florisbella;100;historica_simulada;simulacao_controlada;rua florisbela;florisbella -> florisbela;;treino;;nome_gerador
+802e50654011edd8e9db;2672204b25df7528cef6;complementar;rua gabriella sa barbosa;268;historica_simulada;simulacao_controlada;rua gabriela sa barbosa;gabriella -> gabriela;;teste;;nome_gerador
+b86ed0dc37a39722ffa4;21ad3c34bbf48b419eea;complementar;rua glycerio;443;historica_simulada;simulacao_controlada;rua glicerio;glycerio -> glicerio;;teste;;nome_gerador
+0ea1b6d666e7f4d01f85;894874740ac5c8fdc30f;complementar;rua guarany;202;historica_simulada;simulacao_controlada;rua guarani;guarany -> guarani;;validacao;;nome_gerador
+87dc6bf4901a7344eb3d;06f4a9fd0bf8254ba2af;complementar;rua itacolomy;121;historica_simulada;simulacao_controlada;rua itacolomi;itacolomy -> itacolomi;;treino;;nome_gerador
+65e32dbd4c44a9b66ea9;57e6644c9a4cd72334cd;complementar;rua itajahy;620;historica_simulada;simulacao_controlada;rua itajai;itajahy -> itajai;;treino;;nome_gerador
+f8b9148cb969ef09c579;1b9aa8c3fd8111036343;complementar;rua itaquy;258;historica_simulada;simulacao_controlada;rua itaqui;itaquy -> itaqui;;treino;;nome_gerador
+d6a5d7e8303cde040446;9dc9149a17a982743d86;complementar;rua itariry;262;historica_simulada;simulacao_controlada;rua itariri;itariry -> itariri;;validacao;;nome_gerador
+13b98caac6110436f999;b2d90d4ab7c416e3feeb;complementar;rua jacarehy;2031;historica_simulada;simulacao_controlada;rua jacarei;jacarehy -> jacarei;;treino;;nome_gerador
+429a7188bdc1b7bc1cba;7d4e4a668d32f9ac29d5;complementar;rua javary;619;historica_simulada;simulacao_controlada;rua javari;javary -> javari;;treino;;nome_gerador
+28c0c234a90d3817b4ec;e40f81d202c45010a2e3;complementar;rua joao adolpho;64;historica_simulada;simulacao_controlada;rua joao adolfo;adolpho -> adolfo;;treino;;nome_gerador
+78fd6f22549059c9b52a;e40f81d202c45010a2e3;complementar;rua joao adolpho;64;fonetica_simulada;simulacao_controlada;rua joaum adolpho;joao -> joaum;;treino;;nome_gerador
+527b3e3c00261a6d44b4;4ed49c4f3de7bdc7a90d;complementar;rua joao antonio de oliveira;617;fonetica_simulada;simulacao_controlada;rua joaum antonio de oliveira;joao -> joaum;;treino;;nome_gerador
+120d08ae1917717117df;4ed49c4f3de7bdc7a90d;complementar;rua joao antonio de oliveira;617;fonetica_simulada;simulacao_controlada;rua joao antonio de olivera;oliveira -> olivera;;treino;;nome_gerador
+aa9e2e13763af0998fe0;9ed4895086f27bd89707;complementar;rua joao bohemer;571;fonetica_simulada;simulacao_controlada;rua joaum bohemer;joao -> joaum;;treino;;nome_gerador
+34a20628480b30f88cfc;c74a3c869f716d36bbc3;complementar;rua joao briccola;3;fonetica_simulada;simulacao_controlada;rua joaum briccola;joao -> joaum;;validacao;;nome_gerador
+eb30ad12032152a784eb;fc99ff85144abb258d30;complementar;rua joao caetano;602;fonetica_simulada;simulacao_controlada;rua joaum caetano;joao -> joaum;;treino;;nome_gerador
+b62584c77b68d29d6ef1;cfe3d2ccc81b7a573453;complementar;rua joao jacyntho;250;fonetica_simulada;simulacao_controlada;rua joaum jacyntho;joao -> joaum;;treino;;nome_gerador
+36f7794790e516c2d93e;2d1ced067f7d35bf64b4;complementar;rua joao monteiro;188;fonetica_simulada;simulacao_controlada;rua joaum monteiro;joao -> joaum;;validacao;;nome_gerador
+4e8743cdb58fc3e06025;6d7db213e31e9272b26e;complementar;rua joao passalacqua;490;fonetica_simulada;simulacao_controlada;rua joaum passalacqua;joao -> joaum;;treino;;nome_gerador
+557268aed3da1a1491c2;8b8f3332a1a11028e851;complementar;rua joao pereira;3028;fonetica_simulada;simulacao_controlada;rua joaum pereira;joao -> joaum;;teste;;nome_gerador
+112f89d5914ece0ef379;81d3b9bcffa5fbaa2af9;complementar;rua joao theodoro;218;historica_simulada;simulacao_controlada;rua joao teodoro;theodoro -> teodoro;;teste;;nome_gerador
+3919060111e10db62202;81d3b9bcffa5fbaa2af9;complementar;rua joao theodoro;218;fonetica_simulada;simulacao_controlada;rua joaum theodoro;joao -> joaum;;teste;;nome_gerador
+c9c2524779a13650e829;d3edfe2274e87b3817ad;complementar;rua joao tobias;609;fonetica_simulada;simulacao_controlada;rua joaum tobias;joao -> joaum;;treino;;nome_gerador
+2fdb4823b5b5c70bec3a;4b239b5bd7bb133437c8;complementar;rua joaquim carlos;567;fonetica_simulada;simulacao_controlada;rua joaquim karlos;carlos -> karlos;;treino;;nome_gerador
+ed029f0c879782b51d9a;a3f82a9bc40c499299ce;complementar;rua joaquim machado;3111;fonetica_simulada;simulacao_controlada;rua joaquim maxado;machado -> maxado;;treino;;nome_gerador
+5d248081831da9b0f7fb;aceab4668db07db16d58;complementar;rua jose bonifacio;499;fonetica_simulada;simulacao_controlada;rua joze bonifacio;jose -> joze;;treino;;nome_gerador
+8e8dc3afbc035b41364e;0710e332263c6e7487b8;complementar;rua jose de alencar;541;fonetica_simulada;simulacao_controlada;rua joze de alencar;jose -> joze;;teste;;nome_gerador
+bbde904891c3308a2801;2ca950f6bf442992b947;complementar;rua jose kauer;566;fonetica_simulada;simulacao_controlada;rua joze kauer;jose -> joze;;teste;;nome_gerador
+1b88d034d69ed3258bd6;f1287bf34271299e917c;complementar;rua jose monteiro;572;fonetica_simulada;simulacao_controlada;rua joze monteiro;jose -> joze;;treino;;nome_gerador
+c74cbdf2c3de10192e96;b64eb17eceecdc4bbf8a;complementar;rua jose pacheco;681;fonetica_simulada;simulacao_controlada;rua joze pacheco;jose -> joze;;treino;;nome_gerador
+bcb7ea037b317a0d7ccd;f220a390eaf724336753;complementar;rua jose paulino;219;fonetica_simulada;simulacao_controlada;rua joze paulino;jose -> joze;;treino;;nome_gerador
+e389bc67d37d651b44a2;53beeaa6453078dcf39b;complementar;rua lopes de oliveira;165;fonetica_simulada;simulacao_controlada;rua lopes de olivera;oliveira -> olivera;;treino;;nome_gerador
+09a290dee8d2bddbc36e;bf582fad5bfd9600ecf7;complementar;rua marcellina;3016;historica_simulada;simulacao_controlada;rua marcelina;marcellina -> marcelina;;treino;;nome_gerador
+6f4c28c80f738a9dcf42;e57db0eb8fc97701caa6;complementar;rua maria domitilla;129;historica_simulada;simulacao_controlada;rua maria domitila;domitilla -> domitila;;treino;;nome_gerador
+c8082f67271def9fcff0;209818fe543873736651;complementar;rua maria jose;112;fonetica_simulada;simulacao_controlada;rua maria joze;jose -> joze;;treino;;nome_gerador
+fe211fef08e14f3d3581;f8c39521eab3e26c15a9;complementar;rua maria theresa;307;historica_simulada;simulacao_controlada;rua maria teresa;theresa -> teresa;;validacao;;nome_gerador
+98269b04ae531c7d60fc;cd2d90d892a7a4488d8b;complementar;rua marques de ytu;79;historica_simulada;simulacao_controlada;rua marques de itu;ytu -> itu;;treino;;nome_gerador
+8d1792222a7f0b2a1c98;464f71329fb9614f5c14;complementar;rua martim affonso;553;historica_simulada;simulacao_controlada;rua martim afonso;affonso -> afonso;;treino;;nome_gerador
+92da1794b95220c4c604;42db8bbbbba975210e62;complementar;rua martinho de campos;3092;fonetica_simulada;simulacao_controlada;rua martinho de kampos;campos -> kampos;;validacao;;nome_gerador
+14852062b276c5b0f3a6;e775bc8a7f3838ca8953;complementar;rua mathilde sa barbosa;270;historica_simulada;simulacao_controlada;rua matilde sa barbosa;mathilde -> matilde;;treino;;nome_gerador
+c4cfbf95a2c5c9572552;ad18a58755a336d17eb1;complementar;rua mello barreto;141;historica_simulada;simulacao_controlada;rua melo barreto;mello -> melo;;treino;;nome_gerador
+cccf144bd59f6ccc6d9f;4894a31bedf4f679beac;complementar;rua miguel carlos;336;fonetica_simulada;simulacao_controlada;rua miguel karlos;carlos -> karlos;;treino;;nome_gerador
+7cde7922a50e7da68c47;741521fbd47b60bac14f;complementar;rua monsenhor joao felipo;616;fonetica_simulada;simulacao_controlada;rua monsenhor joaum felipo;joao -> joaum;;validacao;;nome_gerador
+1419d2afbfb449cb5f5f;499f9e9676559204a6eb;complementar;rua monteiro de mello;3022;historica_simulada;simulacao_controlada;rua monteiro de melo;mello -> melo;;treino;;nome_gerador
+b5d609e4fd634627e854;4b44822abe302fee4234;complementar;rua nitcheroy;465;historica_simulada;simulacao_controlada;rua niteroi;nitcheroy -> niteroi;;teste;;nome_gerador
+891873eba89e7999a569;40f9127f095218d0d777;complementar;rua nova de sao jose;672;fonetica_simulada;simulacao_controlada;rua nova de sao joze;jose -> joze;;treino;;nome_gerador
+d6d85459aa7507572b54;11f5c3d72ada9be497fe;complementar;rua parahyba;286;historica_simulada;simulacao_controlada;rua paraiba;parahyba -> paraiba;;treino;;nome_gerador
+f63cb478ba9af6ee75cb;dc7dadb5bb8981de3d52;complementar;rua paula souza;335;fonetica_simulada;simulacao_controlada;rua paula sousa;souza -> sousa;;treino;;nome_gerador
+4a40e4145915f818f4ae;8747dda87d989293e256;complementar;rua paulo affonso;147;historica_simulada;simulacao_controlada;rua paulo afonso;affonso -> afonso;;treino;;nome_gerador
+e44ef1ef84257e140462;f9de0b26b9276bbd16d5;complementar;rua pedro thomaz;731;historica_simulada;simulacao_controlada;rua pedro tomas;thomaz -> tomas;;treino;;nome_gerador
+a5477e6bac2fa8e50d3d;a64199158f234637fc3a;complementar;rua piauhy;106;historica_simulada;simulacao_controlada;rua piaui;piauhy -> piaui;;teste;;nome_gerador
+7854ad707bb9488c8908;895b3554841a2d332a8c;complementar;rua pinheiro machado;3068;fonetica_simulada;simulacao_controlada;rua pinheiro maxado;machado -> maxado;;treino;;nome_gerador
+1558a7775f6a82bd0b4c;f3f90b17fb3ceb401031;complementar;rua pirahy;3054;historica_simulada;simulacao_controlada;rua pirai;pirahy -> pirai;;treino;;nome_gerador
+7b5f66b9d08256e2dc45;04fcf359db1f0d2b644d;complementar;rua quintino bocayuva;8;historica_simulada;simulacao_controlada;rua quintino bocaiuva;bocayuva -> bocaiuva;;validacao;;nome_gerador
+0ff2777033fa179d6b0a;537f010ceeaa4cb7a221;complementar;rua rodolpho miranda;726;historica_simulada;simulacao_controlada;rua rodolfo miranda;rodolpho -> rodolfo;;teste;;nome_gerador
+bc26422aee644e9dee7e;adf1aaf6505d1416d546;complementar;rua rubino de oliveira;540;fonetica_simulada;simulacao_controlada;rua rubino de olivera;oliveira -> olivera;;treino;treino;nome_gerador
+c0f66bce20bc56b1da04;1148628cdd74c09cae23;complementar;rua s. anna;138;historica_simulada;simulacao_controlada;rua s. ana;anna -> ana;;teste;teste;nome_gerador
+7892fa17d9f70aae733e;e5e4b4466b58e87f87cd;complementar;rua santa rosa;136;fonetica_simulada;simulacao_controlada;rua santa roza;rosa -> roza;;treino;;nome_gerador
+43c554a7fd5050a2ef8d;61671becdfd915a860c4;complementar;rua santa theresa;12;historica_simulada;simulacao_controlada;rua santa teresa;theresa -> teresa;;teste;;nome_gerador
+0579dd50487ac6baba70;de085faf4aa63f24c0a0;complementar;rua sao carlos pinhal;2018;fonetica_simulada;simulacao_controlada;rua sao karlos pinhal;carlos -> karlos;;treino;;nome_gerador
+09993495de10059c70f9;47206c76799c0f215115;complementar;rua sebastiao de castro;574;fonetica_simulada;simulacao_controlada;rua sebastiao de kastro;castro -> kastro;;teste;;nome_gerador
+eff248cf7ff53ac78a60;6facb5d18750371bd5a0;complementar;rua senador paulo egydio;56;historica_simulada;simulacao_controlada;rua senador paulo egidio;egydio -> egidio;;teste;;nome_gerador
+52a5f492de940bb96afe;0ea925a8c55c54fa507c;complementar;rua senador queiroz;329;fonetica_simulada;simulacao_controlada;rua senador queiros;queiroz -> queiros;;validacao;;nome_gerador
+b92e1af1b1bb81132909;5e5836425bfbeb9269f7;complementar;rua sergio thomaz;699;historica_simulada;simulacao_controlada;rua sergio tomas;thomaz -> tomas;;treino;;nome_gerador
+ad77f34dbbee65b573f1;e9182b90e53cfdb8819d;complementar;rua souza caldas;671;fonetica_simulada;simulacao_controlada;rua sousa caldas;souza -> sousa;;teste;;nome_gerador
+a159429e1ec95f4ee11d;3a717969c23a6c50403b;complementar;rua souza lima;163;fonetica_simulada;simulacao_controlada;rua sousa lima;souza -> sousa;;treino;;nome_gerador
+fc8fb2cf826d600de148;eca4c1dc80fdca0e780e;complementar;rua teixeira de freitas;554;fonetica_simulada;simulacao_controlada;rua texeira de freitas;teixeira -> texeira;;validacao;;nome_gerador
+b63e028c56e54eb2f9ce;fd61459975b7df61c5b1;complementar;rua teixeira leite;444;fonetica_simulada;simulacao_controlada;rua texeira leite;teixeira -> texeira;;treino;;nome_gerador
+60df3ffe963ae5af44ae;03c8e447155885b06433;complementar;rua tenente penna;696;historica_simulada;simulacao_controlada;rua tenente pena;penna -> pena;;treino;;nome_gerador
+1931a77f325180c6823e;a1c6610621f494172aa4;complementar;rua thomaz gonzaga;432;historica_simulada;simulacao_controlada;rua tomas gonzaga;thomaz -> tomas;;treino;;nome_gerador
+82a1c0347289ce6c5009;182950488a8e9f719219;complementar;rua thomaz ribeiro de lima;437;historica_simulada;simulacao_controlada;rua tomas ribeiro de lima;thomaz -> tomas;;teste;;nome_gerador
+21bc45b9b83f125137cd;503081732797472108a0;complementar;rua thome de souza;3023;historica_simulada;simulacao_controlada;rua tome de souza;thome -> tome;;teste;;nome_gerador
+33deef910a531d26d8a4;503081732797472108a0;complementar;rua thome de souza;3023;fonetica_simulada;simulacao_controlada;rua thome de sousa;souza -> sousa;;teste;;nome_gerador
+3a3053df39772e0e24a5;2a13c628d3df5a9c20f9;complementar;rua uruguayana;542;historica_simulada;simulacao_controlada;rua uruguaiana;uruguayana -> uruguaiana;;treino;;nome_gerador
+f88a737489a853f1038a;84792e71e6be0545873e;complementar;rua visconde de parnahyba;158;historica_simulada;simulacao_controlada;rua visconde de parnaiba;parnahyba -> parnaiba;;treino;;nome_gerador
+f063680163bcd45ec848;828a1c2cff5ef0e739cd;complementar;rua ypiranga;325;historica_simulada;simulacao_controlada;rua ipiranga;ypiranga -> ipiranga;;validacao;;nome_gerador
+b32c44abf1ef8678f14c;834ee63badf240522a1a;complementar;travessa sao joao;316;fonetica_simulada;simulacao_controlada;travessa sao joaum;joao -> joaum;;treino;;nome_gerador
+368b7106975519914929;792b42061062783e48f8;complementar;travessa tenente penna;691;historica_simulada;simulacao_controlada;travessa tenente pena;penna -> pena;;teste;;nome_gerador
+7cc6957b252fd8c71244;b38ca4dbd729a0802e0b;complementar;viadcuto santa ephigenia;23;historica_simulada;simulacao_controlada;viadcuto santa ifigenia;ephigenia -> ifigenia;;validacao;;nome_gerador
+58e98d7562db1b39324f;f4dbf6ea36153523fc0e;complementar;villa alvarenga;470;historica_simulada;simulacao_controlada;vila alvarenga;villa -> vila;;treino;;nome_gerador
+677fe96fc4d0e5b74c4e;729a48ec3ddd6d88f001;complementar;villa boyes;565;historica_simulada;simulacao_controlada;vila boyes;villa -> vila;;treino;;nome_gerador
+51bfc7c325279ddb77b7;4e13ee9fc5848025742f;complementar;villa gordinho;548;historica_simulada;simulacao_controlada;vila gordinho;villa -> vila;;validacao;;nome_gerador
+cf31407c9ef17b764b78;f92ab374969e1b130b46;complementar;villa hortencia;378;historica_simulada;simulacao_controlada;vila hortencia;villa -> vila;;treino;;nome_gerador
+c86ce3316d003f44d0e2;d7e4f656388b92374101;complementar;villa silverio jordao;597;historica_simulada;simulacao_controlada;vila silverio jordao;villa -> vila;;treino;;nome_gerador
+65693db7313175dcd73f;09abcd7a51fddb1f8b4c;complementar;villa simione;538;historica_simulada;simulacao_controlada;vila simione;villa -> vila;;teste;;nome_gerador

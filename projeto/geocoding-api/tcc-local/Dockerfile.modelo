@@ -1,0 +1,8 @@
+FROM python:3.13-slim
+WORKDIR /app/projeto/geocoding-api/tcc-local
+COPY requirements-modelo.txt ./
+RUN pip install --no-cache-dir --only-binary=:all: -r requirements-modelo.txt
+COPY servico_modelo.py modelo_rf.py avaliar_gabarito.py preparar_gabarito.py \
+    extrair_logradouros.py iniciar.py piloto.py ./
+USER 10001:10001
+CMD ["python", "servico_modelo.py"]

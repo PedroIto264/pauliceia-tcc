@@ -1,0 +1,9 @@
+{
+  "referencias_citadas": 15,
+  "tabelas": 6,
+  "estrutura_tex": "entradas, ambientes, chaves e referências internas conferidos",
+  "escopo": "checagem estática dos fontes; este script não compila nem conta páginas",
+  "verificacao_pdf_publicado": "docs/verificacao_pdf.json, na raiz do repositório",
+  "limite_paginas": 10,
+  "emails": "pendentes por orientação do autor"
+}

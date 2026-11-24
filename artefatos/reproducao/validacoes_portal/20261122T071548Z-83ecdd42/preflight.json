@@ -1,0 +1,36 @@
+{
+  "fase": "preflight",
+  "repeticao": 0,
+  "id_consulta": "0579dd50487ac6baba70",
+  "particao": "complementar",
+  "tipo": "fonetica_simulada",
+  "consulta": "rua sao karlos pinhal",
+  "ok": true,
+  "motivo": "ok",
+  "http_status": 200,
+  "ms": 67.5727,
+  "dados": [
+    {
+      "id": 2018,
+      "nome": "rua sao carlos pinhal"
+    },
+    {
+      "id": 222,
+      "nome": "rua conde do pinhal"
+    },
+    {
+      "id": 38,
+      "nome": "rua sao nicolau"
+    },
+    {
+      "id": 110,
+      "nome": "rua sao domingos"
+    },
+    {
+      "id": 113,
+      "nome": "rua sao miguel"
+    }
+  ],
+  "modelo": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0",
+  "erro_transporte": ""
+}

@@ -1,0 +1,2871 @@
+{
+  "execucao": "20261121T125413Z-e8ab4237",
+  "natureza": "estudo_complementar_exploratorio_pos_teste",
+  "manifesto": {
+    "versao": 1,
+    "natureza": "estudo_complementar_exploratorio_pos_teste",
+    "backup_sha256": "8004407db214a605561e6c3d8f57643f6f66ad0ada40971ea288757964880fac",
+    "gabarito_original_sha256": "c4e8048a4362cbee9367d48eeaa411698afee74a143f923396776fa8a82286ec",
+    "gabarito_piloto_sha256": "4e2e19810ccf0e0d6eb58564d0a62c9727667cdd7850faf65ee843674c89e308",
+    "gabarito_sha256": "a336d645dda2e61d6b7432985b072ffd2d2361d5cc6ad1f9a895e24631ff92cc",
+    "exclusoes_sha256": "5f89dbdf2102c5d3485ef4ac8123b59c5778f2ddf9ec323426201c1377a14d2b",
+    "fontes_sha256": "4d8c7c4c0f655dd4440f95a627cafb99b4dac347c7994b6fce21b48c5714af6c",
+    "gerador_sha256": "1fd4949d9ecefe4ae47007952080a05d4856110570b32de91becaec53e76a806",
+    "consultas": 179,
+    "nomes": 168,
+    "por_categoria": {
+      "grafia_documentada": 10,
+      "fonetica_simulada": 79,
+      "historica_simulada": 90
+    },
+    "por_particao_original": {
+      "desenvolvimento": 6,
+      "treino": 111,
+      "validacao": 29,
+      "teste": 33
+    },
+    "consultas_preexistentes": 7,
+    "exclusoes": {
+      "consulta_alvo_duplicados_prioridade_documentada": 10
+    },
+    "regras_historicas_simuladas": {
+      "theresa": "teresa",
+      "theodoro": "teodoro",
+      "thomaz": "tomas",
+      "mathilde": "matilde",
+      "catharina": "catarina",
+      "arthur": "artur",
+      "bartholomeu": "bartolomeu",
+      "balthazar": "baltazar",
+      "thome": "tome",
+      "adolpho": "adolfo",
+      "rodolpho": "rodolfo",
+      "triumpho": "triunfo",
+      "amphitheatro": "anfiteatro",
+      "ephigenia": "ifigenia",
+      "hygienopolis": "higienopolis",
+      "affonso": "afonso",
+      "afflictos": "aflitos",
+      "becco": "beco",
+      "commercio": "comercio",
+      "officinas": "oficinas",
+      "bella": "bela",
+      "bello": "belo",
+      "villa": "vila",
+      "florisbella": "florisbela",
+      "gabriella": "gabriela",
+      "domitilla": "domitila",
+      "anna": "ana",
+      "anitta": "anita",
+      "motta": "mota",
+      "mello": "melo",
+      "penna": "pena",
+      "camillo": "camilo",
+      "marcellina": "marcelina",
+      "bocayuva": "bocaiuva",
+      "ytu": "itu",
+      "piauhy": "piaui",
+      "itacolomy": "itacolomi",
+      "parnahyba": "parnaiba",
+      "parahyba": "paraiba",
+      "pyrineus": "pirineus",
+      "guarany": "guarani",
+      "guayanazes": "guaianazes",
+      "aymores": "aimores",
+      "tamanduatehy": "tamanduatei",
+      "itaquy": "itaqui",
+      "itariry": "itariri",
+      "tatuhy": "tatui",
+      "tymbiras": "timbiras",
+      "ypiranga": "ipiranga",
+      "humayta": "humaita",
+      "glycerio": "glicerio",
+      "nitcheroy": "niteroi",
+      "araguaya": "araguaia",
+      "uruguayana": "uruguaiana",
+      "catumby": "catumbi",
+      "eloy": "eloi",
+      "javary": "javari",
+      "itajahy": "itajai",
+      "jacarehy": "jacarei",
+      "jundiahy": "jundiai",
+      "pirahy": "pirai",
+      "assumpcao": "assuncao",
+      "baptista": "batista",
+      "egydio": "egidio",
+      "jeronymo": "jeronimo"
+    },
+    "regras_foneticas_simuladas": {
+      "souza": "sousa",
+      "sousa": "souza",
+      "chaves": "xaves",
+      "machado": "maxado",
+      "xavier": "chavier",
+      "costa": "kosta",
+      "castro": "kastro",
+      "campos": "kampos",
+      "carmo": "karmo",
+      "carlos": "karlos",
+      "rosa": "roza",
+      "jose": "joze",
+      "joao": "joaum",
+      "queiroz": "queiros",
+      "cezario": "cesario",
+      "cecilia": "sessilia",
+      "oliveira": "olivera",
+      "teixeira": "texeira",
+      "ferreira": "ferrera"
+    },
+    "limites": [
+      "Grafias consultadas em fontes municipais digitais, vinculadas por curadoria textual aos nomes do backup. A fonte comprova a ocorrência da grafia consultada, não uma consulta real de usuário, nem a identidade geométrica ou a extensão histórica da via. A associação ao ID do catálogo é uma inferência explícita, ainda sem revisão independente. Ementas digitais de normas antigas não são transcrições paleográficas certificadas do original.",
+      "Seleção intencional feita após conhecer o teste anterior; não é novo teste cego.",
+      "Não reajustar o modelo ou escolher regras pelos acertos desta avaliação.",
+      "Resultados separados por categoria, exposição da rua e repetição da consulta.",
+      "Correspondência textual não comprova número, ano ou coordenadas."
+    ]
+  },
+  "modelo": "20261119T061951Z-cbab31c0",
+  "modelo_sha256": "1e1a2f7fb1521ce49f53d920116aacfdac9191e33c86fa1d77a5838bc3702ba0",
+  "versoes": {
+    "python": "3.13.3",
+    "sklearn": "1.7.2",
+    "rapidfuzz": "3.14.3",
+    "numpy": "2.2.5"
+  },
+  "indice": "pauliceia-ruas-0cf48e29b743137c",
+  "indice_config": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "analysis": {
+        "filter": {
+          "tri": {
+            "type": "ngram",
+            "min_gram": 3,
+            "max_gram": 3
+          }
+        },
+        "analyzer": {
+          "palavras": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "lowercase",
+              "asciifolding"
+            ]
+          },
+          "trigramas": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "lowercase",
+              "asciifolding",
+              "tri"
+            ]
+          }
+        }
+      }
+    },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "nome": {
+          "type": "text",
+          "analyzer": "palavras",
+          "similarity": "BM25",
+          "fields": {
+            "tri": {
+              "type": "text",
+              "analyzer": "trigramas",
+              "similarity": "BM25"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elasticsearch": "8.19.4",
+  "k": 100,
+  "recortes": [
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "desenvolvimento",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "teste",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 12,
+          "nomes": 12,
+          "media_por_consulta": {
+            "acerto_1": 0.6666666666666666,
+            "acerto_3": 0.8333333333333334,
+            "acerto_5": 0.9166666666666666,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6666666666666666,
+            "precision_3": 0.27777777777777773,
+            "precision_5": 0.18333333333333335,
+            "rr_100": 0.7678743961352658
+          },
+          "media_por_nome": {
+            "acerto_1": 0.6666666666666666,
+            "acerto_3": 0.8333333333333334,
+            "acerto_5": 0.9166666666666666,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6666666666666666,
+            "precision_3": 0.27777777777777773,
+            "precision_5": 0.18333333333333335,
+            "rr_100": 0.7678743961352658
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 12,
+              "acerto_1": 0.6666666666666666,
+              "acerto_3": 0.8333333333333334,
+              "acerto_5": 0.9166666666666666,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.6666666666666666,
+              "precision_3": 0.27777777777777773,
+              "precision_5": 0.18333333333333335,
+              "rr_100": 0.7678743961352658
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 12,
+          "nomes": 12,
+          "media_por_consulta": {
+            "acerto_1": 0.9166666666666666,
+            "acerto_3": 0.9166666666666666,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9166666666666666,
+            "precision_3": 0.3055555555555555,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 0.9333333333333332
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9166666666666666,
+            "acerto_3": 0.9166666666666666,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9166666666666666,
+            "precision_3": 0.3055555555555555,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 0.9333333333333332
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 12,
+              "acerto_1": 0.9166666666666666,
+              "acerto_3": 0.9166666666666666,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9166666666666666,
+              "precision_3": 0.3055555555555555,
+              "precision_5": 0.20000000000000004,
+              "rr_100": 0.9333333333333332
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 12,
+          "nomes": 12,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 12,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.20000000000000004,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "todas",
+      "consulta": "todas",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 79,
+          "nomes": 77,
+          "media_por_consulta": {
+            "acerto_1": 0.6962025316455697,
+            "acerto_3": 0.9367088607594937,
+            "acerto_5": 0.9746835443037974,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6962025316455697,
+            "precision_3": 0.3122362869198312,
+            "precision_5": 0.1949367088607595,
+            "rr_100": 0.8142481501865102
+          },
+          "media_por_nome": {
+            "acerto_1": 0.6883116883116883,
+            "acerto_3": 0.935064935064935,
+            "acerto_5": 0.974025974025974,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6883116883116883,
+            "precision_3": 0.3116883116883117,
+            "precision_5": 0.19480519480519481,
+            "rr_100": 0.8094234268147311
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 79,
+              "acerto_1": 0.6962025316455697,
+              "acerto_3": 0.9367088607594937,
+              "acerto_5": 0.9746835443037974,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.6962025316455697,
+              "precision_3": 0.3122362869198312,
+              "precision_5": 0.1949367088607595,
+              "rr_100": 0.8142481501865102
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 79,
+          "nomes": 77,
+          "media_por_consulta": {
+            "acerto_1": 0.9240506329113924,
+            "acerto_3": 0.9620253164556962,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9240506329113924,
+            "precision_3": 0.32067510548523204,
+            "precision_5": 0.2,
+            "rr_100": 0.9512658227848102
+          },
+          "media_por_nome": {
+            "acerto_1": 0.922077922077922,
+            "acerto_3": 0.961038961038961,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.922077922077922,
+            "precision_3": 0.3203463203463203,
+            "precision_5": 0.2,
+            "rr_100": 0.9500000000000001
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 79,
+              "acerto_1": 0.9240506329113924,
+              "acerto_3": 0.9620253164556962,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9240506329113924,
+              "precision_3": 0.32067510548523204,
+              "precision_5": 0.2,
+              "rr_100": 0.9512658227848102
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 79,
+          "nomes": 77,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 79,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "treino",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 50,
+          "nomes": 48,
+          "media_por_consulta": {
+            "acerto_1": 0.7,
+            "acerto_3": 0.96,
+            "acerto_5": 0.98,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.7,
+            "precision_3": 0.32,
+            "precision_5": 0.196,
+            "rr_100": 0.8172222222222223
+          },
+          "media_por_nome": {
+            "acerto_1": 0.6875,
+            "acerto_3": 0.9583333333333334,
+            "acerto_5": 0.9791666666666666,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6875,
+            "precision_3": 0.3194444444444444,
+            "precision_5": 0.19583333333333333,
+            "rr_100": 0.8096064814814815
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 50,
+              "acerto_1": 0.7,
+              "acerto_3": 0.96,
+              "acerto_5": 0.98,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.7,
+              "precision_3": 0.32,
+              "precision_5": 0.196,
+              "rr_100": 0.8172222222222223
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 50,
+          "nomes": 48,
+          "media_por_consulta": {
+            "acerto_1": 0.92,
+            "acerto_3": 0.96,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.92,
+            "precision_3": 0.32,
+            "precision_5": 0.2,
+            "rr_100": 0.9490000000000001
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9166666666666666,
+            "acerto_3": 0.9583333333333334,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9166666666666666,
+            "precision_3": 0.3194444444444444,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 0.946875
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 50,
+              "acerto_1": 0.92,
+              "acerto_3": 0.96,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.92,
+              "precision_3": 0.32,
+              "precision_5": 0.2,
+              "rr_100": 0.9490000000000001
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 50,
+          "nomes": 48,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.33333333333333326,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.20000000000000004,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 50,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.33333333333333326,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "treino",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "fonetica_simulada",
+      "particao_original": "validacao",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 15,
+          "nomes": 15,
+          "media_por_consulta": {
+            "acerto_1": 0.6666666666666666,
+            "acerto_3": 0.9333333333333333,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6666666666666666,
+            "precision_3": 0.31111111111111106,
+            "precision_5": 0.2,
+            "rr_100": 0.8166666666666667
+          },
+          "media_por_nome": {
+            "acerto_1": 0.6666666666666666,
+            "acerto_3": 0.9333333333333333,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.6666666666666666,
+            "precision_3": 0.31111111111111106,
+            "precision_5": 0.2,
+            "rr_100": 0.8166666666666667
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 15,
+              "acerto_1": 0.6666666666666666,
+              "acerto_3": 0.9333333333333333,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.6666666666666666,
+              "precision_3": 0.31111111111111106,
+              "precision_5": 0.2,
+              "rr_100": 0.8166666666666667
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 15,
+          "nomes": 15,
+          "media_por_consulta": {
+            "acerto_1": 0.9333333333333333,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9333333333333333,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.9666666666666667
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9333333333333333,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9333333333333333,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.9666666666666667
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 15,
+              "acerto_1": 0.9333333333333333,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9333333333333333,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.9666666666666667
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 15,
+          "nomes": 15,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "fonetica_simulada": {
+              "consultas": 15,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "grafia_documentada",
+      "particao_original": "desenvolvimento",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 0.5,
+            "acerto_3": 0.5,
+            "acerto_5": 0.5,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.5,
+            "precision_3": 0.16666666666666666,
+            "precision_5": 0.1,
+            "rr_100": 0.55
+          },
+          "media_por_nome": {
+            "acerto_1": 0.5,
+            "acerto_3": 0.5,
+            "acerto_5": 0.5,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.5,
+            "precision_3": 0.16666666666666666,
+            "precision_5": 0.1,
+            "rr_100": 0.55
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 0.5,
+              "acerto_3": 0.5,
+              "acerto_5": 0.5,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.5,
+              "precision_3": 0.16666666666666666,
+              "precision_5": 0.1,
+              "rr_100": 0.55
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "grafia_documentada",
+      "particao_original": "teste",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.3333333333333333
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "grafia_documentada",
+      "particao_original": "todas",
+      "consulta": "todas",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 10,
+          "nomes": 10,
+          "media_por_consulta": {
+            "acerto_1": 0.2,
+            "acerto_3": 0.5,
+            "acerto_5": 0.6,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.2,
+            "precision_3": 0.16666666666666666,
+            "precision_5": 0.12000000000000002,
+            "rr_100": 0.39329365079365075
+          },
+          "media_por_nome": {
+            "acerto_1": 0.2,
+            "acerto_3": 0.5,
+            "acerto_5": 0.6,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.2,
+            "precision_3": 0.16666666666666666,
+            "precision_5": 0.12000000000000002,
+            "rr_100": 0.39329365079365075
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 10,
+              "acerto_1": 0.2,
+              "acerto_3": 0.5,
+              "acerto_5": 0.6,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.2,
+              "precision_3": 0.16666666666666666,
+              "precision_5": 0.12000000000000002,
+              "rr_100": 0.39329365079365075
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 10,
+          "nomes": 10,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 10,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 10,
+          "nomes": 10,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 10,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "grafia_documentada",
+      "particao_original": "treino",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 5,
+          "nomes": 5,
+          "media_por_consulta": {
+            "acerto_1": 0.2,
+            "acerto_3": 0.6,
+            "acerto_5": 0.6,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.2,
+            "precision_3": 0.2,
+            "precision_5": 0.12000000000000002,
+            "rr_100": 0.4313492063492063
+          },
+          "media_por_nome": {
+            "acerto_1": 0.2,
+            "acerto_3": 0.6,
+            "acerto_5": 0.6,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.2,
+            "precision_3": 0.2,
+            "precision_5": 0.12000000000000002,
+            "rr_100": 0.4313492063492063
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 5,
+              "acerto_1": 0.2,
+              "acerto_3": 0.6,
+              "acerto_5": 0.6,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.2,
+              "precision_3": 0.2,
+              "precision_5": 0.12000000000000002,
+              "rr_100": 0.4313492063492063
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 5,
+          "nomes": 5,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 5,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 5,
+          "nomes": 5,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 5,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "grafia_documentada",
+      "particao_original": "validacao",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 0.0,
+            "acerto_5": 0.5,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.0,
+            "precision_5": 0.1,
+            "rr_100": 0.17142857142857143
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 0.0,
+            "acerto_5": 0.5,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.0,
+            "precision_5": 0.1,
+            "rr_100": 0.17142857142857143
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 0.0,
+              "acerto_3": 0.0,
+              "acerto_5": 0.5,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.0,
+              "precision_5": 0.1,
+              "rr_100": 0.17142857142857143
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 2,
+          "nomes": 2,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "grafia_documentada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "desenvolvimento",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 2,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 2,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 2,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 2,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "desenvolvimento",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.5
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "teste",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 19,
+          "nomes": 19,
+          "media_por_consulta": {
+            "acerto_1": 0.3684210526315789,
+            "acerto_3": 0.5789473684210527,
+            "acerto_5": 0.7368421052631579,
+            "acerto_100": 0.8947368421052632,
+            "recall_100": 0.8947368421052632,
+            "precision_1": 0.3684210526315789,
+            "precision_3": 0.19298245614035087,
+            "precision_5": 0.1473684210526316,
+            "rr_100": 0.5078804966962862
+          },
+          "media_por_nome": {
+            "acerto_1": 0.3684210526315789,
+            "acerto_3": 0.5789473684210527,
+            "acerto_5": 0.7368421052631579,
+            "acerto_100": 0.8947368421052632,
+            "recall_100": 0.8947368421052632,
+            "precision_1": 0.3684210526315789,
+            "precision_3": 0.19298245614035087,
+            "precision_5": 0.1473684210526316,
+            "rr_100": 0.5078804966962862
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 19,
+              "acerto_1": 0.3684210526315789,
+              "acerto_3": 0.5789473684210527,
+              "acerto_5": 0.7368421052631579,
+              "acerto_100": 0.8947368421052632,
+              "recall_100": 0.8947368421052632,
+              "precision_1": 0.3684210526315789,
+              "precision_3": 0.19298245614035087,
+              "precision_5": 0.1473684210526316,
+              "rr_100": 0.5078804966962862
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 19,
+          "nomes": 19,
+          "media_por_consulta": {
+            "acerto_1": 0.9473684210526315,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9473684210526315,
+            "precision_3": 0.3508771929824561,
+            "precision_5": 0.21052631578947367,
+            "rr_100": 0.9736842105263158
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9473684210526315,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9473684210526315,
+            "precision_3": 0.3508771929824561,
+            "precision_5": 0.21052631578947367,
+            "rr_100": 0.9736842105263158
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 19,
+              "acerto_1": 0.9473684210526315,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9473684210526315,
+              "precision_3": 0.3508771929824561,
+              "precision_5": 0.21052631578947367,
+              "rr_100": 0.9736842105263158
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 19,
+          "nomes": 19,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3508771929824561,
+            "precision_5": 0.21052631578947367,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3508771929824561,
+            "precision_5": 0.21052631578947367,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 19,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3508771929824561,
+              "precision_5": 0.21052631578947367,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "teste",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.5
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "todas",
+      "consulta": "todas",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 90,
+          "nomes": 87,
+          "media_por_consulta": {
+            "acerto_1": 0.4444444444444444,
+            "acerto_3": 0.6444444444444445,
+            "acerto_5": 0.7111111111111111,
+            "acerto_100": 0.9,
+            "recall_100": 0.9,
+            "precision_1": 0.4444444444444444,
+            "precision_3": 0.2148148148148148,
+            "precision_5": 0.14222222222222222,
+            "rr_100": 0.5628639474028361
+          },
+          "media_por_nome": {
+            "acerto_1": 0.4406130268199234,
+            "acerto_3": 0.6398467432950191,
+            "acerto_5": 0.7088122605363985,
+            "acerto_100": 0.9042145593869733,
+            "recall_100": 0.9042145593869733,
+            "precision_1": 0.4406130268199234,
+            "precision_3": 0.21328224776500637,
+            "precision_5": 0.1417624521072797,
+            "rr_100": 0.5592845432902902
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 90,
+              "acerto_1": 0.4444444444444444,
+              "acerto_3": 0.6444444444444445,
+              "acerto_5": 0.7111111111111111,
+              "acerto_100": 0.9,
+              "recall_100": 0.9,
+              "precision_1": 0.4444444444444444,
+              "precision_3": 0.2148148148148148,
+              "precision_5": 0.14222222222222222,
+              "rr_100": 0.5628639474028361
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 90,
+          "nomes": 87,
+          "media_por_consulta": {
+            "acerto_1": 0.9333333333333333,
+            "acerto_3": 0.9777777777777777,
+            "acerto_5": 0.9777777777777777,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9333333333333333,
+            "precision_3": 0.3296296296296296,
+            "precision_5": 0.19777777777777777,
+            "rr_100": 0.9571428571428571
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9310344827586207,
+            "acerto_3": 0.9770114942528736,
+            "acerto_5": 0.9770114942528736,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9310344827586207,
+            "precision_3": 0.3295019157088122,
+            "precision_5": 0.19770114942528735,
+            "rr_100": 0.9556650246305418
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 90,
+              "acerto_1": 0.9333333333333333,
+              "acerto_3": 0.9777777777777777,
+              "acerto_5": 0.9777777777777777,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9333333333333333,
+              "precision_3": 0.3296296296296296,
+              "precision_5": 0.19777777777777777,
+              "rr_100": 0.9571428571428571
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 90,
+          "nomes": 87,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.337037037037037,
+            "precision_5": 0.20222222222222222,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3371647509578544,
+            "precision_5": 0.20229885057471267,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 90,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.337037037037037,
+              "precision_5": 0.20222222222222222,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "treino",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 54,
+          "nomes": 52,
+          "media_por_consulta": {
+            "acerto_1": 0.46296296296296297,
+            "acerto_3": 0.6481481481481481,
+            "acerto_5": 0.7037037037037037,
+            "acerto_100": 0.8703703703703703,
+            "recall_100": 0.8703703703703703,
+            "precision_1": 0.46296296296296297,
+            "precision_3": 0.21604938271604937,
+            "precision_5": 0.14074074074074075,
+            "rr_100": 0.5710463439939912
+          },
+          "media_por_nome": {
+            "acerto_1": 0.46794871794871795,
+            "acerto_3": 0.6474358974358974,
+            "acerto_5": 0.7051282051282051,
+            "acerto_100": 0.8782051282051282,
+            "recall_100": 0.8782051282051282,
+            "precision_1": 0.46794871794871795,
+            "precision_3": 0.2158119658119658,
+            "precision_5": 0.14102564102564102,
+            "rr_100": 0.5737788956860679
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 54,
+              "acerto_1": 0.46296296296296297,
+              "acerto_3": 0.6481481481481481,
+              "acerto_5": 0.7037037037037037,
+              "acerto_100": 0.8703703703703703,
+              "recall_100": 0.8703703703703703,
+              "precision_1": 0.46296296296296297,
+              "precision_3": 0.21604938271604937,
+              "precision_5": 0.14074074074074075,
+              "rr_100": 0.5710463439939912
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 54,
+          "nomes": 52,
+          "media_por_consulta": {
+            "acerto_1": 0.9444444444444444,
+            "acerto_3": 0.9629629629629629,
+            "acerto_5": 0.9629629629629629,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9444444444444444,
+            "precision_3": 0.32098765432098764,
+            "precision_5": 0.1925925925925926,
+            "rr_100": 0.9594356261022928
+          },
+          "media_por_nome": {
+            "acerto_1": 0.9423076923076923,
+            "acerto_3": 0.9615384615384616,
+            "acerto_5": 0.9615384615384616,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.9423076923076923,
+            "precision_3": 0.3205128205128205,
+            "precision_5": 0.19230769230769232,
+            "rr_100": 0.9578754578754579
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 54,
+              "acerto_1": 0.9444444444444444,
+              "acerto_3": 0.9629629629629629,
+              "acerto_5": 0.9629629629629629,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.9444444444444444,
+              "precision_3": 0.32098765432098764,
+              "precision_5": 0.1925925925925926,
+              "rr_100": 0.9594356261022928
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 54,
+          "nomes": 52,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 54,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "treino",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.3333333333333333
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.3333333333333333
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.3333333333333333
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "validacao",
+      "consulta": "nova",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 11,
+          "nomes": 11,
+          "media_por_consulta": {
+            "acerto_1": 0.45454545454545453,
+            "acerto_3": 0.5454545454545454,
+            "acerto_5": 0.5454545454545454,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.45454545454545453,
+            "precision_3": 0.18181818181818182,
+            "precision_5": 0.10909090909090911,
+            "rr_100": 0.5307445381833591
+          },
+          "media_por_nome": {
+            "acerto_1": 0.45454545454545453,
+            "acerto_3": 0.5454545454545454,
+            "acerto_5": 0.5454545454545454,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.45454545454545453,
+            "precision_3": 0.18181818181818182,
+            "precision_5": 0.10909090909090911,
+            "rr_100": 0.5307445381833591
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 11,
+              "acerto_1": 0.45454545454545453,
+              "acerto_3": 0.5454545454545454,
+              "acerto_5": 0.5454545454545454,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.45454545454545453,
+              "precision_3": 0.18181818181818182,
+              "precision_5": 0.10909090909090911,
+              "rr_100": 0.5307445381833591
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 11,
+          "nomes": 11,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 11,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 11,
+          "nomes": 11,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 11,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "categoria": "historica_simulada",
+      "particao_original": "validacao",
+      "consulta": "repetida",
+      "resultados": [
+        {
+          "particao": "complementar",
+          "metodo": "bm25",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "media_por_nome": {
+            "acerto_1": 0.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 0.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 0.5
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 0.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 0.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 0.5
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "bm25_trigramas",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        },
+        {
+          "particao": "complementar",
+          "metodo": "random_forest",
+          "consultas": 1,
+          "nomes": 1,
+          "media_por_consulta": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "media_por_nome": {
+            "acerto_1": 1.0,
+            "acerto_3": 1.0,
+            "acerto_5": 1.0,
+            "acerto_100": 1.0,
+            "recall_100": 1.0,
+            "precision_1": 1.0,
+            "precision_3": 0.3333333333333333,
+            "precision_5": 0.2,
+            "rr_100": 1.0
+          },
+          "por_tipo": {
+            "historica_simulada": {
+              "consultas": 1,
+              "acerto_1": 1.0,
+              "acerto_3": 1.0,
+              "acerto_5": 1.0,
+              "acerto_100": 1.0,
+              "recall_100": 1.0,
+              "precision_1": 1.0,
+              "precision_3": 0.3333333333333333,
+              "precision_5": 0.2,
+              "rr_100": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "arquivos_sha256": {
+    "avaliar_gabarito.py": "ee6fc3841c7552411515a709d15a3393932e500751b92c6b6e0b434ddfb6d3e7",
+    "avaliar_historico.py": "af00c2121ce0bb9c222cfa375302196b35f09fa7d67880cb24cace7c392b4e0f",
+    "candidatos.jsonl.gz": "23cb26b0ff15248f55d19fd1cfe3c4bd594c0a6a6636a6f36a8210cbee19f753",
+    "comparacao.csv": "1ce9525041cf636d9d563f5430aeaaa58214620ca360c6d779cedfc44ffcf710",
+    "exclusoes.csv": "5f89dbdf2102c5d3485ef4ac8123b59c5778f2ddf9ec323426201c1377a14d2b",
+    "extrair_logradouros.py": "7d21f600aeff2e433e8a5c3cbb9849b8aa8dfa0f81974ee81bc64611cef4a0cd",
+    "fontes_historicas.json": "4d8c7c4c0f655dd4440f95a627cafb99b4dac347c7994b6fce21b48c5714af6c",
+    "gabarito.csv": "a336d645dda2e61d6b7432985b072ffd2d2361d5cc6ad1f9a895e24631ff92cc",
+    "manifesto.json": "4b14a52d3bff9989e31073b48e876b2bae0097572bb53a2d28a82258eaa7c9ed",
+    "modelo_rf.py": "847da592ddc4c97bb519784804933369e84dcc69e56ee3691d107e21b52b094b",
+    "piloto.py": "c38958ac54d82b739a5dd25650f517889c3de9b0c5f4a4d76f0b3650e5e0af94",
+    "preparar_historico.py": "1fd4949d9ecefe4ae47007952080a05d4856110570b32de91becaec53e76a806",
+    "requirements-modelo.txt": "4c06fe1ef28d045a6588dc799106bc3e35dc2bc0f56910bf56331f5309d02798",
+    "resultados.csv": "a379c75026a925aef88fba88e4ddd940db6f02cf96e9fecd88d58b54da7e775a",
+    "testar_modelo.py": "f5c2a70b397a05be118db6ccc8807f6fb5b0b1691b3382ca6c12902a1a72becc"
+  }
+}

@@ -1,0 +1,95 @@
+name: pauliceia-tcc
+services:
+  modelo:
+    build:
+      context: .
+      dockerfile: Dockerfile.modelo
+    networks: [pesquisa]
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      MODELO_DIR: /modelo
+    volumes:
+      - type: bind
+        source: ./.local/modelos/20261119T061951Z-cbab31c0
+        target: /modelo
+        read_only: true
+        bind:
+          create_host_path: false
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://localhost:8000/saude', timeout=3).close()"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.19.4
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    networks: [pesquisa]
+    volumes:
+      - indice:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=3s"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+  db:
+    image: postgis/postgis:16-3.5
+    environment:
+      POSTGRES_PASSWORD: ${TCC_DB_PASSWORD:?}
+      TCC_API_PASSWORD: ${TCC_API_PASSWORD:?}
+    volumes:
+      - banco:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 60
+  api:
+    networks: [default, pesquisa]
+    build:
+      context: ..
+      dockerfile: tcc-local/Dockerfile.api
+    environment:
+      HOST: 127.0.0.1
+      PORT: "3000"
+      DATABASE_HOST: db
+      DATABASE_NAME: pauliceia
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      DATABASE_USER: tcc_consulta
+      RERANK_URL: http://modelo:8000
+      DATABASE_PASS: ${TCC_API_PASSWORD:?}
+    ports:
+      - "127.0.0.1:3130:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+      modelo:
+        condition: service_healthy
+  site:
+    profiles: [site]
+    build:
+      context: ../../frontend
+      dockerfile: Dockerfile.tcc
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8080"
+      TCC_GEOCODING: "1"
+    ports:
+      - "127.0.0.1:3180:8080"
+    depends_on: [api]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/main.js').then(r=>process.exit(r.ok && /javascript/.test(r.headers.get('content-type')) ? 0 : 1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 10s
+      retries: 48
+volumes:
+  banco:
+  indice:
+networks:
+  pesquisa:
+    internal: true

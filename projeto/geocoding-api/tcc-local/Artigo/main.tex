@@ -1,0 +1,51 @@
+% Primeira versão para revisão, 22/11/2026.
+% Template original preservado em template_original.zip.
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\def\UrlBreaks{\do\/\do\-\do\_\do\.}
+\addto\captionsbrazil{\renewcommand{\abstractname}{Resumo}\renewcommand{\IEEEkeywordsname}{Palavras-chave}}
+
+\begin{document}
+\title{Ranking por similaridade para recuperação de nomes de logradouros históricos no Pauliceia}
+\author{
+\IEEEauthorblockN{Pedro Henrique Ito Boa Sorte}
+\IEEEauthorblockA{\textit{Instituto de Ciência e Tecnologia}\\
+\textit{Universidade Federal de São Paulo}\\
+São José dos Campos, Brasil\\
+\textit{E-mail pendente}}
+\and
+\IEEEauthorblockN{Daniela Leal Musa}
+\IEEEauthorblockA{\textit{Instituto de Ciência e Tecnologia}\\
+\textit{Universidade Federal de São Paulo}\\
+São José dos Campos, Brasil\\
+\textit{E-mail pendente}}
+}
+\maketitle
+
+\begin{abstract}
+A recuperação de nomes de logradouros em bases históricas precisa tolerar diferenças de escrita sem confundir nomes semelhantes. Este trabalho avaliou uma arquitetura de duas etapas no Pauliceia: recuperação de até 100 candidatos com BM25 e trigramas de caracteres, seguida de reordenação por Random Forest com sete atributos de similaridade. Um catálogo de 853 registros, correspondentes a 847 nomes normalizados, originou 6.136 consultas, incluindo 5.289 variantes sintéticas. A separação por grupos de nomes reservou 1.207 consultas para teste. Nesse conjunto, o acerto na primeira posição passou de 63,55\% com BM25 para 97,02\% com trigramas e 100,00\% com Random Forest. Em comparação adicional, Token Set alcançou 98,59\%. Um conjunto exploratório de 179 consultas, com dez grafias documentadas e 169 variantes simuladas, produziu empate entre Random Forest e Damerau--Levenshtein. A integração local ao portal apresentou mediana de 14,97 ms em 336 buscas medidas; 219 controles de pontos concordaram com o backup. Os resultados sustentam o benefício da combinação de medidas para as transformações e o catálogo avaliados. Não estabelecem acurácia universal nem validação histórica independente das correspondências e coordenadas.
+\end{abstract}
+
+\begin{IEEEkeywords}
+recuperação de informação, toponímia histórica, similaridade textual, Random Forest, Pauliceia
+\end{IEEEkeywords}
+
+\input{Secoes/Introducao}
+\input{Secoes/Metodologia}
+\input{Secoes/Resultados}
+\input{Secoes/Discussao}
+\input{Secoes/Conclusao}
+
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+\end{document}

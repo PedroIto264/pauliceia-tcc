@@ -1,0 +1,47 @@
+\section{Resultados}
+
+\subsection{Seleção e teste reservado}
+
+Na validação, com 1.205 consultas, BM25 apresentou Top-1 de 60,50\%, e a inclusão dos trigramas elevou esse resultado para 95,19\%. As quatro configurações de Random Forest tiveram Top-1 de 99,42\% e MRR por nome de 0,9942. O desempate selecionou a primeira configuração da grade. Em relação aos trigramas, o modelo acrescentou 52 acertos de primeira posição e perdeu um; portanto, o desempenho na validação não foi perfeito.
+
+No teste reservado, os trigramas elevaram a cobertura média dos relevantes nos 100 candidatos de 86,50\% para 100,00\%. A Tabela~\ref{tab:principal} apresenta os resultados de recuperação e reordenação. BM25 acertou 767 das 1.207 consultas na primeira posição, os trigramas acertaram 1.171 e o Random Forest acertou 1.207. O modelo corrigiu as 36 falhas restantes dos trigramas, sem perdas, aumentando Top-1 em 2,98 pontos percentuais. Não houve alvo ausente dos candidatos dos trigramas nesse teste.
+
+\input{Tabelas/principal}
+
+Na comparação adicional das similaridades isoladas, Token Set obteve o maior Top-1, com 1.190 acertos. O Random Forest acrescentou 17 acertos em relação a esse método, diferença de 1,41 ponto percentual. Token Sort, Jaro--Winkler e Damerau--Levenshtein alcançaram, respectivamente, 1.185, 1.151 e 1.108 acertos. Todos os reordenadores conservaram Recall@100 de 100,00\%, pois compartilharam os candidatos dos trigramas.
+
+A média por nome preservou a tendência: Top-1 foi 61,59\% para BM25, 96,89\% para trigramas e 100,00\% para Random Forest. Isso reduz a possibilidade de que a comparação principal seja explicada apenas pela quantidade desigual de variantes por nome, embora não substitua uma avaliação em novos dados.
+
+\subsection{Posições iniciais e tipos de transformação}
+
+A Tabela~\ref{tab:posicoes} distingue a presença de um relevante nas posições iniciais da proporção de relevantes nessas posições. Com Random Forest, Acerto@3 e Acerto@5 foram 100,00\%, enquanto Precision@3 e Precision@5 foram 33,66\% e 20,20\%. Esses valores são compatíveis com consultas que geralmente têm apenas um ID relevante. Não representam uma queda do acerto da primeira sugestão para 20\%.
+
+\input{Tabelas/posicoes}
+
+A Tabela~\ref{tab:tipos} detalha o comportamento por transformação. No conjunto de 167 consultas originais, todos os métodos acertaram a primeira posição. As diferenças apareceram nas variantes. Os trigramas falharam em 17 transposições, nove casos de duas omissões, cinco substituições, quatro omissões e uma abreviação. O Random Forest corrigiu esses casos.
+
+\input{Tabelas/tipos}
+
+Das 99 falhas de Damerau--Levenshtein, 97 ocorreram na inversão da ordem de palavras e duas em abreviações. Jaro--Winkler apresentou 44 falhas de ordem, nove de abreviação, uma de omissão e duas de duas omissões. Token Set distribuiu suas 17 falhas entre omissão, transposição, substituição, inserção e duas omissões, sem falhar na categoria de ordem. Esses padrões mostram diferenças de sensibilidade entre as representações.
+
+Um exemplo foi a consulta \emph{rua ameli sa barbosa}. Token Set colocou \emph{rua sa barbosa} antes da referência \emph{rua amelia sa barbosa}; o Random Forest colocou a referência em primeiro. Outro caso, \emph{rua cotsa}, teve a referência \emph{rua costa} recuperada na posição 76 pelos trigramas e promovida para a primeira posição pelo modelo. Os exemplos ilustram ganhos de ordenação dentro de candidatos já recuperados.
+
+\subsection{Complemento exploratório}
+
+A Tabela~\ref{tab:complementar} separa as três categorias complementares. Random Forest e Damerau--Levenshtein acertaram as 179 consultas na primeira posição. Nas dez grafias documentadas, os trigramas e todos os reordenadores já atingiram 100,00\%; BM25 atingiu 20,00\%. Esse grupo não demonstrou ganho adicional do modelo sobre os trigramas.
+
+\input{Tabelas/complementar}
+
+Nas variantes históricas simuladas, os trigramas tiveram Top-1 de 93,33\% e MRR@100 de 0,9571. Nas fonéticas simuladas, os valores foram 92,41\% e 0,9513. O Random Forest corrigiu seis falhas de cada categoria, sem perdas. O Recall@100 do BM25 foi 90,00\% no grupo histórico simulado e 100,00\% nos outros dois; trigramas e reordenadores tiveram cobertura completa nas três categorias.
+
+No recorte de 32 consultas novas associadas a nomes do teste original, os trigramas acertaram 30 e o Random Forest 32. Esse resultado permanece exploratório, pois o conjunto foi elaborado depois da avaliação principal. O empate de Damerau--Levenshtein com o modelo no complemento contrasta com sua dificuldade nas inversões de ordem do teste reservado.
+
+\subsection{Correspondência funcional, espacial e latência}
+
+Os rankings completos produzidos pela função utilizada no serviço coincidiram com o processamento offline nas 1.207 consultas do teste, usando o cache de candidatos. Na validação HTTP ao vivo, as cinco sugestões e o identificador do modelo coincidiram com as referências nas 336 buscas medidas. As 112 chamadas de aquecimento também passaram e foram contabilizadas separadamente.
+
+Os 219 controles espaciais concordaram com o backup, incluindo respostas vazias, múltiplos pontos e números decimais. Os 60 fluxos de duas chamadas também passaram. A Tabela~\ref{tab:latencia} apresenta os tempos medidos. A busca teve mediana de 14,97 ms; o fluxo de busca e obtenção dos pontos teve mediana de 20,58 ms e P95 de 46,99 ms.
+
+\input{Tabelas/latencia}
+
+Não houve falhas ou interrupções nessa coleta. Esses resultados demonstram consistência do protótipo local com suas referências e atendimento rápido nas condições sequenciais avaliadas. Não incluem desenho do mapa nem estimam comportamento sob carga ou em acesso remoto.
