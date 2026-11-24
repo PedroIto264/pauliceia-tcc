@@ -126,16 +126,6 @@ Para visualizar as últimas mensagens:
 docker compose --env-file projeto/geocoding-api/tcc-local/.local/docker.env -f projeto/geocoding-api/tcc-local/compose.yaml --profile site logs --tail 80
 ```
 
-| Situação | O que conferir |
-| --- | --- |
-| Docker não responde | Abra o Docker Desktop e aguarde o Engine; confira a virtualização e o modo de contêineres Linux. |
-| Backup ausente ou diferente | Confira `dados/backup_dev.sql` e a assinatura indicada em `dados/README.md`. |
-| Modelo ou resumo não encontrado | Execute `python preparar.py` na raiz antes dos scripts de inicialização. |
-| Falha de autenticação no banco | Confira se o `docker.env` corresponde aos volumes existentes; não gere novas senhas para um banco já criado. |
-| Porta ocupada | Confira se outra cópia do projeto ou outro serviço está usando 3130 ou 3180. |
-| Falha ao baixar imagem ou pacote | Confira a conexão e as mensagens da construção; repita a etapa após resolver a causa. |
-| Portal não abre | Confira o estado e os logs, e aguarde as mensagens de sucesso de `site_local.py`. |
-
 ## 8. Executar os testes unitários (opcional)
 
 Para testar os scripts Python fora dos contêineres, a partir da raiz no Windows:
@@ -150,9 +140,4 @@ Não é necessário ativar o ambiente virtual para esses comandos. Em Linux/macO
 use `.venv/bin/python` no lugar de `.venv/Scripts/python.exe`.
 Os testes unitários não exigem iniciar o Docker nem substituem as verificações
 de integração com o banco realizadas pelos scripts das etapas 4 e 5.
-
-Os protocolos dos experimentos estão em
-[EXPERIMENTO.md](projeto/geocoding-api/tcc-local/EXPERIMENTO.md),
-[HISTORICO.md](projeto/geocoding-api/tcc-local/HISTORICO.md),
-[COMPARACAO_METRICAS.md](projeto/geocoding-api/tcc-local/COMPARACAO_METRICAS.md) e
 [VALIDACAO_PORTAL.md](projeto/geocoding-api/tcc-local/VALIDACAO_PORTAL.md).
