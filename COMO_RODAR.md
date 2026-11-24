@@ -35,10 +35,6 @@ Coloque o arquivo do banco neste caminho, relativo à raiz:
 dados/backup_dev.sql
 ```
 
-O backup completo **não acompanha o repositório no GitHub**, pois contém dados
-privados. Na cópia preparada na máquina do autor, ele já foi mantido localmente.
-Consulte [dados/README.md](dados/README.md) para conferir a assinatura esperada.
-
 Os scripts validam o SHA-256 do arquivo. Outro backup não reproduz automaticamente
 o mesmo experimento. Sem esse banco, é possível consultar os resultados e
 preparar os artefatos, mas não executar o portal completo conforme este guia.
